@@ -1,0 +1,40 @@
+========== Student Marks Analyzer ==========
+
+Student Name: Pratyaksh
+Marks: [85 90 78]
+Total Marks: 253
+Average Marks: 84.33
+Grade: A
+Result: Pass
+----------------------------------
+Student Name: Rahul
+Marks: [70 88 92]
+Total Marks: 250
+Average Marks: 83.33
+Grade: A
+Result: Pass
+----------------------------------
+Student Name: Sneha
+Marks: [35 40 45]
+Total Marks: 120
+Average Marks: 40.0
+Grade: Fail
+Result: Fail
+----------------------------------
+Student Name: Aman
+Marks: [95 92 88]
+Total Marks: 275
+Average Marks: 91.67
+Grade: A+
+Result: Pass
+----------------------------------
+Student Name: Priya
+Marks: [60 75 80]
+Total Marks: 215
+Average Marks: 71.67
+Grade: B
+Result: Pass
+----------------------------------
+
+Class Topper: Aman
+Topper Total Marks: 275
