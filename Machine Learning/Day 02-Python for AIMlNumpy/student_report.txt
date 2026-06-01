@@ -1,0 +1,4 @@
+Student Name: Pratyaksh
+Average Marks: 85
+Result: Pass
+Grade: A

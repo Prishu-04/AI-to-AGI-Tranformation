@@ -1,0 +1,38 @@
+{
+    "students": [
+        {
+            "name": "Prishu",
+            "subject": "Maths",
+            "marks": 98,
+            "grade": "O"
+        },
+        {
+            "name": "Avy",
+            "subject": "Physics",
+            "marks": 96,
+            "grade": "O"
+        },
+        {
+            "name": "Anshul",
+            "subject": "Maths",
+            "marks": 87,
+            "grade": "E"
+        },
+        {
+            "name": "Priyesh",
+            "subject": "Physics",
+            "marks": 93,
+            "grade": "O"
+        }
+    ],
+    "total_students": 4,
+    "average_marks": 93.5,
+    "topper": {
+        "name": "Prishu",
+        "subject": "Maths",
+        "marks": 98,
+        "grade": "O"
+    },
+    "pass_count": 4,
+    "fail_count": 0
+}

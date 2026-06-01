@@ -1,0 +1,13 @@
+prefix=C:/Users/KIIT/AI-to-AGI-Tranformation/venv2/Library
+exec_prefix=C:/Users/KIIT/AI-to-AGI-Tranformation/venv2/Library
+libdir=C:/Users/KIIT/AI-to-AGI-Tranformation/venv2/Library/lib
+sharedlibdir=C:/Users/KIIT/AI-to-AGI-Tranformation/venv2/Library/lib
+includedir=C:/Users/KIIT/AI-to-AGI-Tranformation/venv2/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
