@@ -1,0 +1,7 @@
+{
+    "project_name": "OOP Student Data Processor",
+    "total_students": 5,
+    "valid_students": 4,
+    "invalid_students": 1,
+    "model_type": "rule_based"
+}

@@ -1,0 +1,11 @@
+{
+    "project_name": "OOP Student Data Processor",
+    "total_students": 6,
+    "valid_students": 4,
+    "invalid_students": 2,
+    "prediction_counts": {
+        "Excellent": 2,
+        "Good": 1,
+        "Needs Improvement": 1
+    }
+}
