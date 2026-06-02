@@ -100,6 +100,10 @@ Size tells the total number of elements.
 ![[Pasted image 20260529143817.png]]
 
 ---
+### Evenly spaced values
+![[Pasted image 20260602130826.png]]
+
+---
 ## 13. Basic Mathematical Operations
 ![[Pasted image 20260529144005.png]]
 
@@ -283,3 +287,17 @@ print("Numbers - 5:", numbers - 5)
 print("Numbers * 2:", numbers * 2)
 print("Numbers / 5:", numbers / 5)
 ```
+---
+## 18. Interview questions
+1. What is NumPy?
+2. What is an `ndarray`?
+3. What is the difference between a Python list and a NumPy array?
+4. What does `shape` mean?
+5. What does `ndim` mean?
+6. What does `size` mean?
+7. What does `dtype` mean?
+8. Why is NumPy important in AI/ML?
+9. What is a 1D array?
+10. What is a 2D array?
+11. What does `(3, 3)` mean as shape?
+12. Why do we scale marks using `/ 100`?
