@@ -1,4 +1,4 @@
-# NumPy Indexing, Slicing, Shape & Reshape
+# NumPy Indexing, Slicing, Shape & Reshape and Filtering
 ## 1. What is Indexing?
 Indexing means accessing a specific element from an array.
 ![[Pasted image 20260529151316.png]]
@@ -282,4 +282,33 @@ flat_array = reshape_3_4.flatten()
 
 print("Flattened Array:", flat_array)
 ```
+---
+## 17. Boolean Filtering
+Boolean filtering means selecting data based on a conditions.
+Example: find students with marks greater than or equal to 80.
+![[Pasted image 20260602143251.png]]
+
+---
+## 18. Filtering Multiple Conditions
+Find students with:
+```
+marks >= 80
+attendance >= 85
+```
+![[Pasted image 20260602143438.png]]
+Remember : when there are multiple conditons then use brackets for that.
+
+---
+## 19. Interview Questions
+1. What is indexing in NumPy?
+2. What is slicing?
+3. What does `students[0]` return?
+4. What does `students[0, 1]` return?
+5. What does `students[:, 0]` mean?
+6. What does `students[0:3]` mean?
+7. What is boolean filtering?
+8. What is a mask?
+9. Why do we use `&` instead of `and` in NumPy?
+10. Why do we use parentheses around NumPy conditions?
+
 ---
