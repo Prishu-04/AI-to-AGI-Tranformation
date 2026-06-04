@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b0168458bcc6365b",
+        "id": "6999067fdc45469e",
         "type": "tabs",
         "children": [
           {
-            "id": "7896335480da68fb",
+            "id": "7007149118b233f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic 3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topic 3"
+              "title": "New tab"
             }
           }
         ]
@@ -95,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Topic 3"
+              "title": "Backlinks"
             }
           },
           {
@@ -114,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topic 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Topic 3"
+              "title": "Outgoing links"
             }
           },
           {
@@ -157,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topic 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Topic 3"
+              "title": "Outline"
             }
           }
         ]
@@ -184,8 +177,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7896335480da68fb",
+  "active": "7007149118b233f7",
   "lastOpenFiles": [
+    "Topic 4.md",
+    "Day 05/day5_student_data_cleaning_project.csv",
+    "Day 05/day5_student_data_cleaning_project.ipynb",
+    "Day 05/day5_student_data_cleaning_project.py",
+    "Pasted image 20260604112616.png",
+    "Pasted image 20260604112554.png",
+    "Topic 3.md",
     "Day 05/day5_type_outlier_student_cleaned.csv",
     "Day 05/day5_type_outlier_student_cleaned.ipynb",
     "Pasted image 20260604104732.png",
@@ -196,12 +196,9 @@
     "Pasted image 20260604102854.png",
     "Pasted image 20260604102659.png",
     "Pasted image 20260604102347.png",
-    "Pasted image 20260604102318.png",
     "Day 05/code 3.ipynb",
-    "Topic 3.md",
     "Day 05/Topic 2.md",
     "Day 05/day5_null_handled_student_data.csv",
-    "Pasted image 20260604094948.png",
     "Day 05/code 2.ipynb",
     "Day 05/Topic 1.md",
     "Day 05/day5_cleaned_student_data.csv"
