@@ -1,0 +1,9 @@
+employee_id,name,salary,experience,rating,department,level
+101,Amit,25000,1,3,HR,Junior
+102,Riya,45000,3,4,IT,Mid-Level
+103,Karan,80000,6,5,AI,Senior
+104,Neha,120000,8,5,AI,Senior
+105,Vikas,35000,2,2,SALES,Junior
+106,Anjali,70000,5,4,DATA,Senior
+107,Rohit,30000,1,3,IT,Junior
+108,Priya,95000,7,5,DATA,Senior

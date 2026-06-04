@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a75334339ff28e55",
+        "id": "30ab6ba424776dbc",
         "type": "tabs",
         "children": [
           {
-            "id": "8961b61870caa043",
+            "id": "f8647909ffca5100",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 06/Topic 2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 2"
             }
           }
         ]
@@ -177,37 +181,49 @@
       "bases:Create new base": false
     }
   },
-  "active": "8961b61870caa043",
+  "active": "f8647909ffca5100",
   "lastOpenFiles": [
-    "Day 04/day4_student_analysis_report.csv",
-    "Day 04/student_marks_report.txt",
+    "Day 06/day6_employee_groupby_summary.csv",
+    "Day 06/venv6/Lib/site-packages/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+    "Day 06/venv6/Lib/site-packages/numpy.libs/libscipy_openblas64_-63c857e738469261263c764a36be9436.dll",
+    "Day 06/venv6/Lib/site-packages/numpy.libs",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/licenses/licenses/LICENSE_APACHE",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/licenses/LICENSE",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/licenses/licenses",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/WHEEL",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/top_level.txt",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/RECORD",
+    "Day 06/venv6/Lib/site-packages/tzdata-2026.2.dist-info/INSTALLER",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+    "Day 06/venv6/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+    "Pasted image 20260604142535.png",
+    "Pasted image 20260604142401.png",
+    "Pasted image 20260604142237.png",
+    "Pasted image 20260604142015.png",
+    "Pasted image 20260604130549.png",
+    "Pasted image 20260604130526.png",
+    "Pasted image 20260604130339.png",
+    "Day 06/Topic 2.md",
+    "Day 06/Topic 1.md",
+    "Pasted image 20260604123613.png",
+    "Pasted image 20260604123457.png",
+    "Pasted image 20260604123412.png",
+    "Day 06/venv6/Lib/site-packages/numpy/random/LICENSE.md",
     "Day 05/README.md",
     "Day 05/Topic 5.md",
-    "Pasted image 20260604115140.png",
     "Topic 5.md",
     "Day 05/Topic 4.md",
     "Day 05/Topic 3.md",
     "Topic 4.md",
-    "Day 05/day5_student_data_cleaning_project.csv",
-    "Day 05/day5_student_data_cleaning_project.ipynb",
-    "Day 05/day5_student_data_cleaning_project.py",
-    "Pasted image 20260604112616.png",
-    "Pasted image 20260604112554.png",
     "Topic 3.md",
-    "Day 05/day5_type_outlier_student_cleaned.csv",
-    "Day 05/day5_type_outlier_student_cleaned.ipynb",
-    "Pasted image 20260604104732.png",
-    "Pasted image 20260604104537.png",
-    "Pasted image 20260604104440.png",
-    "Pasted image 20260604104158.png",
-    "Pasted image 20260604104053.png",
-    "Pasted image 20260604102854.png",
-    "Pasted image 20260604102659.png",
-    "Day 05/code 3.ipynb",
     "Day 05/Topic 2.md",
-    "Day 05/day5_null_handled_student_data.csv",
-    "Day 05/code 2.ipynb",
-    "Day 05/Topic 1.md",
-    "Day 05/day5_cleaned_student_data.csv"
+    "Day 05/Topic 1.md"
   ]
 }
