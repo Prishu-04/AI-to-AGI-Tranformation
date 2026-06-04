@@ -1,0 +1,7 @@
+subject,result,average_marks,student_count
+AI,Excellent,88.0,2
+AI,Needs Improvement,45.0,1
+DATA,Excellent,88.0,1
+DATA,Good,66.0,2
+WEB,Good,67.0,1
+WEB,Needs Improvement,35.0,1
