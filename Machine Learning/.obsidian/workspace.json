@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6999067fdc45469e",
+        "id": "772f7760e4ab0885",
         "type": "tabs",
         "children": [
           {
-            "id": "7007149118b233f7",
+            "id": "0e5fffcdf08f8838",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b805852a2675ca5a",
@@ -176,12 +177,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "7007149118b233f7",
+  "active": "0e5fffcdf08f8838",
   "lastOpenFiles": [
+    "Day 05/Topic 5.md",
+    "Pasted image 20260604115140.png",
     "Topic 5.md",
     "Day 05/Topic 4.md",
     "Day 05/Topic 3.md",
-    "Day 05/Topic 5.md",
     "Topic 4.md",
     "Day 05/day5_student_data_cleaning_project.csv",
     "Day 05/day5_student_data_cleaning_project.ipynb",
@@ -198,7 +200,6 @@
     "Pasted image 20260604104053.png",
     "Pasted image 20260604102854.png",
     "Pasted image 20260604102659.png",
-    "Pasted image 20260604102347.png",
     "Day 05/code 3.ipynb",
     "Day 05/Topic 2.md",
     "Day 05/day5_null_handled_student_data.csv",
