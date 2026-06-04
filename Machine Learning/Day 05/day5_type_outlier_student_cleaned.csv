@@ -1,0 +1,6 @@
+student_id,name,marks,attendance,study_hours,subject,stuyd_hours
+101,Rahul,85.0,90.0,5.0,AI,5.0
+102,Aman,72.0,80.0,4.0,DATA,4.0
+103,Priya,85.0,70.0,3.0,AI,3.0
+104,Sneha,91.0,95.0,6.0,AI,6.0
+109,Vikas,95.0,82.0,7.0,DATA,7.0
