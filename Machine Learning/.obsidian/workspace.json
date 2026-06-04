@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b805852a2675ca5a",
@@ -179,6 +178,10 @@
   },
   "active": "7007149118b233f7",
   "lastOpenFiles": [
+    "Topic 5.md",
+    "Day 05/Topic 4.md",
+    "Day 05/Topic 3.md",
+    "Day 05/Topic 5.md",
     "Topic 4.md",
     "Day 05/day5_student_data_cleaning_project.csv",
     "Day 05/day5_student_data_cleaning_project.ipynb",
