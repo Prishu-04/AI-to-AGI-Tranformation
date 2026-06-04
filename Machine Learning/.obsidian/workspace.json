@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "772f7760e4ab0885",
+        "id": "a75334339ff28e55",
         "type": "tabs",
         "children": [
           {
-            "id": "0e5fffcdf08f8838",
+            "id": "8961b61870caa043",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,8 +177,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e5fffcdf08f8838",
+  "active": "8961b61870caa043",
   "lastOpenFiles": [
+    "Day 05/README.md",
     "Day 05/Topic 5.md",
     "Pasted image 20260604115140.png",
     "Topic 5.md",
