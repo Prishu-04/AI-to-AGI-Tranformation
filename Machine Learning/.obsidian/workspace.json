@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "909c9079a38517ba",
+        "id": "2a085d161dc4f26c",
         "type": "tabs",
         "children": [
           {
-            "id": "0438cc9d9df312c2",
+            "id": "4e6a5e341288313d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 06/Topic 5.md",
+                "file": "Day 06/Topic 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic 5"
+              "title": "Topic 6"
             }
           }
         ]
@@ -181,30 +181,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "0438cc9d9df312c2",
+  "active": "4e6a5e341288313d",
   "lastOpenFiles": [
-    "Day 06/day6_experience_histogram.png",
-    "Day 06/day6_salary_histogram.png",
-    "Day 06/day6_experience_salary_scatter.png",
-    "Day 06/day6_employe_counts_bar_chart.png",
-    "Day 06/day6_employeename_salary_bar_chart.png",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_angle_helper.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_grid_helper_curvelinear.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/__init__.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_grid_finder.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_axislines.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_floating_axes.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/test_axis_artist.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/axisartist/tests/__pycache__/conftest.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/mplot3d/tests/__pycache__/__init__.cpython-314.pyc",
-    "Day 06/venv6/Lib/site-packages/mpl_toolkits/mplot3d/tests/__pycache__/test_legend3d.cpython-314.pyc",
-    "Pasted image 20260605120104.png",
-    "Day 06/day6_attendance_histogram.png",
-    "Pasted image 20260605115912.png",
-    "Day 06/day6_marks_histogram.png",
-    "Pasted image 20260605115629.png",
-    "Pasted image 20260605115619.png",
+    "Day 06/day6_employee_seaborn_plots.ipynb",
+    "Pasted image 20260605132107.png",
+    "Pasted image 20260605132054.png",
+    "Day 06/day6_employee_correlation_heatmap.png",
+    "Pasted image 20260605131854.png",
+    "Day 06/day6_advanced_scatterplot.png",
+    "Pasted image 20260605131801.png",
+    "Day 06/day6_experience_salary_scatterplot.png",
+    "Pasted image 20260605131620.png",
+    "Day 06/day6_level_salary_boxplot.png",
+    "Pasted image 20260605131311.png",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/__init__.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/_docstrings.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/_statistics.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/_testing.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/_compat.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/_base.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/widgets.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/utils.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/relational.cpython-314.pyc",
+    "Day 06/venv6/Lib/site-packages/seaborn/__pycache__/regression.cpython-314.pyc",
     "Day 06/Topic 5.md",
+    "Day 06/Topic 6.md",
     "Day 06/Topic 4.md",
     "Day 06/venv6/Lib/site-packages/pyparsing/ai/best_practices.md",
     "Day 06/Topic 3.md",
@@ -227,7 +228,6 @@
     "Day 05/Topic 3.md",
     "Topic 4.md",
     "Topic 3.md",
-    "Day 05/Topic 2.md",
-    "Day 05/Topic 1.md"
+    "Day 05/Topic 2.md"
   ]
 }
