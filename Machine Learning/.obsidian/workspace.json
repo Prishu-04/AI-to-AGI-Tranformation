@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f29292ba4bda5bff",
+        "id": "692f7ceadf315fcc",
         "type": "tabs",
         "children": [
           {
-            "id": "4f6170691aabb82a",
+            "id": "74ec596b54bff5c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 15/Topic 3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topic 3"
+              "title": "New tab"
             }
           }
         ]
@@ -181,24 +177,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "4f6170691aabb82a",
+  "active": "74ec596b54bff5c9",
   "lastOpenFiles": [
-    "Pasted image 20260608162929.png",
-    "Pasted image 20260608162732.png",
-    "Pasted image 20260608162327.png",
-    "Pasted image 20260608162309.png",
-    "Pasted image 20260608161838.png",
-    "Day 15/code 3.ipynb",
     "Day 15/Topic 3.md",
-    "Day 15/Topic 2.md",
-    "Pasted image 20260608145818.png",
-    "Pasted image 20260608145705.png",
-    "Pasted image 20260608145549.png",
-    "Pasted image 20260608145416.png",
-    "Pasted image 20260608144709.png",
-    "Pasted image 20260608144328.png",
-    "Day 15/code 2.ipynb",
+    "Day 15/day15_student_placement_prediction.ipynb",
+    "Pasted image 20260609093419.png",
+    "Pasted image 20260609093100.png",
+    "Pasted image 20260609092948.png",
+    "Pasted image 20260609092827.png",
+    "Pasted image 20260609092519.png",
     "Day 15/Topic 1.md",
+    "Pasted image 20260608164608.png",
+    "Pasted image 20260608164557.png",
+    "Pasted image 20260608163420.png",
+    "Pasted image 20260608163358.png",
+    "Pasted image 20260608162929.png",
+    "Day 15/code 3.ipynb",
+    "Day 15/Topic 2.md",
+    "Day 15/code 2.ipynb",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_61/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_62/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_561/__pycache__/__init__.cpython-314.pyc",
@@ -206,7 +202,6 @@
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_42074/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_40966/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_40945/__pycache__/__init__.cpython-314.pyc",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_40675/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
     "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
