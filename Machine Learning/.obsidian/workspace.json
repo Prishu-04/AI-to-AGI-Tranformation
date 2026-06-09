@@ -11,10 +11,14 @@
             "id": "74ec596b54bff5c9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 15/Topic 4.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 4"
             }
           }
         ]
@@ -179,6 +183,12 @@
   },
   "active": "74ec596b54bff5c9",
   "lastOpenFiles": [
+    "Pasted image 20260609105522.png",
+    "Pasted image 20260609105450.png",
+    "Pasted image 20260609105325.png",
+    "Pasted image 20260609105310.png",
+    "Day 15/code 4.ipynb",
+    "Day 15/Topic 4.md",
     "Day 15/Topic 3.md",
     "Day 15/day15_student_placement_prediction.ipynb",
     "Pasted image 20260609093419.png",
@@ -189,9 +199,6 @@
     "Day 15/Topic 1.md",
     "Pasted image 20260608164608.png",
     "Pasted image 20260608164557.png",
-    "Pasted image 20260608163420.png",
-    "Pasted image 20260608163358.png",
-    "Pasted image 20260608162929.png",
     "Day 15/code 3.ipynb",
     "Day 15/Topic 2.md",
     "Day 15/code 2.ipynb",
@@ -201,7 +208,6 @@
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_42585/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_42074/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_40966/__pycache__/__init__.cpython-314.pyc",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_40945/__pycache__/__init__.cpython-314.pyc",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
     "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
@@ -222,7 +228,6 @@
     "Day 07/venv7/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Day 07/venv7/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
     "Day 06/README.md",
-    "Day 06/Topic 8.md",
-    "Day 06/Topic 7.md"
+    "Day 06/Topic 8.md"
   ]
 }
