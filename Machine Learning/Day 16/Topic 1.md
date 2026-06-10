@@ -268,3 +268,191 @@ Then fill:
 
 ---
 ## 21. Method 8 : SimpleImputer
+![[Pasted image 20260610154917.png]]
+For Categorical :
+![[Pasted image 20260610154940.png]]
+
+---
+## 22. Step 4 : Detect Duplicates
+![[Pasted image 20260610155056.png]]
+Better:
+![[Pasted image 20260610155132.png]]
+To view duplicates:
+![[Pasted image 20260610155301.png]]
+
+---
+## 23. Remove Duplicates
+![[Pasted image 20260610155351.png]]
+
+---
+## 24. Debugging Error
+### Bug 1: KeyError
+Broken code:
+```
+df["study_hour"].mean()
+```
+Error:
+```
+KeyError: 'study_hour'
+```
+Why:
+```
+Correct column name is study_hours.
+```
+Debug:
+```
+print(df.columns)
+```
+Correct:
+```
+df["study_hours"].mean()
+```
+---
+### Bug 2: NameError
+Broken code:
+```
+df = pd.DataFrame(data)
+```
+Error:
+```
+NameError: name 'pd' is not defined
+```
+Why:
+```
+You did not import pandas.
+```
+Correct:
+```
+import pandas as pd
+```
+---
+### Bug 3: np Not Defined
+Broken code:
+```
+"study_hours": [5, 2, np.nan]
+```
+Error:
+```
+NameError: name 'np' is not defined
+```
+Why:
+```
+You used np.nan but did not import NumPy.
+```
+Correct:
+```
+import numpy as np
+```
+---
+### Bug 4: Mode Index Error
+Broken code:
+```
+mode_value = df["study_method"].mode()[0]
+```
+Possible error:
+```
+KeyError: 0
+```
+or issue if all values are missing.
+Safer check:
+```
+mode_series = df["study_method"].mode()
+if not mode_series.empty:    
+	mode_value = mode_series[0]
+else:    
+	mode_value = "Unknown"
+```
+---
+### Bug 5: Chained Assignment Warning
+Risky code:
+```
+df[df["study_hours"].isnull()]["study_hours"] = 5
+```
+Possible warning:
+```
+SettingWithCopyWarning
+```
+Why:
+```
+You may be modifying a copy instead of the original DataFrame.
+```
+Better:
+```
+df.loc[df["study_hours"].isnull(), "study_hours"] = 5
+```
+---
+## 25. Production Failure Scenarios
+### Scenario 1: Missing Input in App
+User leaves attendance blank.
+Problem:
+```
+Model API receives missing value and crashes.
+```
+Senior solution:
+```
+Validate input before prediction.Return helpful error message.Use trained imputer if appropriate.
+```
+---
+### Scenario 2: Duplicate Data in Training
+Same high-scoring student appears 50 times by mistake.
+Problem:
+```
+Model becomes biased toward that pattern.
+```
+Senior solution:
+```
+Check duplicates before training.Use unique identifiers.Audit suspicious repeated records.
+```
+---
+### Scenario 3: Wrong Missing Value Strategy
+You fill missing salary with mean in a dataset where salary has extreme outliers.
+Problem:
+```
+Mean becomes distorted.Model learns unrealistic values.
+```
+Senior solution:
+```
+Use median or domain-based imputation.Check distribution first.
+```
+---
+## 26. Interview Questions
+Prepare answers:
+```
+1. What is data preprocessing?
+2. Why is preprocessing important?
+3. How do you detect missing values?
+4. How do you handle missing numerical values?
+5. When do you use mean imputation?
+6. When do you use median imputation?
+7. How do you handle missing categorical values?
+8. What are duplicate rows?
+9. Should duplicates always be removed?
+10. Why should imputation be fitted only on training data?
+```
+---
+## 27. Interview Trap Questions
+### Trap 1
+```
+Should we always drop rows with missing values?
+```
+Answer:
+```
+No. It depends on dataset size, missing percentage, column importance, and whether missingness has meaning.
+```
+### Trap 2
+```
+Can we fill all missing values with 0?
+```
+Answer:
+```
+No. Zero may be a valid value and may distort the data. Use mean, median, mode, constant, or domain-based strategy depending on context.
+```
+### Trap 3
+```
+Should we remove all duplicate rows always?
+```
+Answer:
+```
+No. Some repeated rows may represent real repeated events. We must understand business context first.
+```
+---
