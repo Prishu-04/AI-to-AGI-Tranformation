@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4cedbea531a985af",
+        "id": "2e80898494801170",
         "type": "tabs",
         "children": [
           {
-            "id": "1119aea31aba331e",
+            "id": "e32a4a33e2621aeb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 16/Topic 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 1"
             }
           }
         ]
@@ -177,33 +181,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "1119aea31aba331e",
+  "active": "e32a4a33e2621aeb",
   "lastOpenFiles": [
-    "Day 15/Topic 5.md",
-    "Day 15/day15_student_place_prediction.ipynb",
-    "Pasted image 20260609130926.png",
-    "Pasted image 20260609121057.png",
-    "Pasted image 20260609121003.png",
-    "Pasted image 20260609120940.png",
-    "Pasted image 20260609120935.png",
-    "Pasted image 20260609120907.png",
-    "Pasted image 20260609120840.png",
-    "Pasted image 20260609120532.png",
-    "Pasted image 20260609120517.png",
-    "Pasted image 20260609120449.png",
-    "Day 15/code 5.ipynb",
-    "Day 15/Topic 4.md",
-    "Day 15/code 4.ipynb",
-    "Day 15/Topic 3.md",
-    "Day 15/day15_student_placement_prediction.ipynb",
-    "Day 15/Topic 1.md",
-    "Day 15/code 3.ipynb",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_fast_matrix_market/__pycache__/__init__.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/__pycache__/__init__.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/tests/__init__.py",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/__pycache__/hb.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/__pycache__/_fortran_format_parser.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/tests/__pycache__/test_netcdf.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/tests/__pycache__",
+    "Day 16/venv16/Lib/site-packages/scipy/io/tests/__pycache__/test_wavfile.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/tests/test_hb.py",
+    "Day 16/venv16/Lib/site-packages/scipy/io/_harwell_boeing/tests/test_fortran_format.py",
+    "Day 16/venv16/Lib/site-packages/scipy/io/tests/__pycache__/__init__.cpython-314.pyc",
+    "Day 16/venv16/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
+    "Pasted image 20260610151844.png",
+    "Pasted image 20260610151821.png",
+    "Pasted image 20260610151731.png",
+    "Pasted image 20260610151455.png",
+    "Pasted image 20260610151313.png",
+    "Pasted image 20260610151036.png",
+    "Pasted image 20260610150839.png",
+    "Pasted image 20260610150457.png",
+    "Pasted image 20260610150255.png",
+    "Pasted image 20260610145034.png",
+    "Day 16/Topic 1.md",
     "Day 15/Topic 2.md",
-    "Day 15/code 2.ipynb",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_61/__pycache__/__init__.cpython-314.pyc",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_62/__pycache__/__init__.cpython-314.pyc",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_561/__pycache__/__init__.cpython-314.pyc",
-    "Day 15/venv15/Lib/site-packages/sklearn/datasets/tests/data/openml/id_42585/__pycache__/__init__.cpython-314.pyc",
+    "Day 15/Topic 1.md",
+    "Day 15/Topic 5.md",
+    "Day 15/Topic 4.md",
+    "Day 15/Topic 3.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
     "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
@@ -221,8 +228,6 @@
     "Day 15/venv15/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Day 15/venv15/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
     "Day 07/venv7/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
-    "Day 07/venv7/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "Day 07/venv7/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
-    "Day 06/README.md"
+    "Day 07/venv7/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md"
   ]
 }
