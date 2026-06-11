@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b22c93e325cf9c7a",
+        "id": "768a97c6a236a61e",
         "type": "tabs",
         "children": [
           {
-            "id": "1ed613674ad98afd",
+            "id": "0c8bff314faf66a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 17/Topic 1.md",
+                "file": "Day 17/Topic 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic 1"
+              "title": "Topic 2"
             }
           }
         ]
@@ -180,8 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "1ed613674ad98afd",
+  "active": "0c8bff314faf66a3",
   "lastOpenFiles": [
+    "Pasted image 20260611161801.png",
+    "Day 17/code 2.ipynb",
+    "Day 17/Topic 2.md",
+    "Day 17/Topic 1.md",
     "Day 17/day17_slo1_linearreg.ipynb",
     "Pasted image 20260611152510.png",
     "Pasted image 20260611152422.png",
@@ -201,8 +205,6 @@
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/New_Salem",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Center",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Beulah",
-    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__init__.py",
-    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__pycache__",
     "Day 17/venv17/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
     "Day 17/venv17/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/zmq/backend/cffi/README.md",
@@ -215,7 +217,6 @@
     "Day 15/Topic 3.md",
     "Day 15/Topic 2.md",
     "Day 15/Topic 1.md",
-    "Day 17/Topic 1.md",
     "Day 17/venv17/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
     "Day 16/venv16/Lib/site-packages/numpy/random/LICENSE.md",
@@ -226,7 +227,6 @@
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
     "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy/random/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md"
+    "Day 15/venv15/Lib/site-packages/numpy/random/LICENSE.md"
   ]
 }
