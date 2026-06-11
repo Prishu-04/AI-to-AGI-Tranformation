@@ -11,10 +11,14 @@
             "id": "1ed613674ad98afd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 17/Topic 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 1"
             }
           }
         ]
@@ -178,36 +182,39 @@
   },
   "active": "1ed613674ad98afd",
   "lastOpenFiles": [
-    "Day 16/Student Performance Data Preprocessing Pipeline.py",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/Asia/__pycache__/__init__.cpython-314.pyc",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/Antarctica/__pycache__/__init__.cpython-314.pyc",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/__pycache__/__init__.cpython-314.pyc",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__init__.py",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__pycache__",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/New_Salem",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Center",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Beulah",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__init__.py",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__pycache__",
+    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/Louisville",
+    "Pasted image 20260611144309.png",
+    "Pasted image 20260611144307.png",
+    "Pasted image 20260611144304.png",
+    "Pasted image 20260611144237.png",
+    "Day 17/venv17/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
+    "Day 17/venv17/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.md",
+    "Day 17/venv17/Lib/site-packages/zmq/backend/cffi/README.md",
     "Day 16/Topic 5.md",
-    "Day 16/day16_slot5_pipeline_columntransformer.ipynb",
-    "Day 16/day2_slot5_pipeline_columntransformer.ipynb",
-    "Day 16/student_marks_pipeline.pkl",
     "Pasted image 20260611130044.png",
     "Pasted image 20260611130042.png",
     "Pasted image 20260611125950.png",
     "Pasted image 20260611125551.png",
     "Pasted image 20260611125424.png",
     "Pasted image 20260611124917.png",
-    "Pasted image 20260611124820.png",
-    "Pasted image 20260611124452.png",
-    "Pasted image 20260611124306.png",
-    "Pasted image 20260611123942.png",
     "Day 16/Topic 4.md",
-    "Day 16/code 5.ipynb",
     "Day 16/Topic 1.md",
     "Day 16/Topic 2.md",
     "Day 16/Topic 3.md",
-    "Day 16/day16_slot4_featurescaling.ipynb",
     "Day 15/Topic 4.md",
     "Day 15/Topic 3.md",
     "Day 15/Topic 2.md",
     "Day 15/Topic 1.md",
-    "Day 17/venv17/Library/include/X11/Xlib.h",
-    "Day 17/venv17/Library/include/X11/Xutil.h",
-    "Day 17/venv17/Library/include/X11/Xatom.h",
-    "Day 17/venv17/Library/include/X11/Xfuncproto.h",
-    "Day 17/venv17/Library/include/X11/XF86keysym.h",
     "Day 17/Topic 1.md",
     "Day 17/venv17/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
@@ -220,9 +227,6 @@
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
     "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Day 15/venv15/Lib/site-packages/numpy/random/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md"
+    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md"
   ]
 }
