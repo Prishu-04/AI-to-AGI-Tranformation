@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b370a7a361bd5953",
+        "id": "7ed1194ec2a4b890",
         "type": "tabs",
         "children": [
           {
-            "id": "806d9f68b9e0b81d",
+            "id": "d4a5108a5e5e8110",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 16/Topic 5.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 5"
             }
           }
         ]
@@ -176,36 +180,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "806d9f68b9e0b81d",
+  "active": "d4a5108a5e5e8110",
   "lastOpenFiles": [
+    "Day 16/day16_slot5_pipeline_columntransformer.ipynb",
+    "Day 16/day2_slot5_pipeline_columntransformer.ipynb",
+    "Day 16/student_marks_pipeline.pkl",
+    "Pasted image 20260611130044.png",
+    "Pasted image 20260611130042.png",
+    "Pasted image 20260611125950.png",
+    "Pasted image 20260611125551.png",
+    "Pasted image 20260611125424.png",
+    "Pasted image 20260611124917.png",
+    "Pasted image 20260611124820.png",
+    "Pasted image 20260611124452.png",
+    "Pasted image 20260611124306.png",
+    "Pasted image 20260611123942.png",
     "Day 16/Topic 4.md",
+    "Day 16/Topic 5.md",
+    "Day 16/code 5.ipynb",
+    "Day 16/Topic 1.md",
+    "Day 16/Topic 2.md",
+    "Day 16/Topic 3.md",
     "Day 16/day16_slot4_featurescaling.ipynb",
-    "Pasted image 20260611113235.png",
-    "Pasted image 20260611113046.png",
     "Day 15/Topic 4.md",
     "Day 15/Topic 3.md",
     "Day 15/Topic 2.md",
     "Day 15/Topic 1.md",
-    "Day 16/Topic 1.md",
-    "Day 16/Topic 2.md",
-    "Pasted image 20260611111946.png",
-    "Pasted image 20260611111839.png",
-    "Pasted image 20260611110852.png",
-    "Pasted image 20260611110248.png",
-    "Pasted image 20260611110108.png",
-    "Pasted image 20260611110105.png",
     "Day 17/venv17/Library/include/X11/Xlib.h",
     "Day 17/venv17/Library/include/X11/Xutil.h",
     "Day 17/venv17/Library/include/X11/Xatom.h",
     "Day 17/venv17/Library/include/X11/Xfuncproto.h",
     "Day 17/venv17/Library/include/X11/XF86keysym.h",
     "Day 17/venv17/Library/include/X11/X.h",
-    "Day 17/venv17/Library/include/X11/keysymdef.h",
-    "Day 17/venv17/Library/include/X11/Sunkeysym.h",
-    "Day 17/venv17/Library/include/X11/keysym.h",
-    "Pasted image 20260611105358.png",
-    "Pasted image 20260611104205.png",
-    "Day 16/Topic 3.md",
     "Day 17/Topic 1.md",
     "Day 17/venv17/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
@@ -221,7 +227,6 @@
     "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
     "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
     "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md"
+    "Day 15/venv15/Lib/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md"
   ]
 }
