@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bdf5bb53217a2149",
+        "id": "e546b713a7457be1",
         "type": "tabs",
         "children": [
           {
-            "id": "d54f048246b130dd",
+            "id": "b7acaa050ae4bc7a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,25 +176,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "d54f048246b130dd",
+  "active": "b7acaa050ae4bc7a",
   "lastOpenFiles": [
+    "Day 17/Topic 3.md",
+    "Day 16/Topic 5.md",
+    "Day 17/Topic 1.md",
     "Day 17/Topic 2.md",
+    "Pasted image 20260612105450.png",
+    "Pasted image 20260612105337.png",
+    "Pasted image 20260612105149.png",
+    "Pasted image 20260612105004.png",
+    "Pasted image 20260612104941.png",
+    "Pasted image 20260612103913.png",
+    "Pasted image 20260612101104.png",
+    "Day 17/code 3.ipynb",
     "Pasted image 20260612094450.png",
     "Pasted image 20260612093927.png",
     "Pasted image 20260612093338.png",
-    "Pasted image 20260612093034.png",
-    "Pasted image 20260612092757.png",
-    "Pasted image 20260612092539.png",
-    "Pasted image 20260612092303.png",
-    "Pasted image 20260612092042.png",
-    "Pasted image 20260612091946.png",
-    "Pasted image 20260612091845.png",
     "Day 15/Topic 3.md",
     "Day 15/Topic 2.md",
     "Day 16/Topic 1.md",
     "Day 15/Topic 1.md",
     "Day 17/code 2.ipynb",
-    "Day 17/Topic 1.md",
     "Day 17/day17_slo1_linearreg.ipynb",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/Asia/__pycache__/__init__.cpython-314.pyc",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/Antarctica/__pycache__/__init__.cpython-314.pyc",
@@ -203,11 +206,9 @@
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__pycache__",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/New_Salem",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Center",
-    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Beulah",
     "Day 17/venv17/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
     "Day 17/venv17/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/zmq/backend/cffi/README.md",
-    "Day 16/Topic 5.md",
     "Day 16/Topic 4.md",
     "Day 16/Topic 2.md",
     "Day 16/Topic 3.md",
@@ -221,7 +222,6 @@
     "Day 15/Topic 5.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
-    "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "Day 15/venv15/Lib/site-packages/numpy/random/LICENSE.md"
+    "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md"
   ]
 }
