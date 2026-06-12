@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e546b713a7457be1",
+        "id": "8fef33e6d0d8c878",
         "type": "tabs",
         "children": [
           {
-            "id": "b7acaa050ae4bc7a",
+            "id": "499f3be475b6ee59",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,23 +176,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "b7acaa050ae4bc7a",
+  "active": "499f3be475b6ee59",
   "lastOpenFiles": [
+    "Day 17/Topic 4.md",
+    "Pasted image 20260612124944.png",
+    "Pasted image 20260612124801.png",
+    "Pasted image 20260612123300.png",
+    "Day 17/Topic 2.md",
     "Day 17/Topic 3.md",
+    "Pasted image 20260612121736.png",
+    "Pasted image 20260612121048.png",
+    "Pasted image 20260612121033.png",
+    "Pasted image 20260612115616.png",
+    "Pasted image 20260612115316.png",
+    "Pasted image 20260612115058.png",
+    "Pasted image 20260612114441.png",
+    "Day 17/code 4.ipynb",
     "Day 16/Topic 5.md",
     "Day 17/Topic 1.md",
-    "Day 17/Topic 2.md",
-    "Pasted image 20260612105450.png",
-    "Pasted image 20260612105337.png",
-    "Pasted image 20260612105149.png",
-    "Pasted image 20260612105004.png",
-    "Pasted image 20260612104941.png",
-    "Pasted image 20260612103913.png",
-    "Pasted image 20260612101104.png",
     "Day 17/code 3.ipynb",
-    "Pasted image 20260612094450.png",
-    "Pasted image 20260612093927.png",
-    "Pasted image 20260612093338.png",
     "Day 15/Topic 3.md",
     "Day 15/Topic 2.md",
     "Day 16/Topic 1.md",
@@ -205,7 +207,6 @@
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__init__.py",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__pycache__",
     "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/New_Salem",
-    "Day 17/venv17/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/Center",
     "Day 17/venv17/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
     "Day 17/venv17/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/zmq/backend/cffi/README.md",
@@ -221,7 +222,6 @@
     "Day 16/venv16/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Day 15/Topic 5.md",
     "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
-    "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
-    "Day 15/venv15/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md"
+    "Day 15/venv15/Lib/site-packages/sklearn/externals/array_api_extra/README.md"
   ]
 }

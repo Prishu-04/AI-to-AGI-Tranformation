@@ -397,10 +397,7 @@ For regression, a simple baseline is:
 Always predict average final_marks
 ```
 Code:
-
-```
-baseline_prediction = y_train.mean()baseline_preds = [baseline_prediction] * len(y_test)baseline_mae = mean_absolute_error(y_test, baseline_preds)print("Baseline Prediction:", baseline_prediction)print("Baseline MAE:", baseline_mae)
-```
+![[Pasted image 20260612121736.png]]
 Your ML model should beat this baseline.
 If it does not, your model is not useful yet.
 
