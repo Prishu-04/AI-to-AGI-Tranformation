@@ -11,10 +11,14 @@
             "id": "d1d16d1aa8119817",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 18/Topic 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 1"
             }
           }
         ]
@@ -178,28 +182,29 @@
   },
   "active": "d1d16d1aa8119817",
   "lastOpenFiles": [
-    "Day 18/venv18/etc/conda/deactivate.d/openssl_deactivate.ps1",
-    "Day 18/venv18/etc/conda/deactivate.d/openssl_deactivate.bat",
-    "Day 18/venv18/etc/conda/deactivate.d/openssl_deactivate.sh",
-    "Day 18/venv18/etc/conda/activate.d/openssl_activate.sh",
-    "Day 18/venv18/etc/conda/activate.d/openssl_activate.ps1",
-    "Day 18/venv18/etc/conda/activate.d/openssl_activate.bat",
-    "Day 18/venv18/etc/conda/deactivate.d",
-    "Day 18/venv18/etc/conda/activate.d",
-    "Day 18/venv18/etc/conda",
-    "Day 18/venv18/etc/aau_token",
-    "Day 18/venv18/etc",
+    "Pasted image 20260613135310.png",
+    "Pasted image 20260613134906.png",
+    "Pasted image 20260613134617.png",
+    "Pasted image 20260613131508.png",
+    "Pasted image 20260613131333.png",
+    "Day 18/day18_logisticregression.py",
+    "Pasted image 20260613130722.png",
+    "Pasted image 20260613130520.png",
+    "Pasted image 20260613125914.png",
+    "Pasted image 20260613125709.png",
+    "Pasted image 20260613125319.png",
+    "Pasted image 20260613124939.png",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/North_Dakota/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Indiana/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Argentina/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Etc/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Canada/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Chile/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Brazil/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Australia/__pycache__/__init__.cpython-314.pyc",
+    "Day 18/Topic 1.md",
     "Day 17/Topic 6.md",
-    "Pasted image 20260613104140.png",
-    "Pasted image 20260613103932.png",
-    "Pasted image 20260613103717.png",
-    "Pasted image 20260613103503.png",
-    "Pasted image 20260613103220.png",
-    "Pasted image 20260613103038.png",
-    "Pasted image 20260613102441.png",
-    "Pasted image 20260613095804.png",
-    "Pasted image 20260613094409.png",
-    "Pasted image 20260613094338.png",
     "Day 15/Topic 4.md",
     "Day 15/Topic 3.md",
     "Day 17/Topic 5.md",
@@ -222,7 +227,6 @@
     "Day 16/Topic 2.md",
     "Day 16/Topic 3.md",
     "Day 17/venv17/Lib/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "Day 17/venv17/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
-    "Day 16/venv16/Lib/site-packages/numpy/random/LICENSE.md"
+    "Day 17/venv17/Lib/site-packages/pip/_vendor/idna/LICENSE.md"
   ]
 }
