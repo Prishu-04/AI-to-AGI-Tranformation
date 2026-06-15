@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1064da93c0644d",
+        "id": "da47043008a374ef",
         "type": "tabs",
         "children": [
           {
-            "id": "cee789f0b288870f",
+            "id": "6a60d36b6a95704d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 18/Topic 2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topic 2"
+              "title": "New tab"
             }
           }
         ]
@@ -180,24 +176,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "cee789f0b288870f",
+  "active": "6a60d36b6a95704d",
   "lastOpenFiles": [
-    "Pasted image 20260615101107.png",
-    "Pasted image 20260615095652.png",
-    "Pasted image 20260615095516.png",
-    "Pasted image 20260615095253.png",
-    "Pasted image 20260615095104.png",
-    "Pasted image 20260615095001.png",
-    "Pasted image 20260615094913.png",
+    "Day 18/Topic 3.md",
+    "Pasted image 20260615142450.png",
+    "Pasted image 20260615140612.png",
+    "Pasted image 20260615140425.png",
+    "Pasted image 20260615140400.png",
+    "Pasted image 20260615125252.png",
+    "Pasted image 20260615123458.png",
+    "Day 18/day18_binary_metrics.py",
+    "Pasted image 20260615122744.png",
+    "Pasted image 20260615122727.png",
+    "Pasted image 20260615122720.png",
+    "Pasted image 20260615120629.png",
+    "Day 18/code 3.ipynb",
+    "Day 18/Topic 2.md",
+    "Day 18/code.ipynb",
     "Day 15/Topic 5.md",
     "Day 15/Topic 4.md",
     "Day 15/Topic 3.md",
-    "Day 18/Topic 2.md",
     "Day 18/day18_slot2KNN.py",
-    "Pasted image 20260613155304.png",
-    "Pasted image 20260613155118.png",
-    "Pasted image 20260613155001.png",
-    "Pasted image 20260613154650.png",
     "Day 18/code 2.ipynb",
     "Day 18/Topic 1.md",
     "Day 18/day18_logisticregression.py",
@@ -205,9 +204,6 @@
     "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Kentucky/__pycache__/__init__.cpython-314.pyc",
     "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Indiana/__pycache__/__init__.cpython-314.pyc",
     "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/America/Argentina/__pycache__/__init__.cpython-314.pyc",
-    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Etc/__pycache__/__init__.cpython-314.pyc",
-    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Canada/__pycache__/__init__.cpython-314.pyc",
-    "Day 18/venv18/Lib/site-packages/tzdata/zoneinfo/Chile/__pycache__/__init__.cpython-314.pyc",
     "Day 17/Topic 6.md",
     "Day 17/Topic 5.md",
     "NUMPY.md",
@@ -226,7 +222,6 @@
     "Day 17/venv17/Lib/site-packages/pyzmq-27.1.0.dist-info/licenses/LICENSE.md",
     "Day 17/venv17/Lib/site-packages/zmq/backend/cffi/README.md",
     "Day 16/Topic 4.md",
-    "Day 16/Topic 2.md",
-    "Day 16/Topic 3.md"
+    "Day 16/Topic 2.md"
   ]
 }
