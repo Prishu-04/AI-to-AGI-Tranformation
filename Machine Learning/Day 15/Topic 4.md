@@ -371,7 +371,8 @@ Internship: Yes / No
 ```
 Can become:
 ```
-Yes = 1No = 0
+Yes = 1
+No = 0
 ```
 Temporary code:
 ```
