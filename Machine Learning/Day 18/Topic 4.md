@@ -19,11 +19,15 @@
 ---
 ## 2. Why Tree-Based Models Matter
 Tree-based classifiers can learn non-linear decision rules without requiring a linear relationship between the inputs and target.
-
 Examples:
-
 ```
-Loan approval:If credit score is highand existing debt is lowand income is sufficient→ ApprovePlacement:If DSA score is highand projects >= 3and communication is strong→ Likely placed
+Loan approval:
+If credit score is high
+and existing debt is low
+and income is sufficient→ 
+ApprovePlacement:If DSA score is high
+and projects >= 3
+and communication is strong→ Likely placed
 ```
 
 Decision trees are easy to visualize and explain, but unconstrained trees can become overly complex and overfit. Random forests combine many randomized trees to improve robustness and generalization.
