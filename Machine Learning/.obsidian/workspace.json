@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ce955c91a3f8b376",
+    "id": "10c6f3571a504705",
     "type": "split",
     "children": [
       {
-        "id": "da47043008a374ef",
+        "id": "bbed87edc952fd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "6a60d36b6a95704d",
+            "id": "72cb60c20ebefb21",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ff89b5c097f43382",
+    "id": "bba3267977aea1dc",
     "type": "split",
     "children": [
       {
-        "id": "a21777278f802d5f",
+        "id": "aa9107bd19fa92fc",
         "type": "tabs",
         "children": [
           {
-            "id": "17d0ad725a8078f3",
+            "id": "f52591548613e3db",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "29bad9e3daa812e5",
+            "id": "0e974816065cc993",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "874121deb16f29ac",
+            "id": "3d980276343f2baa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "b805852a2675ca5a",
+    "id": "69ec63c6e982a885",
     "type": "split",
     "children": [
       {
-        "id": "2801edb7612f6593",
+        "id": "004f698a865b6560",
         "type": "tabs",
         "children": [
           {
-            "id": "0f525f067a3599f3",
+            "id": "fc1b621fb7d9dfa8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Day 08/Topic 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Topic 1"
             }
           },
           {
-            "id": "fd147a5db7a62a95",
+            "id": "927a39754d650232",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Day 08/Topic 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Topic 1"
             }
           },
           {
-            "id": "cd5dbb7b7423d31c",
+            "id": "2b11cd088fb9350c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "48a7dfacb9859209",
+            "id": "fd3307e3dc61864a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,17 +151,18 @@
             }
           },
           {
-            "id": "e8fcf21726fcd3c0",
+            "id": "ea3b879166a14ef2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Day 08/Topic 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Topic 1"
             }
           }
         ]
@@ -180,53 +183,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "6a60d36b6a95704d",
+  "active": "72cb60c20ebefb21",
   "lastOpenFiles": [
-    "Day 08/venv8/Library/lib/tk8.6/ttk/xpTheme.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/winTheme.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/vistaTheme.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/utils.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/treeview.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/ttk.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/spinbox.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/scrollbar.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/sizegrip.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/scale.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/ttk/panedwindow.tcl",
-    "Day 08/venv8/Library/lib/tk8.6/images/tai-ku.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/pwrdLogo75.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/pwrdLogo200.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/pwrdLogo175.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/pwrdLogo100.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/pwrdLogo150.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/logoLarge.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/logoMed.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/logo64.gif",
-    "Day 08/venv8/Library/lib/tk8.6/images/logo100.gif",
-    "Untitled.md",
-    "Day 08/Topic 1.md",
-    "Day 18/Topic 4.md",
-    "Day 15/Topic 5.md",
-    "Day 15/Topic 4.md",
-    "Day 16/Topic 5.md",
-    "Day 16/Topic 4.md",
-    "Day 16/Topic 3.md",
-    "Day 16/Topic 2.md",
-    "Day 16/Topic 1.md",
-    "Day 15/Topic 3.md",
-    "Day 18/Topic 3.md",
-    "Day 18/Topic 2.md",
-    "Day 18/Topic 1.md",
-    "Day 17/Topic 6.md",
-    "Day 17/Topic 5.md",
-    "NUMPY.md",
-    "Day 15/Topic 2.md",
-    "Day 15/README.md",
-    "Day 17/README.md",
-    "Day 16/README.md",
-    "Day 17/Topic 4.md",
-    "Day 17/Topic 2.md",
-    "Day 17/Topic 3.md",
-    "Day 17/Topic 1.md"
+    "Pasted image 20260616105644.png",
+    "Pasted image 20260616105504.png",
+    "Pasted image 20260616104528.png",
+    "Pasted image 20260616104019.png",
+    "Pasted image 20260616103756.png",
+    "Pasted image 20260616103309.png",
+    "Pasted image 20260616102324.png",
+    "Pasted image 20260616101041.png",
+    "Pasted image 20260616101011.png",
+    "Pasted image 20260616100744.png",
+    "Pasted image 20260616100633.png"
   ]
 }
