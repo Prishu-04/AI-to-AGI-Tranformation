@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 08/Topic 3.md",
+                "file": "Day 18/Topic 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic 3"
+              "title": "Topic 4"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "69ec63c6e982a885",
@@ -183,13 +182,25 @@
   },
   "active": "8d3079eff18b2cfa",
   "lastOpenFiles": [
+    "Day 18/Topic 3.md",
+    "Day 18/Topic 2.md",
+    "Day 18/Topic 1.md",
+    "Day 18/Topic 4.md",
+    "Day 18/day18_treebased.py",
+    "Pasted image 20260618115435.png",
+    "Pasted image 20260618115235.png",
+    "Pasted image 20260618114930.png",
+    "Pasted image 20260618114620.png",
+    "Pasted image 20260618114403.png",
+    "Pasted image 20260618114325.png",
+    "Pasted image 20260618114034.png",
+    "Pasted image 20260618112718.png",
+    "Pasted image 20260618112320.png",
+    "Pasted image 20260618112052.png",
+    "Day 15/Topic 5.md",
+    "Day 15/Topic 4.md",
     "Day 08/Topic 3.md",
     "Day 08/Topic 2.md",
-    "Pasted image 20260616130022.png",
-    "Pasted image 20260616125913.png",
-    "Pasted image 20260616125823.png",
-    "Pasted image 20260616125658.png",
-    "Pasted image 20260616125325.png",
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/__init__.cpython-314.pyc",
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_ni_support.cpython-314.pyc",
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_splines.cpython-314.pyc",
@@ -199,15 +210,8 @@
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_fourier.cpython-314.pyc",
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_filters.cpython-314.pyc",
     "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_datatypes.cpython-314.pyc",
-    "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/__pycache__/test_c_api.cpython-314.pyc",
-    "Day 08/venv8/Lib/site-packages/scipy/ndimage/tests/dots.png",
     "Day 08/venv8/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "Pasted image 20260616125134.png",
-    "Pasted image 20260616125100.png",
-    "Pasted image 20260616124933.png",
-    "Pasted image 20260616124926.png",
     "Day 08/Topic 1.md",
-    "Day 18/Topic 4.md",
     "Day 22/Topic 1.md"
   ]
 }
