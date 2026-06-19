@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8e8725d5e22e1685",
+        "id": "aa7e4765890d2b47",
         "type": "tabs",
         "children": [
           {
-            "id": "1168e3910dd696b8",
+            "id": "e9b4095c32cff3fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 18/TOPIC 5.md",
+                "file": "Day 18/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOPIC 5"
+              "title": "README"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "69ec63c6e982a885",
@@ -181,31 +180,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "1168e3910dd696b8",
+  "active": "f52591548613e3db",
   "lastOpenFiles": [
-    "Day 18/day18_naivebayes.py",
-    "Pasted image 20260618172022.png",
-    "Pasted image 20260618171826.png",
-    "Pasted image 20260618171808.png",
-    "Pasted image 20260618171247.png",
-    "Pasted image 20260618165927.png",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/licenses/LICENSE",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/METADATA",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/WHEEL",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/RECORD",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/licenses",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info/INSTALLER",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat-0.1.6.dist-info",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat/utils/_test_common/__pycache__/instance_generator.cpython-314.pyc",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat/metrics/__pycache__/_classification.cpython-314.pyc",
-    "Day 18/venv18/Lib/site-packages/sklearn_compat/metrics/__pycache__/__init__.cpython-314.pyc",
-    "Pasted image 20260618164503.png",
+    "Day 18/reports/figures/complete_model_comparison.png",
+    "Day 18/reports/figures/complete_error_analysis_dashboard.png",
+    "Day 18/reports/figures/error_analysis/false_positive_false_negative_count.png",
+    "Day 18/reports/figures/error_analysis",
+    "Day 18/reports/figures/random_forest_feature_importance.png",
+    "Day 18/reports/figures/threshold_business_cost.png",
+    "Day 18/reports/figures/threshold_metric_comparison.png",
+    "Day 18/reports/figures/final_confusion_matrix.png",
+    "Day 18/reports/figures/all_model_roc_curves.png",
+    "Day 18/reports/figures/model_roc_auc_comparison.png",
+    "Day 18/reports/figures/model_f1_comparison.png",
+    "Day 18/reports/figures/correlation_matrix.png",
+    "Day 18/reports/figures",
+    "Day 18/README.md",
+    "Day 18/Topic 6.md",
+    "Day 18/data/synthetic_loan_applications.csv",
+    "Day 18/data",
+    "Day 18/reports/error_analysis.csv",
+    "Day 18/reports/threshold_comparison.csv",
+    "Day 18/reports/model_comparison.csv",
+    "Day 18/reports",
+    "Day 18/models/loan_approval_model.joblib",
+    "Day 18/models",
     "Day 15/Topic 5.md",
     "Day 18/TOPIC 5.md",
-    "Pasted image 20260618161202.png",
-    "Pasted image 20260618161007.png",
-    "Pasted image 20260618160710.png",
-    "Pasted image 20260618160241.png",
     "Day 18/Topic 4.md",
     "Day 18/Topic 3.md",
     "Day 18/Topic 2.md",

@@ -1,0 +1,1201 @@
+applicant_income,loan_amount,credit_score,existing_debt,employment_years,loan_term,employment_type,education,property_area,self_employed,loan_approved
+40618,141853,566.0,110200,7.7,48,Contract,Graduate,Urban,No,0
+160442,81625,577.0,58453,8.9,24,Salaried,High School,Urban,No,1
+139550,157714,850.0,41817,10.7,60,Self-employed,High School,Semiurban,Yes,1
+101803,124214,803.0,12874,1.3,12,Salaried,,Urban,No,1
+100777,107632,615.0,46767,9.0,24,Salaried,Postgraduate,Urban,Yes,0
+175254,145499,619.0,28404,4.8,48,Salaried,Graduate,Semiurban,No,0
+40040,87261,552.0,117205,0.0,36,Salaried,,Semiurban,No,0
+147039,118104,488.0,63316,0.0,24,Salaried,Postgraduate,Rural,No,0
+60257,52709,640.0,16438,1.9,24,Self-employed,Graduate,Semiurban,Yes,0
+41481,154481,565.0,8084,8.1,36,Salaried,Graduate,Semiurban,No,0
+117133,103505,643.0,102089,6.5,48,Contract,Graduate,Urban,No,0
+195733,127300,514.0,111775,6.7,12,Salaried,Graduate,Semiurban,No,0
+153756,79110,585.0,91560,13.8,12,Salaried,Graduate,Urban,No,0
+158199,140020,663.0,14861,0.9,36,Self-employed,Postgraduate,Urban,Yes,0
+150558,21126,681.0,11794,5.9,60,Salaried,Graduate,Rural,No,0
+162561,27115,685.0,23757,7.2,24,Salaried,Graduate,Semiurban,No,1
+114814,86067,538.0,90136,3.1,60,Self-employed,Graduate,Semiurban,Yes,0
+47419,119862,723.0,91838,6.1,60,Salaried,Postgraduate,Urban,No,0
+171955,131382,,100541,0.0,24,Salaried,High School,Urban,No,1
+103817,76013,704.0,11632,11.6,48,Self-employed,Postgraduate,Semiurban,Yes,1
+112561,107450,649.0,18385,3.3,48,Salaried,Graduate,Semiurban,No,1
+89889,92965,533.0,108033,14.1,36,Self-employed,Graduate,Semiurban,Yes,0
+56946,154228,623.0,111449,5.9,36,Self-employed,Postgraduate,Urban,Yes,0
+187183,108115,681.0,87084,10.1,48,Salaried,Graduate,Urban,No,1
+161774,72526,702.0,12724,5.8,48,Salaried,High School,Semiurban,No,0
+137676,155472,638.0,8234,5.9,48,Salaried,Postgraduate,Semiurban,No,1
+95422,26087,780.0,6670,3.7,60,Self-employed,Graduate,Urban,Yes,1
+168983,157686,736.0,83021,6.5,36,Salaried,Graduate,Urban,No,0
+120450,33101,628.0,101516,7.3,48,Contract,Graduate,Urban,No,0
+102597,53234,714.0,75795,2.9,60,Salaried,Graduate,Urban,No,0
+103830,133220,814.0,31452,,24,Self-employed,Graduate,Semiurban,Yes,0
+64766,120063,817.0,90881,3.6,12,Salaried,High School,Urban,No,0
+41123,155553,546.0,7095,15.2,36,Salaried,Graduate,Semiurban,No,0
+122052,122497,571.0,99383,5.6,60,Salaried,Postgraduate,Semiurban,No,0
+180380,105551,776.0,107025,,24,Salaried,High School,Rural,No,1
+36168,61973,560.0,86202,5.2,48,Contract,Graduate,Rural,No,0
+175200,10706,538.0,105511,7.0,12,Salaried,Graduate,Urban,No,1
+169835,28580,609.0,70341,0.7,36,Salaried,Postgraduate,Urban,No,0
+73432,54666,686.0,56203,4.2,36,Salaried,Graduate,Urban,No,0
+135541,16142,641.0,38695,6.8,24,Salaried,,Semiurban,No,0
+53915,86226,595.0,110605,12.3,60,Contract,High School,Urban,No,0
+157665,126601,,83672,6.9,24,Contract,Graduate,Urban,No,0
+147591,154488,589.0,22859,11.5,60,Contract,Postgraduate,Urban,No,0
+87042,83454,575.0,114836,8.6,24,Salaried,Postgraduate,Urban,No,0
+36886,141250,844.0,7104,12.5,60,Salaried,Graduate,Semiurban,No,1
+194872,157831,675.0,70502,5.8,36,Self-employed,Graduate,Semiurban,Yes,1
+102995,138974,725.0,22865,15.6,12,Salaried,Graduate,Semiurban,No,1
+181296,79746,608.0,79721,4.1,12,Self-employed,High School,Rural,Yes,0
+143635,58789,634.0,49518,2.9,12,Salaried,Postgraduate,Urban,No,1
+161217,156687,589.0,52455,1.2,36,Salaried,Postgraduate,Urban,No,0
+157982,46286,425.0,80585,15.3,48,Contract,Graduate,Urban,No,1
+59061,71736,533.0,90734,9.3,36,Salaried,Graduate,Semiurban,No,0
+88683,21104,496.0,45605,4.7,36,Contract,Graduate,Semiurban,No,0
+106676,129052,459.0,119720,11.0,36,Salaried,High School,Urban,No,0
+112113,107475,548.0,59816,8.8,36,Salaried,Graduate,Rural,No,0
+32665,22722,763.0,19246,13.9,48,Salaried,Graduate,Urban,Yes,1
+120649,43289,646.0,767,0.0,36,Salaried,High School,Urban,No,0
+52000,93319,760.0,24288,4.9,48,Salaried,Graduate,Semiurban,No,1
+155090,91061,685.0,82931,4.1,60,Salaried,Postgraduate,Rural,No,1
+144533,130308,717.0,64732,0.0,36,Self-employed,High School,Semiurban,Yes,1
+186442,49914,573.0,40539,10.2,12,Contract,Graduate,Rural,No,0
+155333,148705,695.0,57765,4.9,24,Salaried,Graduate,Urban,No,1
+89162,76671,712.0,100574,9.0,36,Salaried,High School,Semiurban,No,1
+194314,133387,601.0,68588,15.4,36,Salaried,Graduate,Rural,No,1
+96898,45757,698.0,6971,4.6,60,Self-employed,Graduate,Semiurban,Yes,1
+82019,15545,698.0,5888,4.3,36,Salaried,High School,Urban,No,0
+183468,18258,603.0,57846,6.5,36,Salaried,High School,Rural,Yes,0
+89830,65905,555.0,48513,9.9,48,Salaried,Postgraduate,Urban,No,0
+38360,152972,,102060,3.7,24,Salaried,Graduate,Urban,No,0
+107172,17304,657.0,69957,3.5,48,Salaried,Graduate,Rural,No,1
+164243,65346,678.0,90823,10.2,12,Salaried,Graduate,Rural,No,0
+58157,26392,583.0,70222,7.5,36,Contract,Postgraduate,Rural,No,0
+106014,149734,652.0,41433,0.0,60,Salaried,Graduate,Rural,No,0
+47736,111295,698.0,78880,1.1,48,Salaried,Postgraduate,Urban,No,0
+145133,124403,703.0,74571,12.0,60,Salaried,Graduate,Rural,No,1
+108248,116988,782.0,86425,7.6,36,Salaried,Graduate,Urban,No,1
+82784,108553,759.0,22708,3.0,48,Salaried,Graduate,Semiurban,No,0
+64709,126058,565.0,76985,5.3,36,Salaried,Graduate,Urban,Yes,0
+123787,11218,793.0,34256,6.1,36,Salaried,Graduate,Rural,No,1
+142217,139818,605.0,94829,8.9,12,Self-employed,High School,Semiurban,Yes,0
+189553,120979,739.0,95822,0.6,24,Salaried,Graduate,Rural,No,1
+101501,120914,656.0,74971,2.6,36,Contract,Graduate,Urban,Yes,0
+53120,69015,615.0,113603,7.1,12,Salaried,High School,Urban,No,0
+170718,130130,496.0,64500,5.6,48,Salaried,Graduate,Urban,No,0
+135208,67272,635.0,3016,8.3,48,Contract,Graduate,Urban,No,0
+147546,17344,517.0,72743,1.1,60,Self-employed,Graduate,Semiurban,Yes,0
+42014,146172,732.0,93323,7.4,24,Salaried,Postgraduate,Urban,No,0
+79664,45180,779.0,12143,10.4,60,Self-employed,Graduate,Semiurban,Yes,1
+159372,25285,582.0,12552,7.9,12,Salaried,Postgraduate,Urban,No,1
+170645,103284,676.0,32778,6.6,36,Salaried,Graduate,Urban,No,1
+101162,45047,588.0,101309,5.6,48,Self-employed,High School,Semiurban,Yes,1
+165833,138718,597.0,63287,2.7,12,Self-employed,Postgraduate,Urban,Yes,0
+172296,76562,716.0,117172,5.7,12,,High School,Urban,No,0
+92808,10675,647.0,104758,11.0,12,Self-employed,Graduate,Urban,Yes,0
+182165,152757,798.0,66580,5.5,36,Salaried,Graduate,Urban,No,1
+75457,87194,609.0,81486,2.4,48,Salaried,Graduate,Semiurban,No,0
+66922,49446,735.0,39720,4.0,24,Contract,Graduate,Urban,No,0
+144436,111593,658.0,10848,6.8,24,Salaried,Graduate,Urban,No,0
+136433,89591,718.0,47848,4.5,36,Salaried,High School,Semiurban,No,0
+49456,14441,612.0,71072,7.9,24,Salaried,High School,Semiurban,No,0
+170728,123947,646.0,21863,8.1,48,Salaried,High School,Semiurban,No,0
+59983,70203,640.0,26608,9.6,60,Salaried,High School,Urban,No,0
+165857,114972,579.0,1799,11.7,48,Contract,Graduate,Rural,No,1
+26288,144345,706.0,88081,10.0,60,Self-employed,Graduate,Urban,Yes,0
+164447,101591,705.0,107931,2.3,36,Self-employed,Graduate,Urban,Yes,1
+162711,110741,700.0,99292,2.4,48,Salaried,Graduate,Rural,No,0
+161563,48197,781.0,45599,5.7,24,,High School,Semiurban,No,1
+141348,45648,773.0,71214,4.2,12,Salaried,Graduate,Semiurban,No,1
+107524,72250,618.0,115296,1.4,48,Salaried,Graduate,Rural,No,0
+148403,137917,682.0,70963,4.2,12,Salaried,Postgraduate,Urban,Yes,0
+73496,88628,,35506,4.1,60,Self-employed,Graduate,Rural,Yes,1
+161627,62204,652.0,40630,3.3,48,Contract,High School,Semiurban,No,0
+122238,126941,599.0,87255,4.7,60,Salaried,Graduate,Urban,No,0
+105310,138001,788.0,53550,,36,Salaried,Postgraduate,Urban,No,0
+113481,145380,681.0,100476,6.8,36,Self-employed,Graduate,Urban,Yes,0
+124529,54841,631.0,103693,,48,Salaried,High School,Rural,No,1
+31520,116446,751.0,4300,6.7,24,Contract,,Urban,No,0
+49464,98548,465.0,86798,4.8,36,Salaried,Graduate,Urban,No,0
+67959,77345,479.0,44395,6.0,48,Salaried,Postgraduate,Semiurban,No,0
+45042,69541,718.0,62370,7.0,60,Salaried,Graduate,Semiurban,No,0
+101932,27182,655.0,31775,7.7,48,Contract,Graduate,Urban,No,1
+141970,51223,671.0,44187,14.3,24,Salaried,Graduate,Rural,No,1
+139525,92449,537.0,39645,2.6,36,Self-employed,Postgraduate,Semiurban,Yes,0
+107441,142983,648.0,6045,9.4,36,Salaried,Graduate,Rural,No,0
+174639,139951,820.0,93932,6.8,24,Salaried,Postgraduate,Urban,No,1
+123916,38139,720.0,17160,0.0,36,Contract,Graduate,Urban,No,0
+38859,111898,664.0,45095,9.1,24,Salaried,Graduate,Semiurban,No,0
+158874,22721,613.0,23163,11.1,24,Salaried,Graduate,Urban,No,1
+125555,111251,616.0,19273,2.6,36,Salaried,Graduate,Semiurban,No,1
+136075,61289,469.0,44806,6.0,24,Contract,Postgraduate,Urban,No,0
+123940,77477,672.0,110251,0.0,36,Salaried,Graduate,Semiurban,No,0
+121876,117645,722.0,113297,1.0,24,Salaried,Graduate,Rural,Yes,1
+40849,73733,516.0,45804,,48,Contract,Graduate,Rural,No,0
+122861,131114,594.0,60618,4.1,24,Self-employed,Graduate,Rural,Yes,0
+164109,90037,552.0,118283,1.6,60,Contract,Graduate,Rural,No,0
+78191,159811,,28180,6.9,12,Self-employed,Graduate,Urban,Yes,0
+130496,105736,655.0,113364,3.9,36,Self-employed,Graduate,Urban,Yes,1
+30393,54454,473.0,12690,4.1,36,Salaried,Graduate,Rural,No,0
+85812,126293,702.0,27102,9.0,24,Salaried,Graduate,Rural,No,0
+101425,71191,714.0,40596,1.4,36,Self-employed,High School,Rural,Yes,1
+196979,90125,629.0,4450,2.4,48,Self-employed,Graduate,Semiurban,Yes,0
+62552,30523,,97887,6.6,60,Contract,Graduate,Urban,Yes,0
+73395,27901,565.0,102649,9.9,36,Salaried,Graduate,Rural,No,0
+96492,96230,755.0,46001,11.0,24,Salaried,Graduate,Rural,No,1
+198716,38003,414.0,100366,3.3,48,Salaried,Graduate,Semiurban,No,1
+174345,159637,,92700,9.7,36,Self-employed,Postgraduate,Rural,Yes,1
+31071,138351,550.0,96168,2.9,24,Salaried,Graduate,Semiurban,No,0
+65939,115132,718.0,96324,13.3,48,Self-employed,Graduate,Rural,Yes,0
+168793,120204,593.0,68817,1.5,36,Salaried,Graduate,Urban,No,1
+35202,99281,684.0,13298,,48,,Graduate,Rural,No,0
+174742,19043,698.0,110818,3.4,36,Salaried,Graduate,Urban,No,1
+74242,68855,806.0,73039,14.1,36,Self-employed,Graduate,Urban,Yes,0
+185589,84370,633.0,108151,8.4,24,Contract,Graduate,Urban,No,0
+76378,147294,682.0,115091,1.9,48,Salaried,High School,Semiurban,No,0
+101005,42923,524.0,22459,3.9,24,,Graduate,Urban,No,0
+140835,84537,751.0,48256,9.1,48,Salaried,High School,Rural,No,1
+47099,61609,585.0,23099,10.2,48,Salaried,Graduate,Semiurban,No,0
+122480,30155,602.0,6113,5.7,48,Salaried,Graduate,Rural,Yes,0
+113377,25452,,115968,6.2,12,Contract,Graduate,Urban,No,0
+162182,64806,517.0,110796,9.0,24,Contract,Graduate,Urban,No,0
+199318,22363,669.0,111809,6.5,36,Salaried,Postgraduate,Semiurban,No,1
+141254,20075,732.0,106039,0.8,36,Salaried,Graduate,Semiurban,No,1
+96607,62630,675.0,77852,2.7,60,Salaried,Graduate,Semiurban,No,0
+96117,40296,515.0,62656,6.9,36,Salaried,Postgraduate,Rural,No,0
+98142,93221,639.0,118976,10.9,60,Salaried,Graduate,Rural,No,0
+167453,12650,713.0,66270,12.5,24,Self-employed,Graduate,Semiurban,Yes,0
+81212,55271,490.0,77091,9.1,36,Salaried,High School,Rural,No,0
+54220,77991,559.0,25408,7.1,12,Self-employed,Graduate,Semiurban,Yes,0
+83501,154471,725.0,89604,9.0,48,Salaried,Graduate,Semiurban,No,1
+28974,105181,,98334,3.3,24,Self-employed,High School,Urban,Yes,0
+43574,142107,685.0,81423,5.4,24,Self-employed,Graduate,Urban,Yes,0
+40758,61493,808.0,59832,2.7,48,Salaried,High School,Urban,No,0
+160021,77456,690.0,23744,1.0,36,Salaried,Graduate,Semiurban,Yes,1
+151412,73057,706.0,4065,7.3,12,Self-employed,High School,Semiurban,Yes,1
+146934,143109,,75277,6.7,12,Self-employed,High School,Urban,Yes,1
+105828,153881,632.0,81961,8.8,36,,Postgraduate,Semiurban,No,0
+150485,154350,582.0,92713,8.2,36,Salaried,,Urban,Yes,0
+53222,122794,686.0,114059,7.0,24,Salaried,Postgraduate,Urban,No,0
+182608,85466,687.0,59683,8.2,36,Self-employed,Graduate,Rural,Yes,1
+112682,91128,605.0,99498,,24,Self-employed,High School,Urban,Yes,0
+189158,157076,562.0,85954,7.7,36,Salaried,Graduate,Urban,No,0
+51654,52681,846.0,33263,3.1,36,Self-employed,Graduate,Semiurban,Yes,1
+112032,62006,678.0,101414,7.5,24,Self-employed,High School,Urban,Yes,0
+146856,144549,588.0,6399,8.7,24,Self-employed,Postgraduate,Semiurban,Yes,1
+111734,67948,728.0,71866,3.3,24,Salaried,Graduate,Rural,No,0
+103077,45264,641.0,112842,6.2,12,Salaried,Graduate,Semiurban,No,1
+54087,94070,629.0,79075,3.5,36,Salaried,Graduate,Semiurban,No,0
+91678,58801,698.0,112447,3.9,60,Salaried,Graduate,Urban,No,0
+66784,143631,540.0,6739,1.5,48,,Graduate,Semiurban,No,0
+77764,146359,680.0,63889,11.1,36,Salaried,Postgraduate,Urban,No,0
+144647,55901,813.0,93673,10.3,36,Salaried,Graduate,Urban,No,1
+135299,89431,690.0,77078,8.1,36,Self-employed,High School,Rural,Yes,0
+131259,157598,618.0,105664,13.9,48,Salaried,High School,Urban,No,0
+88317,121347,607.0,55512,5.2,24,Self-employed,Graduate,Semiurban,Yes,0
+192946,42344,615.0,81912,18.1,24,Salaried,Postgraduate,Urban,No,0
+40338,98611,628.0,50371,5.1,36,Salaried,Postgraduate,Rural,Yes,0
+84953,102983,618.0,104654,7.0,12,Salaried,Graduate,Urban,No,0
+45651,108015,728.0,14333,4.4,36,Self-employed,Postgraduate,Urban,Yes,0
+84315,13751,503.0,30494,7.5,60,Self-employed,Graduate,Rural,Yes,0
+193332,54907,723.0,11610,9.3,60,Salaried,Graduate,Semiurban,No,1
+89096,138192,618.0,84252,5.5,24,Self-employed,Graduate,Rural,Yes,0
+184001,46205,682.0,27927,13.1,36,Salaried,High School,Urban,No,1
+111636,54954,554.0,38056,7.0,36,Salaried,High School,Semiurban,No,0
+147448,58373,763.0,100396,7.1,36,Salaried,Graduate,Rural,No,1
+105048,36608,756.0,43221,2.4,36,Salaried,High School,Semiurban,No,0
+71527,33316,732.0,17499,7.7,12,Salaried,Postgraduate,Semiurban,No,1
+158740,62052,521.0,2516,5.5,48,Contract,Postgraduate,Urban,No,0
+194605,141147,720.0,27203,3.6,60,,Graduate,Semiurban,No,1
+71116,10230,684.0,109762,2.9,48,Salaried,Graduate,Rural,No,0
+161281,52487,514.0,65833,16.7,48,Salaried,Graduate,Semiurban,No,0
+70699,19094,648.0,119379,4.9,36,Salaried,High School,Rural,No,0
+150455,94223,681.0,25815,0.2,36,Salaried,Graduate,Semiurban,No,0
+163076,47590,,42177,3.2,24,Contract,High School,Semiurban,No,1
+103638,128796,665.0,19584,5.8,36,Self-employed,Graduate,Urban,Yes,1
+153960,97752,675.0,47805,8.2,12,Salaried,High School,Semiurban,No,1
+72642,127573,775.0,67597,8.2,48,Self-employed,High School,Rural,Yes,0
+38869,105236,754.0,96975,8.7,36,Salaried,High School,Semiurban,Yes,0
+41868,75757,406.0,44171,3.4,36,Salaried,Postgraduate,Urban,No,0
+103229,139145,623.0,92583,7.4,36,Salaried,High School,Semiurban,No,0
+182955,81438,636.0,75139,2.5,60,Salaried,Graduate,Semiurban,No,1
+47325,152490,501.0,35017,3.5,24,Salaried,Graduate,Rural,No,0
+104760,159205,658.0,109464,2.3,24,Self-employed,Graduate,Urban,Yes,0
+148205,98353,756.0,52109,1.2,24,Salaried,Graduate,Urban,No,1
+60413,111189,558.0,18119,,48,Contract,High School,Urban,No,0
+151282,48349,679.0,115523,8.8,60,Self-employed,Graduate,Urban,Yes,1
+78542,132195,572.0,109612,9.9,24,Self-employed,Graduate,Rural,Yes,0
+166515,110738,593.0,5944,6.2,60,Self-employed,Graduate,Urban,Yes,0
+126363,145383,776.0,108298,9.1,24,Contract,Graduate,Semiurban,No,0
+120708,50051,604.0,113685,0.0,36,Salaried,Graduate,Urban,No,0
+55935,128138,689.0,99490,9.5,12,Salaried,,Urban,No,0
+106061,80541,491.0,30599,6.7,36,Salaried,High School,Rural,No,0
+174907,37776,808.0,75754,8.5,48,Contract,,Semiurban,No,1
+28416,35679,701.0,64588,7.5,36,Salaried,High School,Urban,No,0
+157740,94325,634.0,74417,2.1,24,Salaried,Graduate,Urban,No,0
+111233,57917,699.0,73973,0.0,48,Self-employed,Graduate,Rural,Yes,1
+150906,25284,530.0,76705,3.2,60,Salaried,High School,Rural,No,0
+141077,74071,751.0,61680,8.3,36,Contract,High School,Urban,No,1
+100616,107938,622.0,82859,8.8,36,Salaried,Graduate,Semiurban,Yes,0
+79016,57842,633.0,63192,0.5,48,Salaried,Graduate,Urban,No,1
+134779,153302,608.0,1977,2.1,24,Salaried,Postgraduate,Semiurban,No,1
+49539,126932,601.0,4233,3.1,60,Salaried,Postgraduate,Urban,No,0
+127217,86909,709.0,114971,4.6,24,Salaried,Postgraduate,Rural,No,0
+41571,150198,672.0,109110,0.6,48,Salaried,Graduate,Rural,No,0
+138723,74945,705.0,70272,0.3,24,Salaried,Graduate,Urban,No,1
+135030,30950,649.0,20950,2.7,24,Self-employed,Graduate,Semiurban,Yes,1
+39777,15376,694.0,93775,6.3,36,Contract,Graduate,Urban,No,0
+157560,150703,614.0,17194,1.3,36,Salaried,Graduate,Urban,No,0
+97766,153966,840.0,45273,5.5,60,Salaried,Graduate,Urban,No,1
+162705,120887,517.0,39583,10.2,60,Salaried,High School,Urban,No,0
+32282,25450,757.0,1487,0.8,24,Contract,High School,Rural,No,1
+56404,54047,766.0,96841,5.2,24,Self-employed,High School,Urban,Yes,0
+111448,16161,,61168,10.1,36,Salaried,High School,Rural,No,1
+57939,17687,839.0,37950,4.3,36,Salaried,Postgraduate,Urban,No,1
+82725,46909,735.0,60862,3.7,36,Contract,High School,Semiurban,No,0
+140604,95821,733.0,0,10.7,60,Contract,Graduate,Semiurban,No,1
+50291,19829,652.0,52438,4.8,48,Salaried,Postgraduate,Rural,No,0
+143598,157690,632.0,62349,10.4,12,Self-employed,Graduate,Urban,Yes,1
+43095,78267,632.0,40766,,36,Salaried,Graduate,Urban,No,0
+55657,49576,683.0,99645,4.6,36,Salaried,Graduate,Semiurban,No,0
+127837,87413,769.0,29979,7.9,36,Self-employed,Graduate,Semiurban,Yes,0
+163859,128523,665.0,16538,7.3,24,Salaried,Graduate,Semiurban,No,1
+54853,56885,573.0,63305,10.1,36,Salaried,Postgraduate,Urban,No,0
+77498,17127,720.0,106473,3.8,36,Contract,Graduate,Urban,No,0
+186896,17644,728.0,45033,6.2,24,Self-employed,Postgraduate,Rural,Yes,1
+198194,137797,706.0,5595,5.8,48,Salaried,Postgraduate,Semiurban,No,0
+126685,26740,713.0,116391,8.8,36,Self-employed,Graduate,Semiurban,Yes,1
+103231,105334,627.0,53315,1.9,36,Self-employed,Graduate,Urban,Yes,0
+85702,67675,571.0,20751,10.1,36,Salaried,Graduate,Urban,No,1
+132179,126627,576.0,73873,7.9,60,Contract,Graduate,Rural,No,0
+128410,19079,511.0,38359,0.7,24,Self-employed,Graduate,Semiurban,Yes,0
+76581,144668,670.0,112535,,24,Salaried,Graduate,Urban,No,0
+28990,114728,643.0,35275,14.9,36,Salaried,Postgraduate,Rural,No,0
+51512,77391,613.0,66016,10.0,36,Self-employed,Graduate,Semiurban,Yes,0
+192747,41053,399.0,65197,11.7,24,Contract,Graduate,Urban,No,0
+98177,156571,,29092,6.3,48,Salaried,Graduate,Urban,No,0
+109403,55310,745.0,59913,0.0,24,Salaried,Graduate,Semiurban,No,1
+106743,83576,594.0,13088,,12,Self-employed,Graduate,Urban,Yes,0
+161978,69118,681.0,77248,7.0,36,Salaried,Graduate,Semiurban,No,0
+36367,44582,532.0,90998,3.6,48,,Graduate,Semiurban,No,0
+39477,72491,772.0,114000,2.3,60,Contract,Graduate,Urban,No,0
+73273,32722,638.0,39093,5.7,48,Self-employed,Graduate,Rural,Yes,0
+110165,10249,675.0,34226,8.5,36,Contract,High School,Urban,No,0
+142446,53498,848.0,65857,,48,Self-employed,Graduate,Urban,Yes,1
+110873,26810,779.0,83132,4.2,48,Salaried,Postgraduate,Semiurban,No,0
+102204,72216,624.0,119095,12.0,24,Contract,Graduate,Semiurban,No,0
+189119,139414,600.0,3004,1.7,36,Salaried,Postgraduate,Urban,No,1
+53178,34385,622.0,28596,9.5,48,Salaried,High School,Semiurban,No,0
+125052,10184,693.0,31486,4.1,36,Contract,Graduate,Rural,No,1
+119892,26664,641.0,30645,8.2,48,Self-employed,,Rural,Yes,1
+107860,86225,616.0,55646,10.4,36,Contract,Graduate,Rural,No,1
+166329,51225,775.0,104749,9.0,36,Salaried,Graduate,Urban,No,1
+71720,83425,640.0,3719,9.6,12,Contract,Graduate,Urban,No,0
+191910,14387,845.0,97900,1.4,48,Self-employed,Postgraduate,Semiurban,Yes,1
+83024,59964,658.0,74120,10.5,60,Self-employed,Graduate,Urban,Yes,0
+120375,71520,802.0,73823,2.6,24,Contract,High School,Semiurban,No,0
+116117,74699,680.0,81397,7.0,36,,Graduate,Urban,No,1
+173711,92673,732.0,13849,,12,Self-employed,Graduate,Urban,Yes,1
+101809,127087,588.0,89607,7.9,12,Self-employed,Graduate,Urban,Yes,0
+74797,80084,577.0,29775,7.3,60,Self-employed,Graduate,Urban,Yes,0
+28782,136180,689.0,61988,2.6,36,Contract,Graduate,Urban,No,0
+88643,89460,734.0,81225,0.6,36,Self-employed,Graduate,Semiurban,Yes,0
+169601,49052,653.0,72473,9.5,24,Salaried,Graduate,Semiurban,No,1
+26735,44352,541.0,38774,6.7,60,Salaried,Graduate,Urban,No,0
+181828,58373,534.0,47527,10.6,24,Contract,Graduate,Urban,No,1
+119994,99619,529.0,57181,,48,Contract,Graduate,Rural,No,0
+49543,46372,500.0,4950,0.4,24,Contract,Postgraduate,Urban,No,0
+77881,147126,659.0,87125,9.9,12,Salaried,Graduate,Semiurban,No,0
+121956,81979,746.0,11994,4.5,48,Salaried,Postgraduate,Semiurban,No,1
+80246,139490,649.0,55030,7.4,12,Self-employed,High School,Semiurban,Yes,0
+44000,112488,458.0,78599,3.4,48,Self-employed,Graduate,Rural,Yes,0
+141548,60002,634.0,9647,12.6,24,Salaried,Graduate,Semiurban,No,1
+142642,44237,636.0,119466,2.5,48,Self-employed,Graduate,Rural,Yes,0
+45802,121591,828.0,45266,4.7,48,Salaried,Graduate,Rural,Yes,1
+74215,59610,526.0,1896,6.4,48,Salaried,Graduate,Urban,No,0
+67677,47030,617.0,79036,1.6,12,Salaried,Graduate,Urban,No,0
+140398,149557,795.0,66910,7.3,48,Salaried,Postgraduate,Urban,No,1
+152801,82394,688.0,76839,12.4,60,Salaried,Graduate,Urban,No,1
+152224,17285,698.0,90121,4.0,24,Contract,High School,Semiurban,No,0
+189283,84215,660.0,57076,7.6,24,Self-employed,Graduate,Urban,Yes,1
+159513,79115,678.0,99212,0.0,48,Contract,,Urban,No,0
+81118,139595,716.0,44417,5.8,24,Salaried,High School,Urban,No,0
+43854,116733,581.0,65424,4.7,48,Salaried,,Semiurban,No,0
+132562,38703,725.0,19021,2.7,48,Salaried,Graduate,Semiurban,No,1
+185302,32568,533.0,74389,10.3,12,Self-employed,High School,Rural,Yes,1
+195652,100539,678.0,31391,4.7,36,Salaried,Graduate,Urban,No,1
+65287,17106,665.0,83606,5.3,36,Self-employed,Graduate,Urban,Yes,1
+66379,57852,598.0,96126,4.5,36,Self-employed,Graduate,Rural,Yes,0
+31547,30730,648.0,103075,0.0,60,Contract,Graduate,Semiurban,No,0
+49720,13084,597.0,111489,1.5,24,Salaried,High School,Semiurban,No,0
+122099,147823,559.0,14674,9.8,36,Salaried,Postgraduate,Semiurban,Yes,0
+120690,23473,620.0,16558,0.0,48,Salaried,Graduate,Urban,No,0
+89911,11388,556.0,111141,2.9,24,Salaried,High School,Rural,No,0
+79242,149933,677.0,45699,4.4,48,Self-employed,Postgraduate,Semiurban,Yes,0
+170213,38248,552.0,3122,13.0,12,Salaried,High School,Semiurban,No,0
+105505,132483,711.0,34438,9.1,36,Self-employed,Graduate,Semiurban,Yes,1
+166444,14692,550.0,100343,3.8,12,Salaried,Graduate,Urban,No,0
+193562,33033,602.0,42598,11.2,48,Contract,Postgraduate,Urban,No,0
+80499,26594,597.0,9208,3.0,48,Contract,Postgraduate,Semiurban,No,0
+60479,115939,763.0,86653,10.0,48,Salaried,Graduate,Semiurban,No,0
+191757,103022,678.0,23355,0.6,60,Contract,Graduate,Urban,No,0
+136095,81325,632.0,42336,10.3,48,Salaried,Graduate,Urban,No,0
+75910,46245,692.0,467,4.4,48,Self-employed,Graduate,Rural,Yes,1
+133825,23328,471.0,72239,1.9,36,Contract,Graduate,Urban,No,0
+115134,95381,646.0,53430,5.1,60,Self-employed,High School,Urban,Yes,0
+183468,44607,820.0,104045,7.1,36,Self-employed,High School,Semiurban,Yes,1
+69793,98529,661.0,40123,4.0,60,Salaried,High School,Rural,No,1
+198491,113120,656.0,24552,8.2,24,Self-employed,High School,Semiurban,Yes,1
+188807,137415,,19919,3.7,36,Self-employed,Graduate,Rural,Yes,0
+56622,84097,726.0,24019,8.5,48,Salaried,Postgraduate,Urban,No,0
+53806,10711,480.0,54130,7.8,24,Salaried,Graduate,Rural,No,0
+118302,52100,507.0,10459,,24,Self-employed,Graduate,Rural,Yes,0
+32859,138005,668.0,48284,4.2,60,Self-employed,Postgraduate,Semiurban,Yes,0
+77289,89987,589.0,102561,6.6,36,Salaried,Graduate,Semiurban,No,0
+101141,102867,,92119,8.2,24,Contract,Graduate,Urban,No,0
+194640,78673,623.0,76471,14.2,36,,Postgraduate,Urban,Yes,1
+198665,34411,486.0,107175,9.8,36,Salaried,Graduate,Urban,No,1
+51519,144505,542.0,93625,9.9,36,Salaried,Graduate,Urban,No,0
+181043,125940,416.0,78308,18.4,60,Self-employed,Postgraduate,Rural,Yes,1
+40912,159277,630.0,103568,8.1,60,Self-employed,Graduate,Urban,Yes,0
+156006,138323,,14929,7.9,48,Salaried,Graduate,Semiurban,No,0
+172987,53669,614.0,98191,8.8,48,Salaried,Postgraduate,Urban,No,1
+180888,48139,,35446,2.0,36,Self-employed,Graduate,Urban,Yes,1
+64098,47271,752.0,87967,4.2,60,Self-employed,Postgraduate,Urban,Yes,0
+181353,147819,636.0,109598,4.0,24,Self-employed,High School,Urban,Yes,0
+45296,93540,469.0,59523,8.6,24,Salaried,High School,Semiurban,No,0
+115800,78168,702.0,10648,,60,Self-employed,Graduate,Rural,Yes,0
+107170,155239,697.0,44427,6.6,60,Salaried,High School,Urban,No,1
+80287,100513,676.0,48822,10.3,36,Salaried,Postgraduate,Rural,No,0
+28869,146414,733.0,112408,9.5,48,Self-employed,High School,Semiurban,Yes,0
+160102,157697,551.0,113100,5.4,36,Self-employed,Graduate,Semiurban,Yes,0
+83727,21916,821.0,68215,3.3,36,Salaried,High School,Urban,No,1
+140790,64230,568.0,114079,10.5,24,Self-employed,Postgraduate,Urban,Yes,0
+96788,120120,714.0,52354,9.1,24,Salaried,Graduate,Rural,No,0
+90390,131973,,49344,0.0,36,Salaried,High School,Semiurban,No,0
+180101,32272,571.0,100380,4.7,36,Salaried,High School,Urban,No,1
+41531,57759,779.0,80087,6.7,36,Salaried,Graduate,Rural,Yes,1
+153908,92225,628.0,62685,9.1,24,Self-employed,Postgraduate,Urban,Yes,1
+155688,129882,721.0,54809,9.6,60,Self-employed,Postgraduate,Semiurban,Yes,1
+91498,26945,670.0,84672,7.1,36,Self-employed,Graduate,Urban,Yes,0
+70930,100110,641.0,90415,8.3,60,Salaried,Graduate,Rural,No,0
+25928,54466,766.0,58870,6.3,24,Salaried,High School,Urban,No,0
+188942,42453,630.0,3789,3.3,36,Salaried,Graduate,Urban,No,1
+190853,87309,499.0,12220,5.0,48,Self-employed,Graduate,Semiurban,Yes,1
+67169,72103,582.0,17298,6.1,36,Salaried,Graduate,Urban,No,0
+30584,105356,697.0,55450,5.9,24,Salaried,Graduate,Rural,No,0
+46482,57645,684.0,73703,0.0,24,Self-employed,Postgraduate,Semiurban,Yes,0
+36837,133491,517.0,96452,4.4,24,Self-employed,High School,Urban,Yes,0
+170444,21716,588.0,27906,6.2,36,Salaried,High School,Urban,No,0
+181084,139281,601.0,94391,4.9,36,Salaried,High School,Rural,No,0
+51824,14475,619.0,79926,5.0,24,Self-employed,High School,Semiurban,Yes,0
+155679,120384,533.0,6198,8.0,36,Salaried,High School,Rural,No,0
+56371,61971,597.0,42146,1.7,12,Salaried,Graduate,Urban,No,0
+89261,67500,588.0,36319,0.0,36,Contract,High School,Rural,No,0
+129891,12855,716.0,106397,4.6,48,Salaried,Graduate,Semiurban,No,1
+150987,115315,719.0,110543,9.1,24,Salaried,Postgraduate,Semiurban,No,0
+178048,34823,638.0,98311,12.8,24,Salaried,,Urban,No,1
+32837,108873,617.0,63360,9.1,24,Salaried,Graduate,Urban,No,0
+59376,118777,662.0,59140,0.1,12,Salaried,High School,Rural,No,0
+74089,136785,581.0,37378,5.1,36,Salaried,High School,Rural,No,0
+79306,116213,553.0,92747,7.0,12,,High School,Urban,No,0
+199654,55225,570.0,10353,6.7,24,Salaried,Postgraduate,Rural,No,1
+161045,120787,596.0,32536,8.2,60,Contract,Postgraduate,Urban,No,0
+81073,133892,551.0,16225,,60,,Graduate,Urban,No,0
+195069,57572,664.0,59311,6.3,24,Salaried,Graduate,Urban,No,1
+112378,28626,712.0,35970,7.7,36,Salaried,Graduate,Urban,No,1
+112629,143502,515.0,23697,9.3,36,Self-employed,Graduate,Urban,Yes,1
+100897,32190,652.0,45169,2.8,48,Contract,Postgraduate,Urban,No,0
+50182,99074,631.0,103306,4.6,48,Contract,High School,Urban,No,0
+188515,45442,679.0,66961,0.0,24,Salaried,Graduate,Semiurban,No,0
+27438,28903,649.0,98768,3.5,24,Salaried,Graduate,Rural,No,0
+55498,126462,526.0,109668,3.9,36,Salaried,High School,Semiurban,No,0
+65189,31557,543.0,108257,1.9,60,Self-employed,Graduate,Urban,Yes,0
+73877,110533,653.0,42120,6.7,60,Salaried,Postgraduate,Semiurban,No,0
+48068,113964,737.0,105297,5.8,24,Salaried,High School,Urban,No,0
+28143,19034,462.0,109125,0.0,36,Salaried,Graduate,Semiurban,No,0
+143590,35941,679.0,115151,6.9,24,Salaried,Graduate,Semiurban,Yes,0
+194629,129154,751.0,42120,2.3,48,Self-employed,High School,Urban,Yes,1
+46320,86093,637.0,27400,7.9,60,Salaried,High School,Urban,No,0
+76893,28202,697.0,70112,0.9,36,Self-employed,Graduate,Rural,Yes,0
+113607,158766,590.0,111818,6.1,12,Self-employed,High School,Rural,Yes,0
+187312,49748,640.0,108074,4.9,36,Self-employed,Graduate,Semiurban,Yes,0
+146495,10601,512.0,68545,7.2,36,Salaried,Postgraduate,Rural,No,1
+159082,148624,451.0,17908,6.5,48,Self-employed,Graduate,Rural,Yes,0
+126695,12486,730.0,50699,5.0,36,Self-employed,Postgraduate,Urban,Yes,1
+97981,93003,566.0,85694,0.0,60,Salaried,Graduate,Semiurban,No,0
+59960,158962,611.0,67244,0.1,24,Salaried,Graduate,Urban,No,0
+176255,96671,532.0,41456,3.7,24,Self-employed,Graduate,Semiurban,Yes,0
+165721,97695,530.0,41112,6.0,36,Salaried,High School,Urban,No,1
+29392,68226,635.0,7169,3.6,12,Salaried,Graduate,Rural,No,0
+150196,29036,588.0,34626,8.5,24,Salaried,Graduate,Semiurban,No,1
+39767,95903,682.0,80325,4.9,48,Salaried,Graduate,Urban,No,0
+154322,144595,688.0,28957,2.1,24,Salaried,Graduate,Urban,Yes,1
+169541,23665,677.0,119207,4.9,24,Self-employed,High School,Urban,Yes,1
+47935,142057,670.0,9891,6.9,24,Salaried,Postgraduate,Semiurban,No,0
+100921,72256,784.0,70652,7.3,12,Self-employed,High School,Rural,Yes,0
+46656,90430,559.0,59587,13.5,60,Salaried,Postgraduate,Urban,No,0
+124274,34810,645.0,99996,3.3,60,Salaried,Postgraduate,Semiurban,Yes,0
+187323,103268,746.0,106531,5.7,12,Salaried,Postgraduate,Semiurban,No,0
+39152,37352,757.0,65217,7.7,48,Self-employed,Graduate,Urban,Yes,0
+94576,50978,529.0,75618,5.9,48,Contract,High School,Semiurban,No,0
+195296,118241,623.0,83874,4.0,60,Salaried,Graduate,Urban,No,1
+77666,17577,765.0,62517,0.0,36,Salaried,Graduate,Urban,No,0
+48137,77077,693.0,22186,4.0,24,Salaried,Graduate,Urban,No,0
+110502,99185,667.0,51431,1.7,36,Salaried,Graduate,Rural,No,0
+113965,29804,631.0,28986,0.0,60,Self-employed,High School,Urban,Yes,0
+141001,54213,617.0,55728,2.8,48,Salaried,Graduate,Urban,No,0
+79904,61525,674.0,73818,1.8,36,Contract,Graduate,Semiurban,No,0
+192234,109543,629.0,25113,8.3,24,Salaried,Graduate,Rural,No,0
+116178,156506,646.0,29931,8.4,48,Salaried,Postgraduate,Semiurban,No,0
+75128,135436,657.0,98752,2.4,60,Self-employed,Graduate,Urban,Yes,0
+193049,38464,592.0,45327,5.0,36,Salaried,Graduate,Semiurban,No,1
+186841,12724,695.0,23805,0.0,48,Self-employed,Graduate,Urban,Yes,1
+112353,17786,850.0,85580,4.0,36,Salaried,Graduate,Semiurban,No,1
+29350,99357,499.0,85994,7.6,36,Self-employed,Graduate,Urban,Yes,0
+129463,33439,678.0,99139,9.3,36,Salaried,High School,Urban,Yes,1
+122159,44692,585.0,91198,3.1,48,,High School,Urban,No,0
+50936,137108,699.0,119036,10.2,60,Self-employed,Graduate,Semiurban,Yes,0
+135945,141083,654.0,68984,0.0,36,Salaried,,Urban,No,0
+172138,135854,715.0,34418,1.0,36,Salaried,Graduate,Urban,No,1
+43532,48049,750.0,103551,8.8,36,Self-employed,High School,Semiurban,Yes,0
+151581,102952,666.0,31777,12.7,24,Salaried,Graduate,Semiurban,No,1
+49559,101615,746.0,34926,8.0,24,Contract,High School,Urban,No,0
+156044,37787,451.0,99419,5.8,12,Self-employed,Graduate,Semiurban,Yes,0
+98345,93031,785.0,105794,0.0,36,Self-employed,Graduate,Semiurban,Yes,0
+26139,88788,682.0,40720,0.0,24,Salaried,Graduate,Urban,No,0
+194090,69424,742.0,87529,6.5,36,Salaried,High School,Rural,No,1
+54044,122749,546.0,110687,4.6,48,Contract,Postgraduate,Rural,No,0
+129307,111643,579.0,95849,1.6,24,Salaried,Graduate,Urban,No,0
+56756,89898,662.0,599,6.3,36,Salaried,Graduate,Urban,No,0
+188279,118865,649.0,79749,6.5,60,Salaried,Graduate,Urban,No,1
+154206,124466,674.0,20386,9.8,36,Salaried,Postgraduate,Urban,No,1
+165763,95040,742.0,101561,,24,Salaried,Postgraduate,Semiurban,No,1
+100613,50151,500.0,8044,10.9,36,Self-employed,Graduate,Rural,Yes,0
+106791,123763,733.0,119171,,36,Self-employed,Graduate,Rural,Yes,1
+136002,117642,651.0,21279,5.5,36,Contract,High School,Urban,No,0
+162333,157512,633.0,50419,10.3,24,Salaried,Graduate,Urban,No,0
+173221,32467,525.0,28090,2.1,36,,Graduate,Urban,No,0
+28121,72890,693.0,97669,17.3,36,Salaried,High School,Semiurban,No,0
+141123,148634,445.0,47219,7.5,24,Self-employed,Postgraduate,Urban,Yes,0
+44100,87187,705.0,89349,7.5,36,Salaried,Postgraduate,Rural,No,1
+75388,151393,523.0,8066,8.1,12,Salaried,Graduate,Rural,No,0
+170150,11870,655.0,54344,13.5,36,Salaried,Postgraduate,Urban,No,1
+68839,15275,640.0,109326,9.2,48,Self-employed,Graduate,Semiurban,Yes,0
+164442,129404,,111233,0.0,24,Self-employed,Graduate,Semiurban,Yes,0
+106026,63764,635.0,25043,11.6,36,,Postgraduate,Rural,No,1
+65712,88034,591.0,47331,4.6,36,Salaried,Graduate,Semiurban,No,0
+83492,74201,607.0,49093,6.4,36,Contract,Graduate,Urban,No,0
+117884,71194,758.0,67855,0.9,60,Salaried,Graduate,Semiurban,No,0
+158900,150921,696.0,64480,8.1,36,Salaried,High School,Urban,Yes,1
+131052,24110,617.0,12713,,24,Salaried,Graduate,Semiurban,No,0
+188314,125832,630.0,91520,6.4,60,Salaried,Graduate,Urban,No,1
+176854,143448,517.0,27093,4.9,48,Salaried,Graduate,Semiurban,No,0
+156836,108611,683.0,37792,13.7,48,Salaried,High School,Rural,No,1
+130543,69251,500.0,100883,13.9,12,Salaried,High School,Urban,No,0
+75724,34002,714.0,82758,6.2,24,Self-employed,Graduate,Urban,Yes,0
+97200,112387,661.0,47586,6.3,36,Self-employed,High School,Semiurban,Yes,0
+45806,80319,850.0,109496,4.5,24,Self-employed,Graduate,Urban,Yes,0
+90482,32406,556.0,47290,10.4,24,Salaried,Graduate,Semiurban,Yes,0
+187132,63947,641.0,67859,4.7,48,Salaried,Graduate,Semiurban,No,1
+99529,154232,803.0,29517,4.3,24,Self-employed,High School,Urban,Yes,0
+44902,49807,751.0,21983,9.9,12,Salaried,Postgraduate,Rural,No,1
+139087,36766,591.0,58993,3.8,12,Salaried,Graduate,Semiurban,No,1
+193457,112296,669.0,67562,5.8,36,Salaried,Graduate,Semiurban,No,1
+176810,39931,650.0,96698,0.0,36,Self-employed,Graduate,Urban,Yes,1
+72963,147986,674.0,46908,8.8,60,Salaried,Graduate,Urban,No,0
+104431,138847,591.0,107419,13.8,24,Self-employed,Graduate,Urban,Yes,0
+117927,157529,642.0,72886,8.9,24,Salaried,Graduate,Rural,No,0
+68371,146887,514.0,8413,11.8,36,Salaried,Graduate,Rural,No,0
+72021,46564,661.0,88692,2.6,36,Salaried,Postgraduate,Rural,No,0
+66415,41822,688.0,68978,6.9,36,Salaried,Graduate,Urban,No,0
+199051,61395,631.0,46722,2.2,60,Salaried,Postgraduate,Semiurban,No,1
+155552,80470,513.0,56072,5.1,36,Self-employed,Graduate,Semiurban,Yes,1
+172149,141999,734.0,36214,9.1,36,Salaried,Postgraduate,Semiurban,No,1
+167899,120024,681.0,73713,6.4,60,Salaried,Postgraduate,Urban,No,1
+192850,106665,588.0,68034,0.3,12,Self-employed,High School,Rural,Yes,1
+43423,141754,626.0,53673,0.7,60,Salaried,High School,Urban,No,0
+179285,106883,522.0,34223,0.5,36,Salaried,Graduate,Urban,No,0
+36647,66857,563.0,47837,8.0,36,Salaried,Graduate,Rural,No,0
+108198,71950,604.0,59740,14.3,60,Salaried,Graduate,Semiurban,No,1
+129025,87552,754.0,56625,11.4,36,Salaried,Graduate,Urban,No,0
+87625,23315,596.0,37115,0.0,36,Self-employed,Postgraduate,Semiurban,Yes,0
+50580,121257,704.0,69839,11.7,24,Salaried,Graduate,Rural,No,0
+58652,107916,604.0,27185,9.7,48,Self-employed,Graduate,Urban,Yes,0
+169316,119670,671.0,60117,0.0,36,Salaried,High School,Semiurban,No,1
+80776,90091,638.0,14585,4.8,24,Self-employed,Graduate,Urban,Yes,1
+79308,127444,724.0,56657,10.4,48,Self-employed,High School,Urban,Yes,0
+186588,152462,605.0,94077,8.2,36,Salaried,Graduate,Urban,No,0
+50177,95490,516.0,98140,0.8,36,Salaried,Graduate,Semiurban,No,0
+185171,76657,533.0,83363,8.4,12,Salaried,Graduate,Urban,No,0
+186169,25692,605.0,89477,0.0,36,Contract,Graduate,Urban,No,1
+129747,126801,544.0,7913,5.1,12,Contract,Graduate,Semiurban,No,0
+53968,145595,685.0,40965,10.6,12,,High School,Semiurban,No,0
+52275,114923,610.0,78510,6.1,36,Self-employed,High School,Semiurban,Yes,0
+74826,139835,850.0,96069,4.0,12,Salaried,Postgraduate,Rural,No,0
+126047,139179,502.0,69941,9.6,24,Salaried,Postgraduate,Urban,No,0
+51882,129714,667.0,102438,9.9,48,Self-employed,Graduate,Urban,Yes,0
+104740,85432,554.0,32767,11.2,36,Salaried,Graduate,Semiurban,No,0
+45210,24979,608.0,18419,9.5,60,Salaried,Graduate,Semiurban,No,0
+119549,10486,662.0,10365,10.3,60,Self-employed,Graduate,Urban,Yes,1
+28700,40659,452.0,69921,8.9,36,Salaried,Graduate,Urban,No,0
+149081,74653,670.0,79822,7.1,60,Self-employed,High School,Urban,Yes,1
+34694,121540,812.0,34237,6.4,60,Salaried,Graduate,Urban,No,0
+59093,78371,611.0,94038,5.1,36,Salaried,Graduate,Rural,No,0
+55562,13471,672.0,88700,1.2,48,Salaried,Graduate,Semiurban,No,0
+170423,41551,737.0,43216,2.2,24,Contract,High School,Urban,No,0
+34341,156883,636.0,28654,4.9,48,Salaried,Graduate,Semiurban,No,0
+100120,158203,601.0,89078,7.0,36,Salaried,Graduate,Semiurban,No,0
+128450,66571,457.0,80568,11.8,12,Self-employed,Graduate,Urban,Yes,0
+115299,130747,704.0,20494,5.8,24,Contract,Graduate,Urban,No,1
+144125,117896,640.0,30614,10.0,60,Contract,Graduate,Semiurban,No,0
+165542,149690,564.0,58316,10.3,36,Salaried,Graduate,Urban,No,1
+93885,143135,,61337,5.1,24,Salaried,Postgraduate,Semiurban,No,0
+169938,104311,600.0,19915,8.4,24,Salaried,High School,Semiurban,No,0
+80648,69194,605.0,113837,5.0,36,Self-employed,Postgraduate,Semiurban,Yes,0
+197273,103998,702.0,46637,11.3,48,Contract,Graduate,Rural,No,1
+113292,57869,536.0,45756,8.5,48,Self-employed,Graduate,Semiurban,Yes,0
+153802,62213,739.0,7263,1.2,36,Salaried,Graduate,Semiurban,No,0
+178125,101311,531.0,105088,6.6,24,Salaried,Graduate,Urban,No,0
+163713,95709,594.0,28217,12.6,12,Salaried,High School,Semiurban,No,0
+173948,97148,813.0,118433,5.3,36,Salaried,Postgraduate,Rural,No,1
+118889,67701,746.0,59522,7.8,48,Salaried,Graduate,Rural,No,1
+32608,71370,658.0,104982,8.2,48,Salaried,Graduate,Rural,No,0
+111289,11528,570.0,21494,1.9,36,Self-employed,Graduate,Urban,Yes,0
+56762,100266,605.0,19903,,36,Contract,High School,Semiurban,No,0
+180595,96367,656.0,96133,0.4,36,Self-employed,High School,Rural,Yes,0
+66430,150307,653.0,98358,3.5,36,Contract,Graduate,Semiurban,No,0
+64912,85641,642.0,65171,10.3,36,Self-employed,Graduate,Semiurban,Yes,0
+68642,80146,647.0,3857,7.4,48,Self-employed,Graduate,Semiurban,Yes,1
+137449,20152,632.0,113246,4.8,36,Salaried,Graduate,Semiurban,No,0
+124965,39511,527.0,47196,7.8,60,Self-employed,Graduate,Urban,Yes,0
+191047,60705,606.0,112318,5.8,36,Salaried,Postgraduate,Urban,No,1
+97845,66580,728.0,104488,6.1,12,Salaried,High School,Rural,No,1
+74398,64402,534.0,102178,8.6,24,Salaried,Graduate,Rural,No,0
+33619,69116,634.0,82650,3.1,36,Self-employed,Graduate,Rural,Yes,0
+26238,125337,580.0,80790,6.2,36,Self-employed,Graduate,Urban,Yes,0
+90382,29666,659.0,63928,4.8,36,Contract,High School,Urban,No,0
+187018,59838,617.0,2973,0.0,48,Contract,High School,Urban,No,1
+116656,34430,776.0,46543,2.3,24,Contract,,Rural,No,1
+181370,56169,693.0,87664,12.3,48,Salaried,Graduate,Semiurban,No,1
+42792,112684,538.0,97475,7.5,48,Contract,High School,Rural,No,0
+41331,17014,707.0,67147,0.7,36,Self-employed,Graduate,Urban,Yes,0
+170855,60921,584.0,85147,0.0,36,Contract,High School,Semiurban,No,0
+43679,13552,601.0,2609,5.6,24,Salaried,High School,Semiurban,No,0
+34093,153234,677.0,56208,12.2,36,Salaried,Graduate,Urban,No,0
+95716,119088,608.0,60927,5.3,48,Contract,High School,Rural,No,0
+186847,46539,726.0,107098,11.2,60,Salaried,Postgraduate,Semiurban,No,1
+145642,39729,584.0,37326,7.4,36,Salaried,Graduate,Urban,No,0
+42344,24838,597.0,27593,7.9,24,Salaried,High School,Urban,Yes,0
+171497,80931,594.0,42285,0.7,48,Salaried,High School,Rural,No,0
+172625,123025,602.0,20446,9.8,48,Salaried,Graduate,Semiurban,No,0
+165121,97631,743.0,67010,4.7,36,,,Semiurban,No,0
+182964,142155,703.0,77136,9.5,48,Contract,,Semiurban,No,1
+66978,61572,795.0,96134,2.7,12,Contract,Graduate,Urban,No,0
+196424,51717,843.0,116639,6.7,12,Salaried,Graduate,Semiurban,No,1
+81121,81707,562.0,8832,7.4,24,Salaried,Graduate,Rural,No,0
+165354,40313,656.0,29670,5.4,24,Salaried,,Urban,No,1
+126388,156346,550.0,36085,7.6,60,Salaried,Graduate,Semiurban,No,0
+161408,37864,584.0,29960,4.9,36,Salaried,Graduate,Urban,No,1
+134868,81830,596.0,99273,3.4,24,Self-employed,Graduate,Urban,Yes,1
+137434,88301,560.0,16739,12.4,36,Contract,Postgraduate,Urban,No,1
+132849,18556,561.0,3568,10.2,36,Salaried,Graduate,Rural,No,1
+161324,80262,638.0,103267,3.0,36,Salaried,Postgraduate,Urban,No,0
+154332,78205,547.0,115382,8.3,24,Salaried,Postgraduate,Urban,No,0
+48546,48915,722.0,27167,,48,Salaried,High School,Semiurban,No,0
+169559,29195,572.0,39942,1.3,24,Salaried,Graduate,Urban,No,0
+118811,16775,850.0,60381,10.1,48,Salaried,Graduate,Semiurban,No,1
+81539,11287,612.0,63113,0.0,24,Salaried,Graduate,Rural,No,0
+114989,82223,656.0,118904,9.7,48,Salaried,Graduate,Urban,No,0
+194222,23476,540.0,48498,5.0,48,Self-employed,Postgraduate,Urban,Yes,0
+175075,153899,795.0,1456,5.2,24,Salaried,,Rural,No,1
+170897,46712,745.0,50730,7.6,12,Salaried,Graduate,Urban,No,1
+105989,107877,675.0,66778,8.3,60,Salaried,High School,Urban,No,0
+162224,111023,536.0,62026,2.7,36,Salaried,Graduate,Rural,No,0
+92390,84325,668.0,61474,8.9,36,Salaried,Postgraduate,Rural,No,0
+145078,142541,555.0,110713,6.5,12,Self-employed,Graduate,Semiurban,Yes,0
+136923,26603,,96893,1.0,24,Contract,High School,Semiurban,No,1
+68714,45104,719.0,30204,,36,Self-employed,Postgraduate,Rural,Yes,0
+71631,47865,658.0,42633,11.5,60,Salaried,Postgraduate,Semiurban,No,1
+35698,30312,443.0,80109,12.7,24,Salaried,Graduate,Semiurban,No,0
+49459,54216,566.0,49240,8.9,48,Salaried,High School,Rural,No,0
+100883,56903,708.0,51408,1.2,48,Salaried,Graduate,Semiurban,No,0
+108628,124720,753.0,20152,8.0,24,Contract,High School,Semiurban,No,1
+53896,55243,744.0,30524,9.4,24,Salaried,Graduate,Urban,Yes,1
+97955,141506,515.0,88897,8.9,24,,Graduate,Semiurban,Yes,0
+130731,125901,676.0,101151,9.1,36,Salaried,Postgraduate,Semiurban,No,1
+65699,145246,736.0,94165,7.5,36,Salaried,Graduate,Urban,No,0
+84191,25783,509.0,36940,5.7,36,Contract,Postgraduate,Urban,No,0
+89314,157685,649.0,16399,3.6,24,Salaried,Postgraduate,Rural,Yes,0
+113384,102094,673.0,19163,0.0,48,Salaried,High School,Urban,No,0
+89118,157355,624.0,47214,7.4,36,Salaried,High School,Urban,No,0
+153965,63226,493.0,62130,6.7,36,Self-employed,Graduate,Urban,Yes,0
+82311,152949,622.0,107148,8.2,36,Salaried,Graduate,Urban,No,0
+100931,98290,622.0,107859,0.6,24,Self-employed,Graduate,Semiurban,Yes,0
+91406,20773,637.0,324,8.6,48,Salaried,Graduate,Urban,No,1
+57010,71518,602.0,84907,14.2,36,Salaried,Graduate,Urban,No,0
+145005,30669,612.0,35851,6.3,36,Contract,Graduate,Rural,No,1
+66203,151191,647.0,23736,5.8,24,Salaried,Graduate,Urban,No,1
+76953,55669,688.0,66605,7.2,36,Salaried,High School,Urban,No,1
+163731,43354,624.0,4069,14.1,36,Salaried,High School,Rural,Yes,1
+191050,92934,615.0,40091,1.9,36,Salaried,High School,Semiurban,No,0
+142397,73774,658.0,66266,6.8,60,Salaried,Postgraduate,Semiurban,No,1
+185360,24546,487.0,32645,2.8,48,Self-employed,Postgraduate,Rural,Yes,0
+174483,132474,691.0,71207,3.8,24,Salaried,Graduate,Rural,No,0
+109159,136869,650.0,55204,5.8,48,Salaried,High School,Urban,No,0
+159800,121444,653.0,95928,11.4,36,Salaried,Graduate,Semiurban,No,0
+82463,102513,732.0,21782,13.2,60,Self-employed,High School,Semiurban,Yes,1
+105586,70383,484.0,6852,7.8,24,Salaried,Graduate,Urban,No,0
+118701,91354,482.0,63555,4.5,24,Salaried,Graduate,Rural,No,0
+193086,88149,673.0,30827,16.0,36,Self-employed,Postgraduate,Urban,Yes,1
+173498,34796,649.0,84803,4.3,24,Self-employed,High School,Rural,Yes,1
+110619,22271,664.0,11194,3.7,48,Contract,Graduate,Semiurban,No,0
+139202,47988,611.0,69035,0.0,36,Salaried,Postgraduate,Semiurban,No,0
+60412,78150,706.0,118780,11.6,24,Salaried,Graduate,Urban,No,0
+165768,34046,729.0,11173,9.9,36,Salaried,High School,Rural,No,1
+121781,26000,691.0,36218,15.7,60,Self-employed,Postgraduate,Semiurban,Yes,1
+118226,137789,628.0,101329,0.4,48,Salaried,Graduate,Urban,No,0
+159099,66249,471.0,64027,11.8,36,Salaried,Graduate,Urban,No,0
+135760,97634,715.0,20997,6.3,24,Salaried,Graduate,Semiurban,No,1
+37681,88604,754.0,25575,9.2,24,Self-employed,Postgraduate,Urban,Yes,1
+75427,120269,705.0,91777,0.0,60,Self-employed,Graduate,Semiurban,Yes,0
+55925,120971,575.0,103307,11.9,48,Salaried,Graduate,Semiurban,No,0
+153606,54404,707.0,43267,9.1,36,Contract,Graduate,Urban,No,1
+31150,137186,723.0,56859,5.8,60,Contract,High School,Semiurban,No,0
+60420,65687,782.0,93931,8.6,24,,Graduate,Urban,No,0
+129552,135280,576.0,21231,2.9,48,,High School,Rural,No,0
+146589,70728,631.0,24752,3.7,24,Self-employed,Graduate,Rural,Yes,0
+113078,26649,714.0,92931,4.1,24,Salaried,Graduate,Urban,No,0
+175625,124002,655.0,22399,0.0,36,Salaried,Graduate,Semiurban,No,0
+185814,14524,555.0,92497,9.4,36,Salaried,Graduate,Semiurban,No,0
+48117,125852,685.0,59643,10.8,60,Contract,Graduate,Rural,No,0
+191689,16474,699.0,118804,3.2,36,Salaried,Graduate,Urban,No,1
+132516,41022,657.0,3952,7.4,48,Self-employed,High School,Semiurban,Yes,1
+136338,100504,669.0,113514,4.9,48,Salaried,Postgraduate,Rural,No,1
+41641,151230,628.0,27035,7.3,48,Salaried,Postgraduate,Urban,No,0
+133827,71271,,4209,3.5,60,Contract,Graduate,Semiurban,No,1
+152000,28098,573.0,86881,2.5,36,Salaried,Graduate,Urban,No,1
+126638,44936,600.0,63903,10.2,36,Salaried,High School,Semiurban,No,0
+39786,144418,651.0,100486,5.7,24,,High School,Urban,Yes,0
+116564,119010,725.0,13002,14.1,24,,Graduate,Rural,Yes,0
+188789,25059,523.0,9694,6.2,60,Salaried,Postgraduate,Urban,No,0
+151597,67734,539.0,68069,2.3,36,Salaried,Graduate,Urban,No,0
+49046,49680,477.0,105849,10.9,36,Salaried,Graduate,Rural,No,0
+192989,36674,653.0,48691,8.5,24,Salaried,Postgraduate,Rural,No,1
+192804,136971,555.0,95702,8.9,36,Salaried,Graduate,Semiurban,No,0
+54644,102656,617.0,108745,10.8,48,,,Semiurban,No,0
+165154,36923,706.0,104362,3.4,24,Salaried,Graduate,Urban,No,1
+96175,107604,595.0,61040,5.5,48,Salaried,High School,Semiurban,No,0
+128894,72035,670.0,83811,5.3,36,Self-employed,Postgraduate,Urban,Yes,1
+102907,19221,625.0,63079,0.8,48,Self-employed,Graduate,Urban,Yes,0
+161959,77478,707.0,80898,4.9,24,Salaried,Graduate,Rural,No,1
+199415,37784,690.0,68050,11.3,36,Salaried,Graduate,Semiurban,No,1
+164145,46788,591.0,63011,6.9,24,Salaried,Postgraduate,Urban,No,1
+187990,141849,636.0,52416,0.6,36,Contract,Graduate,Urban,No,1
+190554,116536,739.0,78334,0.0,48,Salaried,Graduate,Rural,No,0
+40768,30113,683.0,90131,12.7,36,Salaried,High School,Urban,No,0
+69342,137700,531.0,110293,5.6,24,Salaried,Postgraduate,Urban,No,0
+151324,96146,706.0,73587,3.4,60,Salaried,Graduate,Urban,No,1
+128263,141186,558.0,12062,4.9,12,Salaried,Graduate,Urban,No,0
+33775,122061,770.0,70497,0.1,36,Salaried,Postgraduate,Urban,No,0
+41633,60898,737.0,37891,11.7,60,Self-employed,High School,Rural,Yes,0
+116095,90230,675.0,3217,4.4,36,Self-employed,Graduate,Urban,Yes,1
+132828,89627,663.0,8694,11.5,48,Self-employed,Graduate,Semiurban,Yes,0
+54350,117991,632.0,70956,6.2,36,Self-employed,,Semiurban,Yes,0
+54975,47260,708.0,113376,11.7,48,Salaried,Graduate,Semiurban,No,0
+47634,59963,618.0,60668,7.0,48,Contract,,Semiurban,No,0
+123866,46719,670.0,53431,9.4,48,Self-employed,High School,Semiurban,Yes,1
+26374,54421,724.0,10639,,24,Self-employed,High School,Semiurban,Yes,1
+125175,34188,,81041,8.5,48,Self-employed,High School,Semiurban,Yes,1
+108287,15481,598.0,6656,7.4,24,Salaried,Postgraduate,Semiurban,No,0
+106547,151002,548.0,100934,5.1,60,Salaried,Graduate,Semiurban,No,0
+143873,21147,560.0,97968,13.7,24,Salaried,Graduate,Semiurban,No,0
+116460,143198,495.0,118920,2.4,24,Salaried,Graduate,Urban,No,0
+152356,10461,712.0,34113,6.0,60,Salaried,Graduate,Semiurban,No,1
+158686,126603,804.0,19413,6.1,24,Salaried,High School,Semiurban,No,1
+186020,59260,771.0,35944,7.6,36,Salaried,Graduate,Urban,No,1
+164867,87649,512.0,95941,4.3,48,Contract,Graduate,Rural,No,0
+115598,52333,712.0,26258,7.3,24,Self-employed,Graduate,Urban,Yes,1
+111126,83591,771.0,106490,5.3,24,Salaried,Graduate,Urban,No,0
+66249,77734,611.0,18502,0.0,36,Salaried,Postgraduate,Rural,No,1
+129928,89461,659.0,5865,6.0,24,Salaried,Postgraduate,Urban,No,1
+49348,68992,479.0,26322,1.6,24,Contract,High School,Urban,No,0
+187966,90485,673.0,90490,0.0,12,Self-employed,High School,Urban,Yes,0
+172882,133818,560.0,72273,6.5,36,Self-employed,High School,Rural,Yes,0
+45953,75184,667.0,42567,8.0,36,Salaried,Graduate,Semiurban,No,0
+162542,64206,517.0,78724,8.1,12,Salaried,Postgraduate,Semiurban,No,0
+45493,29763,696.0,77831,8.3,36,Self-employed,Postgraduate,Semiurban,Yes,0
+151214,63957,737.0,66566,0.0,36,Contract,Graduate,Semiurban,No,1
+40349,28849,583.0,61685,0.6,12,Salaried,Postgraduate,Rural,No,0
+110433,37375,553.0,12179,13.9,36,Salaried,Graduate,Rural,No,0
+140126,152837,467.0,31169,1.8,60,Salaried,Postgraduate,Urban,No,0
+152541,23412,627.0,63323,8.4,36,Salaried,Graduate,Rural,No,0
+98256,82304,601.0,16226,3.3,36,Contract,High School,Semiurban,No,0
+186284,135145,518.0,57100,6.3,36,Self-employed,High School,Urban,Yes,0
+160506,152980,689.0,14033,3.5,24,Salaried,Postgraduate,Urban,No,1
+61446,32007,612.0,94468,8.2,48,,Graduate,Semiurban,No,0
+142465,34536,559.0,12398,6.5,60,Salaried,Graduate,Urban,No,1
+152843,65889,603.0,11104,4.2,60,Salaried,Graduate,Semiurban,No,1
+83386,93162,741.0,76534,1.8,24,Salaried,Graduate,Urban,No,0
+154190,153971,701.0,26463,7.1,36,Self-employed,Postgraduate,Semiurban,Yes,1
+182214,41157,639.0,42169,1.1,24,Self-employed,High School,Urban,Yes,0
+167994,34659,703.0,37711,7.7,36,Salaried,High School,Rural,No,0
+158443,47977,551.0,25996,16.5,36,Self-employed,Graduate,Urban,Yes,1
+136037,141147,653.0,91413,11.4,36,Self-employed,Graduate,Urban,Yes,1
+72343,14508,663.0,83026,8.9,24,Salaried,High School,Urban,No,0
+164164,67020,610.0,28653,5.7,60,Self-employed,High School,Semiurban,Yes,1
+88733,27842,687.0,82421,0.0,24,Self-employed,High School,Semiurban,Yes,0
+118134,33560,584.0,85616,0.7,12,Self-employed,Graduate,Semiurban,Yes,0
+80026,147527,693.0,64700,11.1,60,Salaried,High School,Urban,No,0
+79777,10249,697.0,69406,2.8,48,Salaried,,Rural,No,0
+52582,58229,402.0,112194,3.2,36,Salaried,Graduate,Semiurban,No,0
+193227,147313,751.0,54465,5.3,36,Salaried,Postgraduate,Urban,No,0
+50862,101219,391.0,46249,1.8,24,Salaried,Postgraduate,Semiurban,No,0
+40095,20763,598.0,64680,1.1,24,Self-employed,Graduate,Semiurban,Yes,0
+188822,79752,737.0,100303,5.8,36,Salaried,Graduate,Semiurban,No,1
+122127,155641,623.0,85150,2.4,36,Salaried,Postgraduate,Urban,No,0
+101633,70067,525.0,9016,3.0,36,Contract,Graduate,Urban,No,0
+154060,89294,557.0,55113,2.9,24,Salaried,,Semiurban,No,0
+92080,89782,737.0,88779,8.1,48,Salaried,Graduate,Urban,No,0
+47386,109067,487.0,26870,5.1,48,Salaried,Graduate,Urban,No,0
+152694,38085,746.0,118613,5.3,24,Salaried,Graduate,Rural,No,1
+55799,135952,645.0,96972,8.4,12,Salaried,Graduate,Semiurban,No,0
+121773,158290,549.0,101591,5.4,36,Self-employed,High School,Urban,Yes,0
+191086,31383,,9806,4.9,48,Salaried,Postgraduate,Urban,No,0
+188824,132746,564.0,69559,7.9,48,Salaried,Graduate,Semiurban,No,0
+88137,132536,724.0,63334,8.7,48,Salaried,Graduate,Urban,No,1
+161552,121242,712.0,75211,5.4,36,Self-employed,High School,Urban,Yes,0
+132218,65631,504.0,102031,6.3,24,Salaried,Graduate,Urban,No,0
+108889,80313,,42394,2.9,36,Self-employed,Graduate,Semiurban,Yes,0
+49487,135881,577.0,64077,2.6,24,Salaried,High School,Semiurban,No,0
+90862,32931,,81538,9.1,48,Salaried,Graduate,Urban,No,0
+139085,134311,535.0,90382,,24,Salaried,Graduate,Urban,Yes,0
+197660,148099,786.0,92447,,24,Salaried,Postgraduate,Semiurban,No,0
+25855,112280,647.0,40432,7.1,36,Salaried,High School,Semiurban,No,0
+150608,61208,551.0,119787,6.2,36,Self-employed,Postgraduate,Semiurban,Yes,0
+173108,93872,592.0,1154,8.8,36,Salaried,Graduate,Urban,No,1
+191459,17516,582.0,59095,,36,Salaried,High School,Semiurban,No,0
+99165,149770,542.0,73052,9.6,60,Salaried,,Rural,No,0
+45733,61360,658.0,7356,5.6,48,Salaried,High School,Semiurban,No,0
+72419,18564,546.0,54139,11.5,60,Salaried,Graduate,Urban,No,1
+173843,129168,465.0,71502,6.9,36,Salaried,Graduate,Semiurban,No,0
+178638,108633,618.0,72913,8.5,36,Salaried,Graduate,Urban,No,1
+136487,103406,497.0,14282,7.1,36,Salaried,High School,Urban,No,1
+46479,18114,586.0,33301,7.0,36,Salaried,,Urban,No,0
+46336,122625,573.0,29371,3.1,36,Salaried,High School,Rural,No,0
+108680,105597,576.0,76790,8.8,36,Salaried,Graduate,Urban,No,1
+127945,129045,820.0,39453,17.4,12,Salaried,Postgraduate,Rural,No,1
+30666,134099,655.0,68574,4.5,12,Contract,Postgraduate,Semiurban,No,0
+145066,41793,,87723,6.3,60,Salaried,Graduate,Semiurban,No,0
+120289,41595,499.0,95673,4.2,12,Self-employed,Graduate,Urban,Yes,0
+27152,148567,594.0,22056,4.0,36,Salaried,High School,Semiurban,No,0
+41743,89654,668.0,108423,12.2,36,Salaried,High School,Urban,No,0
+104505,75698,563.0,19890,3.3,24,Salaried,Graduate,Semiurban,No,0
+151452,53080,727.0,2625,4.1,60,Salaried,High School,Urban,No,1
+169444,105852,548.0,5395,0.0,24,Self-employed,Graduate,Urban,Yes,0
+100477,123093,626.0,24124,3.0,60,Self-employed,High School,Semiurban,Yes,0
+76687,10346,600.0,104788,0.0,48,Salaried,Postgraduate,Urban,Yes,0
+194454,92895,664.0,24945,8.5,24,Self-employed,Postgraduate,Urban,Yes,1
+105245,159005,596.0,83220,17.2,24,Salaried,Postgraduate,Rural,No,0
+80193,52096,627.0,50219,4.5,36,Salaried,Graduate,Urban,No,1
+102404,52134,630.0,4793,0.0,36,Self-employed,High School,Urban,Yes,0
+27116,141719,588.0,53296,9.6,24,Salaried,High School,Urban,No,0
+77837,19309,691.0,3395,3.1,60,Salaried,Graduate,Urban,No,1
+115222,69628,670.0,57140,11.2,24,Contract,Graduate,Semiurban,No,1
+185727,78739,642.0,67040,4.9,48,Contract,Graduate,Urban,No,0
+154189,129681,613.0,62563,3.5,24,Self-employed,Graduate,Semiurban,Yes,0
+161726,29354,718.0,33904,5.3,60,Salaried,Graduate,Semiurban,No,1
+120357,75108,630.0,91988,9.0,24,Self-employed,High School,Urban,Yes,1
+44352,32849,624.0,71607,5.1,36,Salaried,Graduate,Rural,No,0
+93412,128145,659.0,30574,4.0,36,Salaried,Graduate,Rural,No,0
+199481,104842,794.0,52152,5.2,24,Salaried,Graduate,Urban,No,0
+32729,84510,536.0,13020,0.9,48,Contract,Postgraduate,Urban,No,0
+178860,68939,715.0,110797,7.6,24,Contract,Graduate,Urban,No,0
+144786,32976,489.0,90365,0.0,36,Self-employed,Graduate,Urban,Yes,0
+74683,148277,668.0,34537,4.2,36,,Postgraduate,Semiurban,No,0
+161148,107149,784.0,80990,9.0,36,Salaried,High School,Semiurban,No,1
+171456,57873,692.0,81497,7.2,12,Salaried,Graduate,Urban,No,0
+32563,72090,665.0,73161,8.4,24,Contract,Graduate,Urban,No,0
+43623,118927,602.0,6486,5.7,24,Salaried,Graduate,Urban,No,0
+141506,117934,653.0,105422,10.7,36,Salaried,High School,Rural,No,0
+199843,79164,629.0,114703,9.7,24,Self-employed,Postgraduate,Rural,Yes,1
+29194,55435,583.0,116897,7.8,60,Salaried,Postgraduate,Urban,No,0
+141494,108992,625.0,117690,9.7,36,Self-employed,High School,Semiurban,Yes,0
+48891,108734,667.0,111458,9.0,36,Salaried,High School,Semiurban,No,0
+138771,99954,585.0,88688,4.2,36,Self-employed,High School,Semiurban,Yes,0
+134080,20927,581.0,6825,0.6,24,Salaried,Graduate,Semiurban,No,1
+40827,80917,534.0,55825,7.7,36,Salaried,Graduate,Rural,No,0
+144127,102087,683.0,29417,,24,Salaried,High School,Urban,No,1
+181980,152509,696.0,26399,10.4,36,Salaried,Postgraduate,Urban,No,1
+176102,88834,670.0,99674,2.3,36,Salaried,Graduate,Rural,No,0
+30074,61407,732.0,97501,2.4,36,Salaried,Graduate,Urban,No,0
+68035,93368,657.0,62648,7.8,60,Salaried,Graduate,Urban,No,0
+67144,36585,683.0,88362,5.7,24,Self-employed,Graduate,Semiurban,Yes,0
+104326,23604,676.0,15523,0.0,36,Salaried,Graduate,Semiurban,No,1
+50028,111714,642.0,26634,7.5,24,Self-employed,Graduate,Semiurban,Yes,0
+174510,157927,605.0,103257,0.0,36,Self-employed,Graduate,Semiurban,Yes,0
+160934,136901,838.0,54145,2.2,48,Salaried,Postgraduate,Semiurban,No,1
+166461,97549,612.0,65595,11.4,24,Self-employed,Graduate,Urban,Yes,0
+59685,16038,593.0,55535,13.3,36,Salaried,,Semiurban,No,0
+27550,158195,687.0,24259,1.1,36,Salaried,Graduate,Semiurban,No,0
+184361,77444,671.0,99169,4.7,12,Salaried,Graduate,Rural,No,1
+75558,53449,531.0,90996,6.2,60,Self-employed,Graduate,Urban,Yes,0
+139847,143873,745.0,82061,13.1,36,Salaried,Graduate,Urban,No,1
+184151,121960,642.0,42383,4.0,48,Salaried,Graduate,Semiurban,No,1
+31328,122442,556.0,77180,4.1,36,Contract,High School,Urban,No,0
+25957,51662,751.0,114390,12.2,60,Salaried,High School,Urban,No,0
+25950,158771,703.0,77979,4.5,24,Contract,High School,Rural,No,0
+52357,77930,543.0,59312,8.9,36,Self-employed,Postgraduate,Semiurban,Yes,0
+34040,89712,801.0,32456,0.1,48,Contract,Postgraduate,Urban,No,0
+168496,122643,706.0,62736,5.3,36,Contract,Graduate,Urban,No,1
+131036,108999,649.0,44605,0.0,36,Contract,High School,Urban,No,1
+196508,35843,785.0,73352,1.8,60,Salaried,Postgraduate,Semiurban,No,1
+165259,55372,664.0,5479,9.4,36,Self-employed,Graduate,Semiurban,Yes,1
+193557,64177,648.0,22819,5.8,48,Self-employed,Graduate,Urban,Yes,1
+66746,152130,594.0,94432,4.7,36,Self-employed,Graduate,Urban,Yes,0
+75364,117175,699.0,45686,3.0,48,Salaried,Graduate,Urban,No,0
+173646,64950,691.0,51959,5.1,60,Contract,High School,Urban,No,1
+67854,120208,651.0,65267,7.2,36,Salaried,Graduate,Urban,No,0
+35015,120776,583.0,52588,9.9,24,Salaried,Graduate,Semiurban,No,0
+142097,69133,661.0,91036,0.0,12,Salaried,High School,Urban,No,0
+165168,70471,644.0,29442,2.7,36,Salaried,,Urban,No,0
+194434,144144,537.0,91012,6.6,48,Self-employed,Graduate,Semiurban,Yes,0
+187364,94272,525.0,25131,5.6,36,Salaried,Graduate,Urban,No,0
+46040,32427,698.0,44471,7.6,24,Self-employed,Postgraduate,Urban,Yes,0
+160118,117967,429.0,70538,7.1,24,Self-employed,Postgraduate,Urban,Yes,0
+173072,98435,667.0,106317,4.8,36,Salaried,Graduate,Urban,No,0
+147171,86340,609.0,27906,3.9,48,Self-employed,Graduate,Urban,Yes,0
+168464,118765,761.0,70486,5.0,24,Salaried,Graduate,Semiurban,No,0
+171646,146062,608.0,7705,,36,Self-employed,Graduate,Urban,Yes,0
+103146,59565,706.0,9051,3.1,48,Contract,High School,Semiurban,No,0
+32026,72895,616.0,92100,5.7,60,Salaried,Graduate,Semiurban,No,0
+104834,38424,660.0,86275,6.7,24,Self-employed,Graduate,Urban,Yes,0
+60311,107060,713.0,45176,12.2,60,Salaried,Graduate,Urban,No,0
+44902,70407,611.0,74757,4.8,36,Salaried,Postgraduate,Urban,No,0
+46861,61354,735.0,45628,9.8,48,Self-employed,,Urban,Yes,1
+147040,114478,566.0,33269,10.9,12,Salaried,Graduate,Semiurban,No,1
+113292,71223,675.0,51758,5.7,36,Self-employed,High School,Urban,Yes,0
+119471,79655,728.0,37423,5.2,36,Salaried,High School,Rural,No,1
+155407,76007,706.0,97805,4.7,36,Salaried,Graduate,Semiurban,No,0
+120946,48780,813.0,49400,5.0,36,Contract,Graduate,Semiurban,No,1
+135252,28871,585.0,38500,9.4,36,Salaried,High School,Semiurban,No,0
+40054,134085,533.0,64338,6.9,36,Salaried,High School,Semiurban,No,0
+173947,23758,565.0,90964,6.9,12,Salaried,High School,Rural,Yes,1
+103536,58731,706.0,32839,1.5,36,Self-employed,Graduate,Rural,Yes,0
+52162,110123,692.0,112745,2.1,24,Salaried,Graduate,Urban,No,0
+167332,29694,659.0,55624,14.6,60,Salaried,Graduate,Urban,No,1
+153558,108327,555.0,79304,5.3,60,Salaried,High School,Urban,No,0
+34279,119959,715.0,114869,2.9,24,Salaried,High School,Urban,No,0
+58782,109436,,51801,11.7,24,Contract,High School,Semiurban,No,1
+27756,55754,749.0,23978,7.1,24,Salaried,Graduate,Urban,No,0
+72382,12964,850.0,89734,8.3,36,Salaried,High School,Semiurban,No,1
+42496,143102,681.0,794,5.4,60,Self-employed,Graduate,Semiurban,Yes,0
+149233,58982,700.0,54947,4.7,36,Salaried,Postgraduate,Urban,No,0
+116446,130750,608.0,117598,5.3,12,Salaried,Graduate,Semiurban,No,0
+196535,39671,,49731,0.5,12,Salaried,,Urban,No,0
+156149,34361,599.0,82091,5.6,24,Salaried,,Semiurban,No,1
+132020,126722,557.0,63033,7.2,48,Self-employed,Graduate,Semiurban,Yes,0
+114129,150959,527.0,25761,13.4,36,Contract,Postgraduate,Urban,No,0
+34537,139094,796.0,38126,6.3,36,Contract,Graduate,Semiurban,No,0
+37285,122686,673.0,62823,0.0,36,Contract,Graduate,Urban,No,0
+132854,47002,682.0,12510,5.6,60,Salaried,Postgraduate,Semiurban,No,1
+25766,146981,624.0,49786,17.0,36,Salaried,Graduate,Semiurban,No,0
+32411,110177,635.0,49782,9.5,48,Self-employed,Graduate,Urban,Yes,0
+63348,35824,732.0,100189,2.8,60,Contract,Graduate,Semiurban,No,0
+179725,29404,647.0,14862,8.4,36,Self-employed,High School,Rural,Yes,1
+105312,140674,695.0,101123,3.0,60,Salaried,High School,Semiurban,No,0
+149176,51272,633.0,49252,0.6,24,Self-employed,High School,Semiurban,Yes,0
+97023,124883,621.0,78162,4.6,48,Self-employed,Postgraduate,Semiurban,Yes,0
+55297,30798,530.0,66832,6.4,12,Contract,Graduate,Urban,Yes,0
+89952,52080,482.0,35973,0.0,36,Self-employed,Graduate,Semiurban,Yes,0
+41051,52528,628.0,111685,1.4,24,Salaried,High School,Rural,No,0
+159794,52165,655.0,26935,6.0,12,Salaried,Graduate,Urban,No,1
+57118,111210,541.0,4346,4.4,12,,Postgraduate,Urban,No,0
+90865,147158,647.0,90014,7.6,36,Salaried,Graduate,Urban,No,0
+196504,146549,655.0,74575,1.1,36,Contract,Graduate,Urban,No,1
+128593,121232,467.0,106864,8.9,36,Salaried,Postgraduate,Urban,No,0
+105248,40378,572.0,54928,1.3,36,Salaried,Postgraduate,Urban,No,0
+120027,154087,685.0,2020,12.6,60,Salaried,Postgraduate,Semiurban,No,1
+162214,91311,683.0,2431,0.0,60,Self-employed,Graduate,Urban,Yes,1
+69534,91895,552.0,51991,1.6,24,Salaried,High School,Urban,No,0
+136371,115208,663.0,29945,7.7,36,Salaried,Graduate,Semiurban,Yes,0
+177721,125364,737.0,110661,12.7,36,Contract,,Urban,No,1
+125172,152938,716.0,14218,7.3,48,Salaried,Postgraduate,Urban,No,1
+103144,97356,642.0,105697,8.3,36,Salaried,High School,Semiurban,No,0
+50397,101509,610.0,26015,6.1,48,Salaried,Graduate,Rural,No,0
+68450,121829,597.0,14328,1.9,24,Salaried,Postgraduate,Semiurban,No,0
+190554,48266,690.0,32948,4.0,36,Self-employed,Postgraduate,Urban,Yes,1
+119720,56156,667.0,17296,1.2,48,Contract,Graduate,Urban,No,0
+77734,103821,703.0,48156,0.9,36,Salaried,Postgraduate,Rural,No,0
+98214,19619,661.0,39655,7.6,48,Contract,High School,Semiurban,Yes,0
+126153,58073,720.0,63484,1.5,12,Self-employed,Graduate,Semiurban,Yes,0
+119070,117699,658.0,64448,7.3,24,Salaried,High School,Semiurban,No,0
+147460,156419,717.0,118,0.8,12,Salaried,Postgraduate,Urban,No,0
+70061,87924,724.0,14984,7.2,24,Salaried,Postgraduate,Urban,No,0
+138615,69951,582.0,19424,4.0,12,Contract,High School,Semiurban,No,1
+102468,76056,496.0,23366,11.6,36,Salaried,High School,Rural,No,0
+189604,112814,781.0,11227,7.3,36,Salaried,Graduate,Urban,No,1
+52636,91671,672.0,37756,10.9,48,Self-employed,Graduate,Semiurban,Yes,0
+50976,13484,504.0,65960,3.0,36,Contract,Postgraduate,Urban,No,0
+105790,90885,589.0,37067,6.2,12,Self-employed,High School,Rural,Yes,0
+113961,70009,716.0,39488,2.1,48,Self-employed,Graduate,Urban,Yes,0
+145903,115120,626.0,56346,4.3,12,Salaried,Graduate,Semiurban,No,0
+95706,141266,606.0,65807,5.0,60,Contract,Graduate,Urban,Yes,0
+184900,154367,769.0,39716,3.1,12,Salaried,High School,Semiurban,No,0
+107979,101534,561.0,26618,1.1,36,Salaried,Postgraduate,Semiurban,No,0
+47633,64384,582.0,49125,0.3,60,Contract,Graduate,Urban,No,1
+45863,76591,668.0,2907,0.0,36,Salaried,Graduate,Rural,No,0
+195346,36469,683.0,59108,1.8,36,Salaried,Graduate,Rural,No,1
+48466,150390,692.0,112964,8.5,48,,Postgraduate,Rural,Yes,0
+190873,137096,727.0,47752,0.0,24,Salaried,Postgraduate,Urban,No,1
+73663,138097,667.0,12996,0.5,48,,Postgraduate,Semiurban,No,0
+41346,59218,692.0,84849,13.2,60,Self-employed,Graduate,Semiurban,Yes,1
+78323,58332,628.0,15223,3.5,60,Self-employed,Postgraduate,Semiurban,Yes,1
+132572,138492,655.0,23236,,36,Self-employed,Graduate,Semiurban,Yes,1
+99883,91682,659.0,17585,8.6,36,Salaried,Graduate,Semiurban,No,0
+162476,115698,668.0,106039,8.7,48,Salaried,Graduate,Urban,No,0
+131922,83473,716.0,117753,0.0,36,Self-employed,Graduate,Urban,Yes,0
+95137,76415,697.0,68356,5.1,24,Salaried,Postgraduate,Urban,No,1
+136060,104830,654.0,74119,0.0,24,Salaried,Postgraduate,Urban,No,1
+195005,131947,581.0,77454,15.8,24,Salaried,Graduate,Urban,No,0
+97066,60116,656.0,73234,0.0,36,Salaried,Graduate,Urban,No,0
+51852,131371,648.0,65292,1.8,24,Salaried,Postgraduate,Semiurban,No,0
+96537,46630,666.0,118403,,12,Self-employed,Postgraduate,Semiurban,Yes,0
+172020,70424,838.0,87975,0.0,12,Contract,Graduate,Urban,No,1
+63084,146900,605.0,10612,11.4,60,Salaried,High School,Semiurban,Yes,0
+191099,153167,686.0,47033,15.7,12,Self-employed,Graduate,Rural,Yes,1
+127953,148581,741.0,116940,4.1,12,Salaried,Postgraduate,Rural,No,1
+130275,57406,658.0,48439,0.7,36,Salaried,Graduate,Rural,No,1
+80482,136498,849.0,24481,0.0,24,Self-employed,Graduate,Rural,Yes,0
+186079,150413,,104218,5.0,60,Salaried,Graduate,Semiurban,No,0
+31310,156730,678.0,74768,4.7,60,Contract,Graduate,Rural,No,0
+77267,13135,582.0,67508,3.4,36,Salaried,Graduate,Rural,No,0
+98220,121748,620.0,50410,6.9,36,Salaried,Postgraduate,Urban,No,0
+108523,159511,671.0,14924,7.6,36,Salaried,Graduate,Rural,No,1
+107973,124700,722.0,46074,7.3,12,Salaried,Graduate,Semiurban,No,0
+50886,44976,677.0,52497,,24,Contract,Graduate,Semiurban,No,0
+64478,124388,757.0,111749,1.6,24,Self-employed,Postgraduate,Rural,Yes,0
+41667,25786,642.0,36872,8.7,24,Salaried,Graduate,Urban,No,0
+125180,82091,622.0,17907,6.1,36,Salaried,Graduate,Urban,No,1
+86402,103934,850.0,51303,9.6,12,Self-employed,High School,Semiurban,Yes,1
+124010,78467,684.0,119648,9.2,24,,High School,Semiurban,Yes,0
+128200,114975,589.0,57864,0.3,36,Salaried,Graduate,Rural,No,0
+147850,46033,591.0,45495,0.3,36,Salaried,High School,Rural,No,0
+120731,100933,570.0,80026,3.0,24,Salaried,Postgraduate,Semiurban,No,0
+138390,106722,730.0,77852,1.8,12,,Postgraduate,Rural,No,1
+127751,105069,619.0,35914,9.0,24,Salaried,High School,Urban,No,0
+139175,53398,661.0,116148,7.4,24,Salaried,Postgraduate,Rural,No,0
+132912,55807,645.0,71153,10.4,48,Salaried,Graduate,Urban,No,1
+80337,48671,712.0,6912,7.6,60,Salaried,Graduate,Semiurban,No,1
+68099,79266,578.0,48908,6.8,36,Salaried,Postgraduate,Urban,No,0
+162800,97894,559.0,110743,10.8,36,Contract,Graduate,Semiurban,No,1
+84972,64380,669.0,47202,7.9,48,Salaried,High School,Urban,Yes,1
+121100,71497,701.0,68137,6.3,36,Salaried,High School,Urban,No,0
+59470,52961,678.0,73515,11.9,24,Salaried,Graduate,Semiurban,No,0
+100498,42828,581.0,84527,6.5,24,Salaried,Postgraduate,Semiurban,No,0
+117691,108615,708.0,104677,4.8,36,Contract,Graduate,Urban,No,1
+134552,132408,587.0,17902,2.6,36,,Graduate,Semiurban,No,1
+117115,53605,606.0,62009,8.8,24,Salaried,High School,Urban,No,1
+88115,139085,570.0,64006,10.9,24,Contract,Postgraduate,Urban,No,0
+193309,95646,761.0,18287,5.8,36,,Graduate,Urban,Yes,1
+114729,35154,704.0,80821,11.2,24,Self-employed,Graduate,Semiurban,Yes,1
+166452,64899,701.0,14178,0.0,36,Salaried,Graduate,Semiurban,No,1
+153923,11126,756.0,54749,5.8,48,Salaried,Graduate,Semiurban,No,1
+122705,15875,850.0,39629,5.8,36,Self-employed,High School,Rural,Yes,1
+180120,60419,505.0,18598,3.1,24,Salaried,Graduate,Semiurban,No,0
+47446,78169,587.0,98678,15.5,24,Self-employed,Graduate,Semiurban,Yes,0
+186185,129626,598.0,29294,5.7,48,Self-employed,Graduate,Rural,Yes,0
+173789,30145,578.0,30628,4.4,36,Salaried,Postgraduate,Urban,No,1
+113135,135876,558.0,102527,6.1,12,Salaried,High School,Urban,No,0
+153343,45178,625.0,105284,0.0,24,Salaried,Graduate,Urban,No,0
+116048,30749,547.0,4136,3.0,48,Salaried,High School,Semiurban,No,1
+72033,114983,678.0,33345,9.9,48,Self-employed,High School,Semiurban,Yes,0
+164977,126150,654.0,85063,3.5,60,Self-employed,Graduate,Urban,Yes,0
+68036,100736,691.0,93376,2.7,36,Salaried,,Rural,No,0
+80028,27355,693.0,119926,11.2,36,Self-employed,Graduate,Rural,Yes,1
+115876,27301,701.0,66558,11.4,36,Salaried,High School,Urban,No,1
+171541,68509,618.0,897,8.1,24,Self-employed,Graduate,Urban,Yes,1
+92187,77590,830.0,104835,4.2,48,Salaried,Graduate,Urban,No,1
+111474,159791,670.0,19325,5.0,36,Self-employed,Postgraduate,Urban,Yes,1
+32291,52971,492.0,14495,2.8,24,Self-employed,Graduate,Rural,Yes,0
+45274,38888,565.0,80897,2.0,60,Salaried,Postgraduate,Semiurban,No,0
+34790,151885,502.0,72457,1.8,36,Salaried,High School,Urban,No,0
+37610,33094,651.0,7198,3.5,12,Contract,Graduate,Semiurban,No,0
+176991,13960,640.0,20313,1.9,36,Salaried,Graduate,Urban,No,0
+172348,73420,610.0,70774,,60,Self-employed,Graduate,Urban,Yes,0
+168830,70162,821.0,30641,6.9,60,Contract,Graduate,Urban,No,1
+34724,102950,697.0,82080,6.9,36,Contract,Graduate,Semiurban,No,0
+38587,141660,712.0,49411,12.8,60,Salaried,Postgraduate,Semiurban,No,0
+74107,149935,571.0,70577,3.3,60,Self-employed,High School,Rural,Yes,0
+123926,53445,565.0,56994,7.2,48,Contract,Postgraduate,Urban,No,1
+83472,157123,653.0,43822,7.3,60,Salaried,Graduate,Semiurban,No,0
+110323,104899,665.0,41088,5.0,36,Salaried,Graduate,Urban,No,0
+55274,20446,492.0,83673,9.0,48,Salaried,Graduate,Urban,No,0
+152886,150766,635.0,61726,9.1,36,Self-employed,Graduate,Rural,Yes,1
+79931,30699,651.0,71315,7.3,48,Salaried,Postgraduate,Semiurban,No,0
+36644,98289,632.0,69277,5.0,24,Salaried,Postgraduate,Urban,No,0
+154971,128610,581.0,24916,,48,Salaried,Postgraduate,Semiurban,No,0
+182987,47415,604.0,109587,0.5,60,Self-employed,Postgraduate,Semiurban,Yes,0
+27569,50594,635.0,67576,2.8,36,Salaried,Graduate,Rural,No,1
+101417,81426,658.0,86167,3.5,60,Contract,Graduate,Semiurban,No,0
+169755,142727,701.0,105828,1.5,36,Self-employed,Postgraduate,Urban,Yes,1
+148578,43540,742.0,110964,7.8,24,Contract,High School,Semiurban,No,1
+174895,109517,625.0,80019,10.8,24,Contract,Postgraduate,Urban,No,0
+97661,77888,611.0,94453,2.4,48,Salaried,Graduate,Urban,No,0
+90145,26776,687.0,56614,7.1,36,Self-employed,Graduate,Semiurban,Yes,0
+149105,116631,702.0,88535,1.9,36,Salaried,Graduate,Semiurban,No,1
+51882,134879,,38590,4.8,36,Contract,Graduate,Urban,No,0
+66898,96345,717.0,85413,3.2,36,Salaried,High School,Semiurban,No,1
+130147,36453,733.0,10306,8.4,36,Self-employed,Graduate,Semiurban,Yes,1
+141979,33358,760.0,109713,3.3,60,Self-employed,,Semiurban,Yes,1
+45942,73524,801.0,29355,10.0,48,Salaried,High School,Urban,No,0
+113954,85962,576.0,78787,5.0,48,Self-employed,,Urban,Yes,0
+88860,92827,651.0,1342,3.4,36,Salaried,Graduate,Urban,No,0
+112805,46548,651.0,18685,1.0,60,Salaried,Graduate,Urban,No,1
+192725,85114,642.0,118395,7.0,24,Salaried,Postgraduate,Urban,Yes,0
+38406,54261,595.0,100003,9.6,24,Salaried,High School,Urban,No,1
+199206,112924,524.0,26697,7.1,12,Salaried,Graduate,Urban,No,0
+103676,129471,658.0,15701,15.0,36,Contract,High School,Urban,Yes,1
+160118,107903,585.0,97785,11.7,36,Salaried,Graduate,Rural,No,1
+99282,10187,657.0,118820,4.8,48,Salaried,Graduate,Semiurban,No,0
+79418,158806,583.0,20237,4.7,36,Contract,Graduate,Urban,No,0
+159854,13565,557.0,79673,7.9,12,Self-employed,Graduate,Rural,Yes,1
+145341,159913,670.0,34032,2.6,36,Salaried,Graduate,Urban,No,1
+50210,14766,663.0,89326,10.7,60,Contract,High School,Urban,No,0
+148446,87468,699.0,50193,7.4,24,Salaried,Graduate,Rural,No,1
+156788,25895,836.0,15042,7.0,24,Salaried,Graduate,Urban,No,1
+92872,24279,674.0,38928,8.7,24,Salaried,Graduate,Urban,No,1
+186988,112509,691.0,64634,12.9,36,Self-employed,Graduate,Urban,Yes,1
+137155,119176,558.0,95802,6.7,24,Salaried,Graduate,Semiurban,No,0
+83384,27735,541.0,2523,5.5,36,Salaried,Graduate,Semiurban,No,1
+26877,156499,785.0,114923,12.0,36,,High School,Urban,Yes,0
+143118,58069,572.0,77952,9.9,36,Salaried,Graduate,Urban,No,0
+61585,57748,561.0,105035,4.7,36,Salaried,High School,Urban,No,0
+157392,54546,647.0,111606,6.0,12,Self-employed,Graduate,Semiurban,Yes,0
+116890,79181,642.0,18429,6.8,60,,Postgraduate,Urban,Yes,0
+106677,36675,573.0,11247,7.4,36,Salaried,Graduate,Rural,No,1
+53656,73716,624.0,93202,0.6,36,Salaried,Graduate,Semiurban,No,0
+149513,41497,754.0,22545,0.0,12,Contract,High School,Urban,No,1
+54033,17712,581.0,17753,2.5,36,Salaried,Postgraduate,Semiurban,No,0
+98106,65310,532.0,56222,2.1,60,Salaried,High School,Urban,No,0
+171353,110839,730.0,109605,3.4,12,Salaried,Graduate,Urban,No,0
+186064,124463,692.0,95472,8.5,24,Salaried,Postgraduate,Urban,No,1
+198098,63000,597.0,62145,5.3,24,Contract,Graduate,Semiurban,No,0
+192652,58561,516.0,23574,6.8,36,Salaried,High School,Semiurban,No,0
+122294,128119,587.0,40365,1.1,60,Salaried,Graduate,Rural,Yes,1
+60084,112178,645.0,82619,4.2,36,Salaried,Graduate,Urban,No,0
+171837,134818,749.0,18843,8.3,36,Salaried,High School,Urban,No,0
+165285,145915,562.0,62928,8.4,48,Salaried,Graduate,Semiurban,No,0
+198306,133184,643.0,1417,3.1,48,Contract,Graduate,Urban,No,1
+138915,150472,707.0,39010,6.6,24,Self-employed,Graduate,Urban,Yes,1
+49779,72499,448.0,29753,14.8,24,Salaried,High School,Rural,No,0
+113007,69200,738.0,81730,5.9,36,Salaried,Postgraduate,Rural,No,0
+103442,58231,549.0,109682,3.2,48,Salaried,Graduate,Rural,No,0
+172515,45283,678.0,17577,5.3,48,Salaried,Graduate,Urban,No,1
+93700,122323,671.0,95671,6.4,48,Salaried,Graduate,Urban,No,0
+82503,117167,742.0,78710,5.4,48,Salaried,High School,Urban,No,0
+39008,130208,697.0,116375,5.9,24,Self-employed,Graduate,Rural,Yes,0
+171204,35108,448.0,109381,0.2,36,Contract,Graduate,Urban,No,0
+157182,83688,583.0,12091,2.1,12,Salaried,Graduate,Urban,No,0
+32214,43293,662.0,89186,5.4,60,Contract,Postgraduate,Urban,No,0
+100911,143954,633.0,71061,5.3,36,Salaried,Postgraduate,Semiurban,No,0
+108950,50111,691.0,13569,3.7,24,Salaried,Graduate,Semiurban,No,1
+107132,31586,717.0,30858,5.3,12,,Graduate,Semiurban,Yes,1
+185812,95479,702.0,111233,6.2,48,Salaried,Graduate,Urban,No,1
+51367,141860,632.0,65153,9.6,48,Salaried,Graduate,Semiurban,No,0
+78610,147359,493.0,40615,5.6,48,Self-employed,Graduate,Urban,Yes,0
+56662,24414,611.0,38454,7.6,24,Salaried,Postgraduate,Urban,No,0
+67714,58884,685.0,100543,3.8,60,Contract,Postgraduate,Urban,No,0
+183743,33028,557.0,34015,8.3,48,Salaried,Graduate,Semiurban,No,1
+189626,56179,704.0,19066,7.5,48,Self-employed,Postgraduate,Urban,Yes,1
+32813,90076,727.0,68861,9.5,48,Salaried,Postgraduate,Rural,No,0
+135616,52085,661.0,119101,8.9,60,Salaried,Graduate,Semiurban,No,0
+65749,20127,390.0,21998,8.4,60,Salaried,Postgraduate,Urban,No,0
+58698,86504,541.0,30638,5.6,36,Contract,High School,Semiurban,No,0
+76110,17921,810.0,56296,7.0,36,Salaried,High School,Semiurban,No,1
+59017,44004,604.0,23977,10.3,36,Contract,Graduate,Urban,No,0
+110784,10077,481.0,78097,3.4,48,Salaried,Graduate,Semiurban,No,0
+199231,23023,755.0,30434,3.5,36,Salaried,Graduate,Urban,No,1
+127627,75447,651.0,15381,6.7,12,Salaried,Postgraduate,Urban,No,1
+151567,137607,744.0,31352,7.7,24,Salaried,Graduate,Semiurban,No,0
+111325,126193,674.0,111671,,60,Contract,Graduate,Semiurban,No,0
+27433,24824,689.0,112187,5.7,60,Salaried,Graduate,Urban,No,0
+39720,15225,681.0,60686,5.6,60,Self-employed,High School,Urban,Yes,0
+72052,60713,709.0,48054,0.0,36,Salaried,Graduate,Semiurban,No,0
+67641,107838,844.0,98343,5.1,48,Salaried,Graduate,Urban,No,0
+172101,122009,733.0,23311,5.4,48,Self-employed,Postgraduate,Rural,Yes,1
+172627,133469,516.0,78468,5.4,36,Contract,Graduate,Semiurban,No,0
+174471,61330,688.0,81606,11.7,24,Self-employed,High School,Rural,Yes,1
+136578,35200,747.0,85200,1.1,60,Salaried,High School,Urban,No,1
+122330,13952,752.0,26153,2.7,12,Self-employed,High School,Rural,Yes,0
+138601,32029,614.0,85935,0.0,36,Self-employed,Postgraduate,Urban,Yes,0
+96191,19774,749.0,73438,4.1,48,Salaried,Graduate,Urban,No,1
+142285,139120,729.0,105011,4.4,48,Self-employed,Graduate,Urban,Yes,1
+164027,50261,850.0,20926,4.0,24,Salaried,High School,Urban,No,1
+158508,133468,586.0,73632,10.4,48,Self-employed,Postgraduate,Rural,Yes,0
+132420,92973,607.0,99556,9.4,24,Contract,High School,Semiurban,No,0
+35168,90841,624.0,33386,6.3,48,Contract,Graduate,Semiurban,No,0
+151866,78218,608.0,89253,4.5,24,Self-employed,Graduate,Semiurban,Yes,0
+89156,132879,574.0,11941,10.1,48,Self-employed,Graduate,Semiurban,Yes,0
+155141,16517,415.0,86171,5.9,48,Self-employed,Graduate,Semiurban,Yes,0
+119417,23913,,72750,2.7,24,Salaried,High School,Rural,No,1
+179207,73508,681.0,23106,0.0,24,Salaried,Graduate,Semiurban,No,0
+84229,69172,608.0,7962,4.2,48,Salaried,Postgraduate,Semiurban,No,1
+187993,91839,815.0,89458,9.0,12,Salaried,Graduate,Urban,No,1
+172783,120669,651.0,28955,15.1,24,Contract,Postgraduate,Rural,No,1
+82943,98131,760.0,59693,6.2,36,Contract,Graduate,Urban,No,0
+109450,48617,672.0,7284,2.9,60,Salaried,High School,Urban,No,1
+117985,59093,720.0,115619,1.3,36,Salaried,Graduate,Rural,No,0
+159509,122849,674.0,65866,8.2,36,Self-employed,Graduate,Urban,Yes,0
+145602,40220,766.0,111789,0.0,60,Salaried,High School,Urban,No,0
+174102,85626,655.0,19240,8.2,36,Self-employed,Graduate,Urban,Yes,0
+89726,90818,692.0,24695,9.3,36,,Graduate,Urban,No,1
+113338,122539,681.0,73248,7.7,36,Salaried,Graduate,Rural,No,0
+100401,117153,625.0,72539,5.1,36,Salaried,High School,Rural,No,0
+184171,79701,684.0,94903,8.3,36,Salaried,Postgraduate,Semiurban,No,1
+78371,56374,,111366,6.7,48,Salaried,,Rural,No,1
+127746,65185,,98625,2.9,12,Salaried,Graduate,Semiurban,No,1
+46029,71738,686.0,16826,13.4,48,Salaried,High School,Rural,No,0
+173798,42878,757.0,37145,4.6,24,Salaried,Postgraduate,Urban,No,1
+92238,103811,,109658,9.1,36,Salaried,Graduate,Semiurban,No,0
+84603,41256,651.0,65874,0.0,24,Salaried,Graduate,Urban,No,0
+127010,107301,447.0,104041,11.1,36,Self-employed,High School,Urban,Yes,0
+112292,122723,694.0,67561,11.9,48,Salaried,Graduate,Semiurban,No,1
+173395,154275,461.0,5968,,36,Contract,Graduate,Urban,No,0
+117996,27836,775.0,56746,8.2,24,Salaried,Graduate,Semiurban,No,1
+115474,123959,664.0,98959,8.2,24,Salaried,Postgraduate,Semiurban,No,0
+43371,22897,735.0,78613,3.4,48,Salaried,,Urban,No,0
+28839,60587,573.0,15933,8.2,24,Self-employed,High School,Urban,Yes,0
+94746,36443,518.0,25210,2.8,48,Salaried,Graduate,Semiurban,No,0
+199686,34342,672.0,102524,3.6,36,Salaried,Graduate,Rural,No,1
+185534,36301,647.0,117509,10.5,24,Salaried,Graduate,Urban,No,1
+135071,16590,608.0,90346,9.9,48,Contract,Graduate,Rural,No,1
+135395,133466,657.0,11769,3.2,36,Salaried,Graduate,Rural,No,0
+93513,19169,850.0,74303,3.1,12,Salaried,Graduate,Semiurban,No,0
+56063,69775,721.0,99506,3.4,60,Contract,Graduate,Urban,No,0
+26495,114874,739.0,76823,8.9,24,Salaried,Postgraduate,Semiurban,No,0
+84299,158558,722.0,71291,2.0,36,Salaried,Graduate,Rural,No,0
+80381,138055,776.0,56082,7.4,36,Self-employed,Graduate,Urban,Yes,0
+58530,30581,634.0,29382,9.0,36,Salaried,Graduate,Rural,No,1
+70354,158160,475.0,33691,5.6,48,Salaried,Graduate,Rural,No,0
+29344,108030,634.0,89481,10.0,12,Salaried,Graduate,Semiurban,No,0
+131393,36935,719.0,8377,4.8,60,Salaried,Postgraduate,Semiurban,No,1
+187305,77309,568.0,10137,5.1,36,Contract,High School,Semiurban,No,1
+145889,147682,635.0,47599,2.1,60,Self-employed,,Semiurban,Yes,0
+103436,68937,,92930,10.1,48,Salaried,High School,Rural,No,0
+98546,37545,778.0,78844,2.9,60,Salaried,Postgraduate,Urban,No,0
+78818,141262,714.0,70798,7.4,36,Self-employed,High School,Urban,Yes,0
+49921,152946,705.0,64095,5.7,36,Self-employed,Postgraduate,Urban,Yes,0
+129733,156339,703.0,13290,1.8,36,Salaried,Graduate,Rural,No,0
+124141,153356,647.0,39815,3.6,48,Contract,High School,Urban,No,0
+26280,140928,667.0,9540,11.5,36,Salaried,Graduate,Rural,No,0
+97716,78173,549.0,90978,6.8,48,Self-employed,Graduate,Semiurban,Yes,0
+73653,38845,464.0,90100,2.0,12,Salaried,Graduate,Urban,No,0
+54799,102573,663.0,30971,7.2,48,Salaried,Graduate,Rural,No,0
+148030,43119,678.0,35152,5.4,24,Self-employed,Graduate,Semiurban,Yes,1
+117019,80973,753.0,38094,19.8,60,Self-employed,Graduate,Urban,Yes,1
+135909,108411,784.0,106716,7.1,24,Salaried,Graduate,Urban,No,0
+149859,151986,783.0,58623,4.5,24,Salaried,Postgraduate,Urban,No,0
+196816,53362,565.0,91448,11.7,48,Self-employed,Graduate,Urban,Yes,1
+165483,47787,620.0,53859,0.0,48,Salaried,High School,Urban,No,0
+133562,120208,691.0,83782,6.4,48,Salaried,Graduate,Semiurban,No,1
