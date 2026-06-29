@@ -199,7 +199,7 @@ Raw X
 ↓
 Preprocessor   
 	├── Numerical: impute + scale
-	└── Categorical: impute + one-hot encode 
+			└── Categorical: impute + one-hot encode 
 ↓
 LinearRegression
 ```
