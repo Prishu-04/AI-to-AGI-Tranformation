@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c32ae8ca3806b6de",
+        "id": "1862a5e512271bf8",
         "type": "tabs",
         "children": [
           {
-            "id": "7c92dc1b0a33d78c",
+            "id": "11f9a1e83b267267",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 19/Topic 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topic 1"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "69ec63c6e982a885",
@@ -181,19 +176,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "7c92dc1b0a33d78c",
+  "active": "f52591548613e3db",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Day 19/Topic 2.md",
+    "Day 19/day5_slot2_svm_kernels_c_gamma.ipy",
+    "Pasted image 20260629122808.png",
+    "Pasted image 20260629122619.png",
+    "Pasted image 20260629122607.png",
+    "Pasted image 20260629122122.png",
+    "Pasted image 20260629121754.png",
+    "Pasted image 20260629121231.png",
+    "Pasted image 20260629121214.png",
+    "Pasted image 20260629121201.png",
+    "Pasted image 20260629121146.png",
+    "Pasted image 20260629120437.png",
+    "Day 19/code 2.ipynb",
+    "Day 19/Topic 1.md",
     "Day 19/breast_cancer_wisconsin_dataset.py",
-    "Pasted image 20260629105632.png",
-    "Pasted image 20260629105030.png",
-    "Pasted image 20260629103616.png",
-    "Pasted image 20260629103604.png",
-    "Pasted image 20260629103417.png",
-    "Pasted image 20260629103408.png",
-    "Pasted image 20260629103400.png",
-    "Pasted image 20260629103350.png",
-    "Pasted image 20260629103106.png",
-    "Pasted image 20260629103031.png",
     "Day 19/6-Support Vector Classifier.pdf",
     "Day 19/6.2-SVM Kernels.pdf",
     "Day 19/6.1-SVR.pdf",
@@ -201,7 +201,6 @@
     "Day 16/Topic 5.md",
     "Day 16/Topic 4.md",
     "Day 16/Topic 3.md",
-    "Day 19/Topic 1.md",
     "Day 15/Topic 3.md",
     "Day 15/Topic 4.md",
     "Day 15/Topic 1.md",
@@ -222,12 +221,8 @@
     "Day 19/venv19/Lib/site-packages/scipy/sparse/linalg/_eigen/lobpcg/tests/__pycache__/test_lobpcg.cpython-314.pyc",
     "Day 19/venv19/Lib/site-packages/scipy/sparse/linalg/_eigen/arpack/tests/__pycache__/test_arpack.cpython-314.pyc",
     "Day 19/venv19/Lib/site-packages/scipy/sparse/linalg/_eigen/arpack/tests/__pycache__/__init__.cpython-314.pyc",
-    "Day 19/venv19/Lib/site-packages/scipy/_lib/array_api_extra/_lib/_utils/__pycache__/_helpers.cpython-314.pyc",
-    "Day 19/venv19/Lib/site-packages/scipy/_lib/array_api_extra/_lib/_utils/__pycache__/_typing.cpython-314.pyc",
-    "Day 19/venv19/Lib/site-packages/scipy/_lib/array_api_extra/_lib/_utils/__pycache__/__init__.cpython-314.pyc",
     "Day 19/venv19/Lib/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Day 19/venv19/Lib/site-packages/numpy/random/LICENSE.md",
-    "Day 19/venv19/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
-    "Day 19/venv19/Lib/site-packages/sklearn/externals/array_api_compat/README.md"
+    "Day 19/venv19/Lib/site-packages/sklearn/externals/array_api_extra/README.md"
   ]
 }
