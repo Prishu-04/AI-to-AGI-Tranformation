@@ -133,8 +133,8 @@ Hard-margin SVM assumes:
 - No training point is allowed inside the margin.
 - No training point is allowed on the wrong side.
 ![[Pasted image 20260619123410.png|598]]
-### Understanding the constraint## Problem with hard-margin SVM
-
+### Understanding the constraint
+## Problem with hard-margin SVM
 Real data normally contains:
 
 - Noise
@@ -235,347 +235,270 @@ The two parts are:
 | --------------- | ------------------------------------------ |
 | 1/2∥w∥2         | Keep the model regularized and margin wide |
 | Hinge-loss term | Penalize unsafe or incorrect predictions   |
-| CCC             | Control the importance of those penalties  |
+| C               | Control the importance of those penalties  |
 
 ---
 ## 13. Practical implementation
-Install or update the required libraries:
-```
-pip install numpy matplotlib scikit-learn
-```
-### Complete linear SVM visualization
-Run this in Jupyter Notebook or VS Code.
-```
-import numpy as npimport matplotlib.pyplot as pltfrom sklearn.datasets import make_blobsfrom sklearn.model_selection import train_test_splitfrom sklearn.pipeline import Pipelinefrom sklearn.preprocessing import StandardScalerfrom sklearn.svm import SVCfrom sklearn.metrics import (    accuracy_score,    classification_report,    confusion_matrix)# ---------------------------------------------------------# 1. Create a simple binary classification dataset# ---------------------------------------------------------X, y = make_blobs(    n_samples=200,    centers=2,    n_features=2,    cluster_std=1.35,    random_state=42)# ---------------------------------------------------------# 2. Split the data before fitting the scaler# ---------------------------------------------------------X_train, X_test, y_train, y_test = train_test_split(    X,    y,    test_size=0.25,    stratify=y,    random_state=42)# ---------------------------------------------------------# 3. Build a leakage-safe pipeline# ---------------------------------------------------------model = Pipeline(    steps=[        ("scaler", StandardScaler()),        (            "svm",            SVC(                kernel="linear",                C=1.0            )        )    ])# ---------------------------------------------------------# 4. Train and evaluate# ---------------------------------------------------------model.fit(X_train, y_train)y_train_pred = model.predict(X_train)y_test_pred = model.predict(X_test)print("Training accuracy:", accuracy_score(y_train, y_train_pred))print("Testing accuracy :", accuracy_score(y_test, y_test_pred))print("\nConfusion matrix:")print(confusion_matrix(y_test, y_test_pred))print("\nClassification report:")print(classification_report(y_test, y_test_pred))# ---------------------------------------------------------# 5. Extract the fitted scaler and SVM# ---------------------------------------------------------scaler = model.named_steps["scaler"]svm = model.named_steps["svm"]X_train_scaled = scaler.transform(X_train)print("\nWeight vector:", svm.coef_[0])print("Intercept:", svm.intercept_[0])print("Number of support vectors:", svm.n_support_)print("Total support vectors:", len(svm.support_vectors_))# ---------------------------------------------------------# 6. Generate a mesh in the ORIGINAL feature space# ---------------------------------------------------------x_min, x_max = X[:, 0].min() - 1.5, X[:, 0].max() + 1.5y_min, y_max = X[:, 1].min() - 1.5, X[:, 1].max() + 1.5xx, yy = np.meshgrid(    np.linspace(x_min, x_max, 500),    np.linspace(y_min, y_max, 500))grid_original = np.c_[xx.ravel(), yy.ravel()]# decision_function works through the entire pipelinedecision_scores = model.decision_function(grid_original)decision_scores = decision_scores.reshape(xx.shape)# ---------------------------------------------------------# 7. Convert support vectors to the original scale# ---------------------------------------------------------support_vectors_original = scaler.inverse_transform(    svm.support_vectors_)# ---------------------------------------------------------# 8. Plot data, boundary, margins, and support vectors# ---------------------------------------------------------plt.figure(figsize=(10, 7))plt.scatter(    X_train[:, 0],    X_train[:, 1],    c=y_train,    s=55,    label="Training data")plt.scatter(    X_test[:, 0],    X_test[:, 1],    c=y_test,    marker="x",    s=75,    label="Testing data")# Draw -1 margin, 0 boundary, and +1 marginplt.contour(    xx,    yy,    decision_scores,    levels=[-1, 0, 1],    linestyles=["--", "-", "--"])plt.scatter(    support_vectors_original[:, 0],    support_vectors_original[:, 1],    s=180,    facecolors="none",    edgecolors="black",    linewidths=1.5,    label="Support vectors")plt.title("Linear SVM: Decision Boundary, Margins and Support Vectors")plt.xlabel("Feature 1")plt.ylabel("Feature 2")plt.legend()plt.grid(alpha=0.25)plt.show()
-```
+![[Pasted image 20260629102948.png]]
+![[Pasted image 20260629102956.png]]
+![[Pasted image 20260629103006.png]]
+![[Pasted image 20260629103018.png]]
+![[Pasted image 20260629103031.png]]
+![[Pasted image 20260629103106.png]]
+![[Pasted image 20260629103350.png]]
+![[Pasted image 20260629103400.png]]
+![[Pasted image 20260629103408.png]]
+![[Pasted image 20260629103417.png]]
+![[Pasted image 20260629103604.png]]
+![[Pasted image 20260629103616.png]]
 
 ---
-
-# 14. Code walkthrough
-
-## Why use a pipeline?
-
+## 14. Code walkthrough
+### Why use a pipeline?
+```Python
+Pipeline([
+    ("scaler", StandardScaler()),
+    ("svm", SVC(kernel="linear"))
+])
 ```
-Pipeline([    ("scaler", StandardScaler()),    ("svm", SVC(kernel="linear"))])
-```
-
 The scaler learns only from the training data when the pipeline is fitted.
-
 This avoids the incorrect process:
-
 ```
 scaler.fit(X)
 ```
-
 before splitting the dataset.
-
 SVM is sensitive to feature magnitudes because its geometry and distance calculations depend on the feature space. Microsoft’s Azure documentation similarly recommends normalizing the data before training its two-class SVM component.
-
-## `svm.coef_`
-
+### `svm.coef_`
 For a linear kernel:
-
 ```
 svm.coef_
 ```
-
 contains the learned weight vector:
-
-www
-
-## `svm.intercept_`
-
+						```w```
+### `svm.intercept_`
 ```
 svm.intercept_
 ```
-
 contains:
-
-bbb
-
-## `svm.support_vectors_`
-
+						```b```
+### `svm.support_vectors_`
 ```
 svm.support_vectors_
 ```
-
 returns the observations that became support vectors.
-
 Because the pipeline applies `StandardScaler`, these vectors are initially represented in the scaled feature space.
-
-## `svm.n_support_`
-
+### `svm.n_support_`
 ```
 svm.n_support_
 ```
-
 shows the number of support vectors belonging to each class.
-
-## `decision_function()`
-
+### `decision_function()`
 ```
 model.decision_function(X)
 ```
-
 returns signed distances or decision scores relative to the boundary:
-
 - Negative score → one class
 - Positive score → the other class
 - Score near zero → close to the boundary
-
 ---
+## 15. Manual hinge-loss implementation
 
-# 15. Manual hinge-loss implementation
+```Python
+import numpy as np
 
+
+def hinge_loss(
+    X: np.ndarray,
+    y: np.ndarray,
+    weights: np.ndarray,
+    bias: float
+) -> float:
+    """
+    Calculate mean hinge loss.
+
+    Expected target labels:
+        -1 and +1
+    """
+    if set(np.unique(y)) - {-1, 1}:
+        raise ValueError("Hinge-loss labels must be encoded as -1 and +1.")
+
+    scores = X @ weights + bias
+    losses = np.maximum(0, 1 - y * scores)
+
+    return float(np.mean(losses))
+
+
+X_example = np.array([
+    [2.0, 1.0],
+    [1.0, 2.0],
+    [-1.0, -1.0],
+    [-2.0, -1.0]
+])
+
+y_example = np.array([1, 1, -1, -1])
+
+weights = np.array([0.8, 0.6])
+bias = 0.0
+
+loss = hinge_loss(
+    X=X_example,
+    y=y_example,
+    weights=weights,
+    bias=bias
+)
+
+print("Mean hinge loss:", loss)
 ```
-import numpy as npdef hinge_loss(    X: np.ndarray,    y: np.ndarray,    weights: np.ndarray,    bias: float) -> float:    """    Calculate mean hinge loss.    Expected target labels:        -1 and +1    """    if set(np.unique(y)) - {-1, 1}:        raise ValueError("Hinge-loss labels must be encoded as -1 and +1.")    scores = X @ weights + bias    losses = np.maximum(0, 1 - y * scores)    return float(np.mean(losses))X_example = np.array([    [2.0, 1.0],    [1.0, 2.0],    [-1.0, -1.0],    [-2.0, -1.0]])y_example = np.array([1, 1, -1, -1])weights = np.array([0.8, 0.6])bias = 0.0loss = hinge_loss(    X=X_example,    y=y_example,    weights=weights,    bias=bias)print("Mean hinge loss:", loss)
-```
-
 ### Coding question
-
 Why would this produce an incorrect mathematical interpretation?
-
 ```
 y_example = np.array([0, 0, 1, 1])
 ```
-
-Because the hinge-loss expression:
-
-1−yif(xi)1-y_if(x_i)1−yi​f(xi​)
-
-assumes labels encoded as:
-
-−1,+1-1,+1−1,+1
-
-When yi=0y_i=0yi​=0, the multiplication no longer represents the side of the hyperplane correctly.
+![[Pasted image 20260629105030.png]]
 
 ---
-
-# 16. Compare different values of `C`
-
+## 16. Compare different values of `C`
 Modify the code and test:
-
-```
-for c_value in [0.01, 0.1, 1, 10, 100]:    model = Pipeline([        ("scaler", StandardScaler()),        ("svm", SVC(kernel="linear", C=c_value))    ])    model.fit(X_train, y_train)    train_score = model.score(X_train, y_train)    test_score = model.score(X_test, y_test)    support_count = len(        model.named_steps["svm"].support_vectors_    )    print(        f"C={c_value:<6} "        f"Train={train_score:.3f} "        f"Test={test_score:.3f} "        f"Support vectors={support_count}"    )
-```
-
+![[Pasted image 20260629105632.png]]
 Do not automatically conclude that the value with the greatest training accuracy is best.
-
 Look at:
-
 - Test performance
 - Generalization gap
 - Number of support vectors
 - Stability across multiple splits
 - Cross-validation performance
-
 Cross-validation and formal tuning will be covered on Day 6.
 
 ---
-
-# 17. Common coding mistakes
-
-## Error 1: Predicting before fitting
-
+## 17. Common coding mistakes
+### Error 1: Predicting before fitting
 ```
 model.predict(X_test)
 ```
-
 Possible message:
-
 ```
 NotFittedError: This Pipeline instance is not fitted yet.
 ```
-
-### Cause
-
+#### Cause
 `fit()` was never called.
-
-### Correction
-
+#### Correction
 ```
 model.fit(X_train, y_train)model.predict(X_test)
 ```
-
 ---
-
-## Error 2: Inconsistent number of samples
-
+### Error 2: Inconsistent number of samples
 Possible message:
-
 ```
 ValueError: Found input variables with inconsistent numbers of samples
 ```
-
-### Cause
-
+#### Cause
 `X` and `y` have different row counts.
-
-### Debugging
-
+#### Debugging
 ```
 print(X.shape)print(y.shape)
 ```
-
-### Correction
-
+#### Correction
 Ensure:
-
 ```
 X.shape[0] == y.shape[0]
 ```
-
 ---
-
-## Error 3: Passing a one-dimensional feature array
-
+### Error 3: Passing a one-dimensional feature array
 Possible message:
-
 ```
 ValueError: Expected 2D array, got 1D array instead
 ```
-
-### Cause
-
+#### Cause
 ```
 model.predict([2.5, 3.1])
 ```
-
 is interpreted as multiple samples with an invalid shape.
-
-### Correction
-
+#### Correction
 ```
 model.predict([[2.5, 3.1]])
 ```
-
 ---
-
-## Error 4: Strings remain in numeric features
-
+### Error 4: Strings remain in numeric features
 Possible message:
-
 ```
 ValueError: could not convert string to float
 ```
-
-### Cause
-
+#### Cause
 Categorical columns were not encoded.
-
-### Correction
-
+#### Correction
 Use a `ColumnTransformer` with:
-
 - `StandardScaler`
 - `OneHotEncoder(handle_unknown="ignore")`
-
 ---
-
-## Error 5: Scaling before splitting
-
+### Error 5: Scaling before splitting
 Broken workflow:
-
 ```
 X_scaled = scaler.fit_transform(X)X_train, X_test = train_test_split(X_scaled)
 ```
-
-### Root cause
-
+#### Root cause
 The scaler learned the mean and standard deviation of test observations.
-
-### Correction
-
+#### Correction
 Use a pipeline and fit it only on `X_train`.
 
 ---
-
-## Error 6: Scaling training and test data independently
-
+### Error 6: Scaling training and test data independently
 Broken code:
-
 ```
 X_train = scaler.fit_transform(X_train)X_test = scaler.fit_transform(X_test)
 ```
-
-### Root cause
-
+#### Root cause
 The two datasets are mapped using different means and variances.
-
-### Correction
-
+#### Correction
 ```
 X_train = scaler.fit_transform(X_train)X_test = scaler.transform(X_test)
 ```
-
 Better:
-
 ```
-Pipeline([    ("scaler", StandardScaler()),    ("svm", SVC(kernel="linear"))])
+Pipeline([    
+	("scaler", StandardScaler()),    
+	("svm", SVC(kernel="linear"))
+])
 ```
-
 ---
-
-## Error 7: Incorrect feature count during inference
-
+### Error 7: Incorrect feature count during inference
 Possible message:
-
 ```
 ValueError: X has 4 features, but SVC is expecting 5 features as input
 ```
-
-### Cause
-
+#### Cause
 The production request is missing a feature or has an incorrect schema.
-
-### Prevention
-
+#### Prevention
 - Define an input schema.
 - Validate feature names and order.
 - Persist the preprocessing pipeline.
 - Add inference tests.
-
 ---
-
-## Error 8: Multiclass target used with `average="binary"`
-
+### Error 8: Multiclass target used with `average="binary"
 Possible message:
-
 ```
 ValueError: Target is multiclass but average='binary'
 ```
-
-### Correction
-
+#### Correction
 Use an appropriate averaging method:
-
 ```
 f1_score(y_test, y_pred, average="weighted")
 ```
-
 or:
-
 ```
 f1_score(y_test, y_pred, average="macro")
 ```
-
 depending on the objective.
 
 ---
-
-## Error 9: Training takes too long
-
+### Error 9: Training takes too long
 Likely causes:
-
 - Very large dataset
 - Too many features
 - Nonlinear SVC
 - Broad hyperparameter search
 - Duplicate records
 - Poorly scaled data
-
 Senior-engineer response:
-
 - Establish a linear baseline.
 - Try `LinearSVC`.
 - Reduce unnecessary features.
@@ -583,21 +506,16 @@ Senior-engineer response:
 - Profile training time.
 - Restrict the tuning space.
 - Consider approximate kernel methods.
-
 Scikit-learn notes that standard `SVC` training scales at least quadratically with the number of samples and may become impractical for datasets with tens of thousands of observations; `LinearSVC` or `SGDClassifier` may be more appropriate for large linear problems.
 
 ---
-
-## Error 10: Excellent training result, poor test result
-
+### Error 10: Excellent training result, poor test result
 Example:
-
 ```
-Training accuracy: 1.00Testing accuracy: 0.69
+Training accuracy: 1.00
+Testing accuracy: 0.69
 ```
-
 Potential causes:
-
 - `C` too large
 - Noisy data
 - Leakage
@@ -605,9 +523,7 @@ Potential causes:
 - Outliers
 - Too many irrelevant features
 - Dataset shift
-
 Senior-engineer debugging order:
-
 1. Confirm that no leakage exists.
 2. Check duplicate records.
 3. Compare class distributions.
@@ -618,107 +534,69 @@ Senior-engineer debugging order:
 8. Review suspicious features.
 9. Compare results across random seeds.
 10. Check whether production data differs from training data.
-
 ---
-
-# 18. Production failure scenarios
-
-## Scenario 1: Notebook works, API predictions fail
-
-### Root cause
-
+## 18. Production failure scenarios
+### Scenario 1: Notebook works, API predictions fail
+#### Root cause
 The notebook scaled data, but the deployed API loaded only the SVM estimator.
-
-### Senior-engineer solution
-
+#### Senior-engineer solution
 Save and deploy the complete pipeline:
-
 ```
-Pipeline([    ("preprocessing", preprocessing),    ("model", svm)])
+Pipeline([    
+	("preprocessing", preprocessing),   
+	("model", svm)])
 ```
-
 Never separately reproduce training transformations using handwritten API code.
 
 ---
-
-## Scenario 2: A new categorical value crashes prediction
-
+### Scenario 2: A new categorical value crashes prediction
 Example:
-
 ```
 ValueError: Found unknown categories ['new_department']
 ```
-
-### Prevention
-
+#### Prevention
 ```
 OneHotEncoder(handle_unknown="ignore")
 ```
-
 Also monitor how frequently unseen categories appear.
 
 ---
-
-## Scenario 3: Accuracy is high, minority-class recall is poor
-
+### Scenario 3: Accuracy is high, minority-class recall is poor
 Example:
-
 ```
 Accuracy: 96%Fraud recall: 18%
 ```
-
-### Root cause
-
+#### Root cause
 The dataset is imbalanced, and accuracy hides the failure.
-
-### Solution
-
+#### Solution
 Evaluate:
-
 - Recall
 - Precision
 - F1-score
 - Precision-recall curve
 - Confusion matrix
 - Business cost
-
 Investigate class weighting and threshold behaviour.
-
 ---
-
-## Scenario 4: Prediction latency increases after retraining
-
-### Possible cause
-
+### Scenario 4: Prediction latency increases after retraining
+#### Possible cause
 The new SVM retained many more support vectors.
-
-### Why it matters
-
+#### Why it matters
 Kernel-SVM inference depends on support vectors, so additional support vectors can increase prediction work.
-
-### Senior-engineer response
-
+#### Senior-engineer response
 - Log support-vector count per model version.
 - Benchmark batch and single-request latency.
 - Compare against `LinearSVC`.
 - Add latency checks to deployment tests.
-
 ---
-
-# 19. Two unique project ideas
-
-## Project 1: AI Phishing Link Guardian
-
+## 19. Two unique project ideas
+### Project 1: AI Phishing Link Guardian
 ### Problem
-
 Classify URLs as:
-
 - Legitimate
 - Suspicious
 - Phishing
-
 ### Possible features
-
 - URL length
 - Number of dots
 - Number of special characters
@@ -727,113 +605,80 @@ Classify URLs as:
 - Domain age
 - Suspicious keywords
 - Character-level TF-IDF features
-
 ### Models
-
 - Logistic Regression
 - LinearSVC
 - Random Forest
-
 ### API integrations
-
 - Browser-extension API
 - Domain reputation API
 - FastAPI prediction endpoint
 - Slack security-alert webhook
-
 ### Deployment
 
 ```
-Browser Extension      ↓FastAPI      ↓Saved preprocessing + SVM pipeline      ↓Risk score and explanation
+Browser Extension      
+		↓
+	FastAPI
+	    ↓
+Saved preprocessing + SVM pipeline
+	    ↓
+Risk score and explanation
 ```
-
 ### Advanced features
-
 - User feedback
 - Drift monitoring
 - Adversarial URL detection
 - Real-time blacklist checks
 - Human-review queue
-
 ---
-
-## Project 2: Satellite Disaster-Response Classifier
-
-### Problem
-
+### Project 2: Satellite Disaster-Response Classifier
+#### Problem
 Use pretrained image embeddings and an SVM to classify locations as:
-
 - Flooded
 - Fire affected
 - Damaged
 - Normal
-
-### Why SVM?
-
+#### Why SVM?
 Instead of training a deep network from scratch:
-
 1. Use a pretrained vision model to extract embeddings.
 2. Train an SVM using a smaller labelled dataset.
 3. Compare linear and RBF boundaries.
-
-### Integrations
-
+#### Integrations
 - Satellite imagery API
 - Geographic information system
 - Disaster-response dashboard
 - SMS or email alert service
-
-### Scaling strategy
-
+#### Scaling strategy
 - Extract embeddings offline.
 - Store them in batches.
 - Train a linear classifier first.
 - Version the embedding model and SVM together.
 - Retrain when new disaster images are verified.
-
 ---
-
-# 20. Interactive checkpoints
-
+## 20. Interactive checkpoints
 Answer these without checking the notes.
-
-### Question 1
-
+#### Question 1
 Why does SVM select the maximum-margin boundary instead of any boundary that correctly separates the training data?
-
-### Question 2
-
+#### Question 2
 What is special about support vectors?
-
-### Question 3
-
+#### Question 3
 What happens when `C` becomes extremely large?
-
-### Question 4
-
+#### Question 4
 Can a correctly classified point still have nonzero hinge loss?
-
-### Question 5
-
+#### Question 5
 Why should numerical features generally be scaled before training an SVM?
 
 ---
-
-# 21. Coding task
-
+## 21. Coding task
 Using the Breast Cancer Wisconsin dataset:
-
 ```
 from sklearn.datasets import load_breast_cancer
 ```
-
 Build a pipeline containing:
-
 - `StandardScaler`
 - `SVC(kernel="linear")`
-
 Requirements:
-
 1. Use a stratified train-test split.
 2. Print training and testing accuracy.
 3. Print the confusion matrix.
@@ -841,17 +686,41 @@ Requirements:
 5. Print the total number of support vectors.
 6. Compare `C = 0.01`, `1`, and `100`.
 7. Explain which value generalizes best.
-
 Do not select the model using test accuracy repeatedly. For this exercise, use the comparison only to understand behaviour; formal cross-validation comes on Day 6.
-
 ---
-
-# 22. Debugging challenge
-
+## 22. Debugging challenge
 The following code contains several engineering problems:
+```Python
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
 
-```
-from sklearn.datasets import load_breast_cancerfrom sklearn.model_selection import train_test_splitfrom sklearn.preprocessing import StandardScalerfrom sklearn.svm import SVCdata = load_breast_cancer()X = data.datay = data.targetscaler = StandardScaler()X = scaler.fit_transform(X)X_train, X_test, y_train, y_test = train_test_split(    X,    y,    test_size=0.30)model = SVC(    kernel="linear",    C=100000)model.fit(X_train, y_train)X_test = scaler.fit_transform(X_test)print(model.score(X_test, y_test))
+data = load_breast_cancer()
+
+X = data.data
+y = data.target
+
+scaler = StandardScaler()
+
+X = scaler.fit_transform(X)
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.30
+)
+
+model = SVC(
+    kernel="linear",
+    C=100000
+)
+
+model.fit(X_train, y_train)
+
+X_test = scaler.fit_transform(X_test)
+
+print(model.score(X_test, y_test))
 ```
 
 Find at least **five problems or risks**.
@@ -864,60 +733,43 @@ Hints:
 - Scaling consistency
 - Regularization
 - Pipeline design
-
 Do not fix it by changing only one line. Refactor it into a proper pipeline.
 
 ---
-
-# 23. MCQs
-
-## 1. Which points primarily determine an SVM boundary?
-
+## 23. MCQs
+### 1. Which points primarily determine an SVM boundary?
 A. Every point equally  
 B. Support vectors  
 C. Only class centroids  
 D. Random test samples
-
-## 2. Increasing `C` generally means:
-
+### 2. Increasing `C` generally means:
 A. More tolerance for margin violations  
 B. Stronger effective regularization  
 C. Greater penalty for training violations  
 D. Features are automatically scaled
-
-## 3. Which point can have positive hinge loss?
-
+### 3. Which point can have positive hinge loss?
 A. Only a misclassified point  
 B. Only a support vector  
 C. A misclassified point or a correctly classified point inside the margin  
 D. No correctly classified point
-
-## 4. Why is scaling important?
-
+### 4. Why is scaling important?
 A. It changes classification into regression  
 B. Large-magnitude features can dominate the geometry  
 C. It automatically removes outliers  
 D. It balances the target classes
-
-## 5. A hard-margin SVM works best when:
-
+### 5. A hard-margin SVM works best when:
 A. Classes strongly overlap  
 B. Data contains many outliers  
 C. Data is perfectly linearly separable  
 D. All features are categorical strings
-
 ### Answers
-
 1. **B**
 2. **C**
 3. **C**
 4. **B**
 5. **C**
-
 ---
-
-# 24. Interview questions
-
+## 24. Interview questions
 1. What is a hyperplane?
 2. What is the geometric margin?
 3. Why does maximizing the margin support generalization?
@@ -933,19 +785,13 @@ D. All features are categorical strings
 13. Why can SVC become slow on large datasets?
 14. When would you select `LinearSVC` over `SVC`?
 15. How would you debug an SVM with 100% training accuracy and poor validation accuracy?
-
 ---
-
-# 25. Assignment
-
+## 25. Assignment
 Create a notebook named:
-
 ```
 day5_slot1_svm_foundations.ipynb
 ```
-
 It must contain:
-
 1. Hyperplane explanation
 2. Margin explanation
 3. Support-vector explanation
@@ -956,32 +802,50 @@ It must contain:
 8. Breast Cancer dataset exercise
 9. Five debugging findings
 10. A 150-word conclusion explaining when you would use SVM
-
 ---
-
-# 26. Real-world challenge
-
+## 26. Real-world challenge
 You are building a medical screening model with:
-
 - 2,000 observations
 - 120 numerical features
 - Some overlapping classes
 - Different feature scales
 - A high cost for false negatives
-
 Write a short engineering decision covering:
-
 - Whether SVM is a reasonable baseline
 - Why scaling is necessary
 - Why hard-margin SVM is inappropriate
 - How you would start selecting `C`
 - Which evaluation metrics matter most
 - What safety disclaimer the product requires
-
 ---
-
-# 27. Revision summary
-
+## 27. Revision summary
 ```
-SVM│├── Hyperplane│   └── wᵀx + b = 0│├── Prediction│   └── sign(wᵀx + b)│├── Margin│   ├── Width = 2 / ||w||│   └── Larger margin → smaller ||w||│├── Support vectors│   └── Critical points closest to the boundary│├── Hard margin│   └── No violations allowed│├── Soft margin│   ├── Slack variables│   └── Some violations allowed│├── C│   ├── Large C → stronger error penalty│   └── Small C → more regularization│└── Hinge loss    └── max(0, 1 − y f(x))
+SVM
+│
+├── Hyperplane
+│   └── wᵀx + b = 0
+│
+├── Prediction
+│   └── sign(wᵀx + b)
+│
+├── Margin
+│   ├── Width = 2 / ||w||
+│   └── Larger margin → smaller ||w||
+│
+├── Support vectors
+│   └── Critical points closest to the boundary
+│
+├── Hard margin
+│   └── No violations allowed
+│
+├── Soft margin
+│   ├── Slack variables
+│   └── Some violations allowed
+│
+├── C
+│   ├── Large C → stronger error penalty
+│   └── Small C → more regularization
+│
+└── Hinge loss
+    └── max(0, 1 − y f(x))
 ```
