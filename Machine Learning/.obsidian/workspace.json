@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "843207d3fcbe869e",
+        "id": "6f1872b421b12047",
         "type": "tabs",
         "children": [
           {
-            "id": "c88a2ab7d359ab12",
+            "id": "6826ca3503e39724",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Day 19/Topic 5.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Topic 5"
             }
           }
         ]
@@ -177,21 +181,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "c88a2ab7d359ab12",
+  "active": "6826ca3503e39724",
   "lastOpenFiles": [
+    "Pasted image 20260630142449.png",
+    "Pasted image 20260630142359.png",
+    "Pasted image 20260630142206.png",
+    "Pasted image 20260630141957.png",
+    "Pasted image 20260630141546.png",
+    "Pasted image 20260630141345.png",
+    "Pasted image 20260630103201.png",
+    "Pasted image 20260630103116.png",
+    "Pasted image 20260630103059.png",
+    "Pasted image 20260630102540.png",
+    "Pasted image 20260630101159.png",
+    "Day 19/code 5.ipynb",
+    "Day 17/Topic 1.md",
+    "Day 19/Topic 5.md",
     "Day 19/Topic 4.md",
-    "Pasted image 20260629153201.png",
-    "Pasted image 20260629145806.png",
     "Day 15/Topic 2.md",
     "Day 15/Topic 1.md",
-    "Pasted image 20260629144711.png",
-    "Pasted image 20260629144554.png",
-    "Pasted image 20260629144541.png",
-    "Pasted image 20260629144306.png",
-    "Pasted image 20260629144117.png",
     "Day 19/code 4.ipynb",
-    "Pasted image 20260629142652.png",
-    "Pasted image 20260629142446.png",
     "Day 19/Topic 3.md",
     "Day 19/code 3.ipynb",
     "Day 19/Basic+SVC+Implementation.ipynb",
@@ -200,13 +209,10 @@
     "Untitled.md",
     "Day 19/Topic 2.md",
     "Day 19/day5_slot2_svm_kernels_c_gamma.ipy",
-    "Pasted image 20260629122808.png",
     "Day 19/code 2.ipynb",
     "Day 19/Topic 1.md",
     "Day 19/breast_cancer_wisconsin_dataset.py",
     "Day 19/6-Support Vector Classifier.pdf",
-    "Day 19/6.2-SVM Kernels.pdf",
-    "Day 17/Topic 1.md",
     "Day 16/Topic 5.md",
     "Day 16/Topic 4.md",
     "Day 16/Topic 3.md",
@@ -222,7 +228,6 @@
     "Day 04/Topic 5.md",
     "Day 04/Topic 4.md",
     "Day 04/Topic 3.md",
-    "Day 04/Topic 2.md",
-    "Day 04/Topic 1.md"
+    "Day 04/Topic 2.md"
   ]
 }
