@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1250f8d7bc969bcc",
+        "id": "b1c03c2da8dfe8e8",
         "type": "tabs",
         "children": [
           {
-            "id": "091dd970695a68db",
+            "id": "a8202da4437fc8fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day 19/Topic 6.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Topic 6"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "69ec63c6e982a885",
@@ -181,10 +176,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "091dd970695a68db",
+  "active": "f52591548613e3db",
   "lastOpenFiles": [
-    "Day 19/Topic 5.md",
+    "Day 20/venv20",
     "Day 19/Topic 6.md",
+    "Day 19/Topic 5.md",
     "Day 17/Topic 2.md",
     "Day 17/Topic 3.md",
     "Day 06/Topic 5.md",
@@ -208,7 +204,6 @@
     "Day 06/Topic 6.md",
     "Day 06/Topic 3.md",
     "Day 04/Topic 1.md",
-    "Day 02/Topic 1.md",
     "Pasted image 20260630162600.png",
     "Pasted image 20260630162547.png",
     "Pasted image 20260630162408.png",
