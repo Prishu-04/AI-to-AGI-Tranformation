@@ -131,7 +131,11 @@ The model is wrong by around 4 marks on average.
 This is business-friendly.
 Good for:
 ```
-Marks predictionPrice predictionSalary predictionDelivery time predictionMedical cost prediction
+Marks prediction
+Price prediction
+Salary prediction
+Delivery time prediction
+Medical cost prediction
 ```
 MAE is usually your first regression metric.
 
@@ -147,12 +151,12 @@ MSE = average of (Actual - Predicted)²
 ```
 Example:
 
-|Actual|Predicted|Error|Squared Error|
-|---|---|---|---|
-|80|78|2|4|
-|65|70|-5|25|
-|90|85|5|25|
-|50|55|-5|25|
+| Actual | Predicted | Error | Squared Error |
+| ------ | --------- | ----- | ------------- |
+| 80     | 78        | 2     | 4             |
+| 65     | 70        | -5    | 25            |
+| 90     | 85        | 5     | 25            |
+| 50     | 55        | -5    | 25            |
 ```
 MSE = (4 + 25 + 25 + 25) / 4
 MSE = 79 / 4
@@ -335,7 +339,7 @@ You can calculate MAE manually:
 ![[Pasted image 20260612105149.png]]
 MSE manually:
 ![[Pasted image 20260612105337.png]]
-RMSE manually:
+	RMSE manually:
 ![[Pasted image 20260612105450.png]]
 This helps you understand what scikit-learn is doing internally.
 

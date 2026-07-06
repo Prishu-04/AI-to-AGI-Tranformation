@@ -271,3 +271,322 @@ Meaning:
 Model generalizes well.
 ```
 ---
+## 8. Complete Code.
+![[Pasted image 20260703152501.png]]
+![[Pasted image 20260703152631.png]]
+![[Pasted image 20260703152700.png]]
+![[Pasted image 20260703152719.png]]
+![[Pasted image 20260703152740.png]]
+![[Pasted image 20260703152757.png]]
+![[Pasted image 20260703152853.png]]
+![[Pasted image 20260703152920.png]]
+![[Pasted image 20260703152943.png]]
+![[Pasted image 20260703153009.png]]
+![[Pasted image 20260703153035.png]]
+![[Pasted image 20260703153100.png]]
+## 10. Decision Tree Complexity
+![[Pasted image 20260706102934.png]]
+![[Pasted image 20260706103102.png]]
+![[Pasted image 20260706103048.png]]
+![[Pasted image 20260706103008.png]]
+![[Pasted image 20260706103246.png]]
+![[Pasted image 20260706103423.png]]
+![[Pasted image 20260706103957.png]]
+### Interpretation
+
+| Pattern                          | Diagnosis    |
+| -------------------------------- | ------------ |
+| Train low, test low              | Underfitting |
+| Train high, test much lower      | Overfitting  |
+| Train good, test good, gap small | Good fit     |
+
+---
+## 12. Learning curve Code
+```Python
+def plot_learning_curve(model, X, y, title, scoring="accuracy"):
+    train_sizes, train_scores, validation_scores = learning_curve(
+        estimator=model,
+        X=X,
+        y=y,
+        train_sizes=np.linspace(0.1, 1.0, 5),
+        cv=5,
+        scoring=scoring,
+        n_jobs=-1
+    )
+
+    train_mean = train_scores.mean(axis=1)
+    train_std = train_scores.std(axis=1)
+
+    validation_mean = validation_scores.mean(axis=1)
+    validation_std = validation_scores.std(axis=1)
+
+    plt.figure(figsize=(8, 5))
+
+    plt.plot(
+        train_sizes,
+        train_mean,
+        marker="o",
+        label="Training score"
+    )
+
+    plt.plot(
+        train_sizes,
+        validation_mean,
+        marker="o",
+        label="Validation score"
+    )
+
+    plt.fill_between(
+        train_sizes,
+        train_mean - train_std,
+        train_mean + train_std,
+        alpha=0.15
+    )
+
+    plt.fill_between(
+        train_sizes,
+        validation_mean - validation_std,
+        validation_mean + validation_std,
+        alpha=0.15
+    )
+
+    plt.title(title)
+    plt.xlabel("Training examples")
+    plt.ylabel(scoring)
+    plt.legend()
+    plt.grid(alpha=0.25)
+    plt.show()
+```
+![[Pasted image 20260706104425.png]]
+![[Pasted image 20260706105410.png]]
+![[Pasted image 20260706105439.png]]
+Expected pattern:
+```
+Training score high
+Validation score high
+Gap smaller than deep tree
+```
+Diagnosis:
+```
+Better generalization
+```
+---
+## 13. Validation Curve Awareness
+A learning curve changes the **amount of training data**.
+A validation curve changes **one hyperparameter**.
+Example:
+```
+Decision Tree max_depth = 1, 2, 3, 5, 10, None
+```
+Scikit-learn’s validation-curve documentation explains that plotting training and validation scores against a hyperparameter helps identify whether an estimator is overfitting or underfitting for certain hyperparameter values.
+We will use this more deeply in **GridSearchCV and hyperparameter tuning**.
+
+---
+## 14. Senior Engineer Debugging Framework
+When a model performs badly, do not randomly change algorithms.
+Use this checklist.
+### Case 1 — Training and test both bad
+```
+Train score: low
+Test score : low
+```
+Diagnosis:
+```
+Underfitting
+```
+Fix:
+- Use stronger model
+- Add better features
+- Reduce regularization
+- Improve preprocessing
+- Try nonlinear model
+- Check if target is noisy
+---
+### Case 2 — Training excellent, test bad
+```
+Train score: very high
+Test score : much lower
+```
+Diagnosis:
+```
+Overfitting
+```
+Fix:
+- Reduce complexity
+- Add regularization
+- Get more data
+- Use cross-validation
+- Prune trees
+- Lower polynomial degree
+- Lower SVM `C` or `gamma`
+- Remove leakage
+- Check noisy labels
+---
+### Case 3 — Training good, test good
+```
+Train score: good
+Test score : goodGap         : small
+```
+Diagnosis:
+```
+Good generalization
+```
+Next:
+- Tune carefully
+- Validate with cross-validation
+- Check error slices
+- Prepare for deployment
+---
+## 15. Top 10 Common Errors
+### 1. Confusing overfitting with high accuracy
+High training accuracy alone is not good.
+You need validation/test performance.
+
+---
+### 2. Calling every bad model “overfitting”
+If train score is also low, it is not overfitting.
+It is underfitting.
+
+---
+### 3. Tuning repeatedly on test set
+Bad workflow:
+```
+Try model A → test score
+Try model B → test score
+Try model C → test score
+Pick best test score
+```
+This leaks the test set into model selection.
+Correct workflow:
+```
+Train set → validation/CV tuning
+Test set → final evaluation once
+```
+---
+### 4. Ignoring data leakage
+A model can look good because it accidentally saw future or target-related information.
+Always check features carefully.
+
+---
+### 5. Thinking more data always fixes underfitting
+If the model is too simple, more data may not fix it.
+You may need better features or a better model.
+
+---
+### 6. Thinking complex models are always better
+A complex model can memorize noise.
+Choose the simplest model that meets the business goal.
+
+---
+### 7. Ignoring train-test gap
+Always compare training and testing scores.
+
+---
+### 8. Not plotting learning curves
+Numbers alone may not show whether more data would help.
+
+---
+### 9. Using accuracy for imbalanced data
+Accuracy can hide failure on minority class.
+Use precision, recall, F1, ROC-AUC, and confusion matrix.
+
+---
+### 10. Not saving experiment results
+Senior engineers track:
+- Model name
+- Hyperparameters
+- Train score
+- Validation score
+- Test score
+- Dataset version
+- Random seed
+- Code version
+
+---
+## 16. Production Failure Scenarios
+### Scenario 1 — Model performs well in notebook but fails in production
+Possible causes:
+- Train-production distribution shift
+- Data leakage in notebook
+- Different preprocessing in API
+- Different feature order
+- Missing values in production
+- New categories
+- Poor monitoring
+Senior engineer response:
+```
+Compare training data and production data distributions.
+Log inputs.
+Validate schema.
+Replay production examples locally.
+Check preprocessing pipeline.
+```
+---
+### Scenario 2 — Fraud model has 98% accuracy but misses fraud cases
+Problem:
+Class imbalance.
+Fix:
+- Check recall
+- Check confusion matrix
+- Use class weighting
+- Tune threshold
+- Review false negatives
+---
+### Scenario 3 — Decision tree has 100% training accuracy
+Likely issue:
+Overfitting.
+Fix:
+- Set `max_depth`
+- Set `min_samples_leaf`
+- Use cross-validation
+- Compare Random Forest
+- Inspect test performance
+---
+## 17. Debugging Challenge
+You are given this result:
+
+| Model                          | Train Accuracy | Test Accuracy |
+| ------------------------------ | -------------- | ------------- |
+| Decision Tree `max_depth=None` | 1.00           | 0.71          |
+| Decision Tree `max_depth=1`    | 0.62           | 0.60          |
+| Decision Tree `max_depth=5`    | 0.88           | 0.84          |
+Answer:
+1. Which model is overfitting?
+2. Which model is underfitting?
+3. Which model generalizes best?
+4. What should you try next?
+### Expected reasoning
+```
+max_depth=None → overfitting
+max_depth=1    → underfitting
+max_depth=5    → best generalization among these
+```
+Next steps:
+- Try `max_depth=3,4,5,6,7`
+- Use cross-validation
+- Tune `min_samples_leaf`
+- Compare Random Forest
+- Check confusion matrix
+---
+## 18. Interview Questions
+1. What is overfitting?
+2. What is underfitting?
+3. What is generalization?
+4. What is training error?
+5. What is test error?
+6. What is generalization gap?
+7. What is bias?
+8. What is variance?
+9. Explain bias-variance trade-off.
+10. How do you detect overfitting?
+11. How do you detect underfitting?
+12. How can learning curves help?
+13. How do you fix high bias?
+14. How do you fix high variance?
+15. Why should we not tune on the test set?
+16. Why can a deep Decision Tree overfit?
+17. Why can high-degree Polynomial Regression overfit?
+18. Does more data always help?
+19. How do you debug 100% training accuracy and poor test accuracy?
+20. What does it mean if training and validation curves converge at a low score?
+---
