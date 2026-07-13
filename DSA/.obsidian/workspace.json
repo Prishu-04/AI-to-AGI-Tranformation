@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "10c6f3571a504705",
+    "id": "9c307969b83b6a0b",
     "type": "split",
     "children": [
       {
-        "id": "14e687192f3c117f",
+        "id": "493dc0cdd666dc83",
         "type": "tabs",
         "children": [
           {
-            "id": "eb8db4793ce82c89",
+            "id": "1650ddabb9b5082e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day 20/Topic 1.md",
+                "file": "Time Complexity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic 1"
+              "title": "Time Complexity"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bba3267977aea1dc",
+    "id": "58404446719d0bee",
     "type": "split",
     "children": [
       {
-        "id": "aa9107bd19fa92fc",
+        "id": "2505a3ea0dfbf635",
         "type": "tabs",
         "children": [
           {
-            "id": "f52591548613e3db",
+            "id": "09a9e1c5de86cfe1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "0e974816065cc993",
+            "id": "589c0a35cfd4816d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "3d980276343f2baa",
+            "id": "96df9c3505d47e60",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "69ec63c6e982a885",
+    "id": "473c8de90df25c07",
     "type": "split",
     "children": [
       {
-        "id": "004f698a865b6560",
+        "id": "63204f6ef66b054c",
         "type": "tabs",
         "children": [
           {
-            "id": "fc1b621fb7d9dfa8",
+            "id": "ededd661f55ed0a4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Time Complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Time Complexity"
             }
           },
           {
-            "id": "927a39754d650232",
+            "id": "cea2ae6e6559d863",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Time Complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Time Complexity"
             }
           },
           {
-            "id": "2b11cd088fb9350c",
+            "id": "df014aa8987a061d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +138,7 @@
             }
           },
           {
-            "id": "fd3307e3dc61864a",
+            "id": "6282f5796fd3ddaf",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,17 +152,18 @@
             }
           },
           {
-            "id": "ea3b879166a14ef2",
+            "id": "5f719d3cd38ea9d8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Time Complexity.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Time Complexity"
             }
           }
         ]
@@ -180,53 +184,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "eb8db4793ce82c89",
+  "active": "1650ddabb9b5082e",
   "lastOpenFiles": [
-    "Day 22/Topic 1.md",
-    "Day 05/Topic 1.md",
-    "Day 17/Topic 4.md",
-    "Day 17/Topic 3.md",
-    "Day 18/Topic 2.md",
-    "Day 20/Topic 1.md",
-    "Pasted image 20260706105439.png",
-    "Pasted image 20260706105410.png",
-    "Pasted image 20260706104425.png",
-    "Pasted image 20260706103957.png",
-    "Pasted image 20260706103423.png",
-    "Pasted image 20260706103246.png",
-    "Pasted image 20260706103102.png",
-    "Pasted image 20260706103048.png",
-    "Pasted image 20260706103008.png",
-    "Pasted image 20260706102958.png",
-    "Day 19/Topic 6.md",
-    "Day 19/Topic 1.md",
-    "Day 18/Topic 1.md",
-    "Day 17/Topic 2.md",
-    "Day 17/Topic 1.md",
-    "Day 16/Topic 2.md",
-    "Day 20/venv20/share/man/man1/ttx.1",
-    "Day 20/venv20/share/man/man1/ipython.1",
-    "Day 20/venv20/share/man/man1",
-    "Day 20/venv20/share/man",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/tensorflow/tensorflow/compiler/xla/tsl/protobuf/test_log_pb2.pyi",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/tensorflow/tensorflow/compiler/xla/tsl/protobuf/bfc_memory_map_pb2.pyi",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/oauthlib/oauthlib/openid/connect/core/grant_types/__init__.pyi",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/oauthlib/oauthlib/openid/connect/core/grant_types/refresh_token.pyi",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/oauthlib/oauthlib/openid/connect/core/grant_types/implicit.pyi",
-    "Day 20/venv20/Lib/site-packages/jedi/third_party/typeshed/stubs/oauthlib/oauthlib/openid/connect/core/grant_types/hybrid.pyi",
-    "Day 20/venv20/Lib/site-packages/zmq/backend/cffi/README.md",
-    "Day 20/venv20/Lib/site-packages/sklearn/externals/array_api_compat/README.md",
-    "Day 20/venv20/Lib/site-packages/sklearn/externals/array_api_extra/README.md",
-    "Day 20/venv20/Lib/site-packages/scipy/fft/_duccfft/LICENSE.md",
-    "Day 19/Topic 5.md",
-    "Day 06/Topic 5.md",
-    "Day 06/Topic 4.md",
-    "Day 06/Topic 2.md",
-    "Day 06/Topic 1.md",
-    "Day 05/Topic 5.md",
-    "Day 16/Topic 3.md",
-    "Day 16/Topic 1.md",
-    "Day 15/Topic 5.md",
-    "Day 15/Topic 4.md"
+    "Pasted image 20260713135047.png",
+    "Pasted image 20260713134845.png",
+    "Pasted image 20260713134824.png",
+    "Pasted image 20260713134702.png",
+    "Pasted image 20260713134549.png",
+    "Pasted image 20260713134451.png",
+    "Pasted image 20260713134357.png",
+    "Pasted image 20260713134330.png",
+    "Pasted image 20260713134248.png",
+    "Pasted image 20260713134210.png",
+    "Pasted image 20260713134115.png",
+    "Time Complexity.md",
+    "Untitled"
   ]
 }
